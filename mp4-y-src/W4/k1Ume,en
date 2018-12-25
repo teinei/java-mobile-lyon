@@ -1,0 +1,1126 @@
+1
+00:00:03,526 --> 00:00:08,350
+Welcome on this tutorial where we learn
+
+2
+00:00:08,350 --> 00:00:13,820
+how to put our app onto a windows phone.
+
+3
+00:00:13,820 --> 00:00:17,540
+So it's very easy but
+it takes a couple of steps so
+
+4
+00:00:17,540 --> 00:00:23,110
+this will not be the most exciting
+tutorial you will ever see.
+
+5
+00:00:23,110 --> 00:00:27,360
+But nothing complicated just
+you know just follow the steps.
+
+6
+00:00:28,380 --> 00:00:32,270
+So we have I identified
+yeah at least four steps.
+
+7
+00:00:33,360 --> 00:00:36,160
+The first one is this one.
+
+8
+00:00:36,160 --> 00:00:39,360
+You should, oops that sorry.
+
+9
+00:00:42,550 --> 00:00:48,920
+Yeah, you should go to the Codename One
+website, so how would you do that?
+
+10
+00:00:48,920 --> 00:00:52,110
+You just type in google, codename one.
+
+11
+00:00:54,740 --> 00:00:56,810
+And the website is the first result here.
+
+12
+00:00:58,140 --> 00:01:01,620
+Codename One is the tool that we
+use in NetBeans from the start.
+
+13
+00:01:02,740 --> 00:01:09,370
+So here in NetBeans all this thing is
+provided by the plugin Codename One,
+
+14
+00:01:09,370 --> 00:01:15,360
+and when we want to transform
+our app Into a Windows
+
+15
+00:01:15,360 --> 00:01:21,422
+phone app,
+this is done remotely on the web site.
+
+16
+00:01:21,422 --> 00:01:26,390
+So NetBeans will send something
+to the Codename One website and
+
+17
+00:01:26,390 --> 00:01:29,710
+will return a file which
+is a windows phone app.
+
+18
+00:01:31,090 --> 00:01:35,200
+To do that we need,
+let me switch to their website.
+
+19
+00:01:35,200 --> 00:01:40,370
+We need an account with Codename One,
+so here you just click on Signup.
+
+20
+00:01:41,950 --> 00:01:45,190
+The signup page is very simple.
+
+21
+00:01:45,190 --> 00:01:47,690
+Just make sure you write down your email
+
+22
+00:01:47,690 --> 00:01:52,620
+address that you use this sign-up page and
+the password.
+
+23
+00:01:54,000 --> 00:01:55,840
+The subscription is free.
+
+24
+00:01:55,840 --> 00:02:02,180
+You have some other
+types of subscriptions,
+
+25
+00:02:02,180 --> 00:02:04,200
+but we don't need them here.
+
+26
+00:02:04,200 --> 00:02:06,110
+And you can join the mailing list or not.
+
+27
+00:02:06,110 --> 00:02:07,570
+Anyway, please sign up.
+
+28
+00:02:08,870 --> 00:02:11,687
+Then go back to NetBeans.
+
+29
+00:02:11,687 --> 00:02:15,000
+Right-click on the name of your project.
+
+30
+00:02:16,410 --> 00:02:19,130
+Click on Properties at
+the bottom of the menu.
+
+31
+00:02:23,220 --> 00:02:30,590
+And on the page that opens,
+use the email and
+
+32
+00:02:30,590 --> 00:02:37,050
+the password that you use in
+the Codename One website to sign up.
+
+33
+00:02:37,050 --> 00:02:39,990
+And click on log in here.
+
+34
+00:02:39,990 --> 00:02:42,850
+And you will put the email and
+
+35
+00:02:42,850 --> 00:02:46,022
+the password that you used
+to sign up in Codename One.
+
+36
+00:02:47,430 --> 00:02:48,550
+And then you click on OK.
+
+37
+00:02:52,160 --> 00:02:58,560
+Okay, so now NetBeans can send
+your app to Codename One and
+
+38
+00:02:58,560 --> 00:03:02,310
+they will turn it into
+a Windows phone app.
+
+39
+00:03:04,830 --> 00:03:10,260
+How do you, you need something else
+to actually move this app onto
+
+40
+00:03:10,260 --> 00:03:11,660
+a Windows phone.
+
+41
+00:03:13,530 --> 00:03:17,835
+To do that, you have to have
+the agreement by Microsoft.
+
+42
+00:03:18,945 --> 00:03:21,705
+So you need a Microsoft account.
+
+43
+00:03:23,065 --> 00:03:28,635
+Just Google a Microsoft account,
+and the first link in the result
+
+44
+00:03:29,992 --> 00:03:35,182
+should be the one where you can
+create a free Microsoft account.
+
+45
+00:03:35,182 --> 00:03:42,840
+I had an old Hotmail address,
+email address and that was enough.
+
+46
+00:03:42,840 --> 00:03:45,650
+That's already a Microsoft account.
+
+47
+00:03:45,650 --> 00:03:52,320
+I'm just saying you probably have
+already a Microsoft account.
+
+48
+00:03:52,320 --> 00:03:56,060
+If you don't have one,
+just create one here.
+
+49
+00:03:57,860 --> 00:04:02,480
+So write down your login and password for
+
+50
+00:04:02,480 --> 00:04:07,000
+Microsoft account, and
+then we can move on to the next step,
+
+51
+00:04:08,820 --> 00:04:13,970
+which is to download the tools
+that will allow us to move the app
+
+52
+00:04:13,970 --> 00:04:18,677
+created by Codename One on to
+
+53
+00:04:18,677 --> 00:04:23,045
+your Windows phone.
+
+54
+00:04:23,045 --> 00:04:32,180
+We need this to, oh no sorry I
+was a bit ahead of a step ahead.
+
+55
+00:04:32,180 --> 00:04:37,970
+Before we download the tool we
+need Windows Developer Account so.
+
+56
+00:04:37,970 --> 00:04:41,300
+We has a Microsoft account
+that was the previous step.
+
+57
+00:04:41,300 --> 00:04:45,320
+Now, we need a developer account.
+
+58
+00:04:45,320 --> 00:04:46,450
+Where did you get it?
+
+59
+00:04:46,450 --> 00:04:52,060
+Well, in Google,
+I just typed Windows developer center.
+
+60
+00:04:52,060 --> 00:04:54,460
+You see that's what I typed.
+
+61
+00:04:54,460 --> 00:04:57,770
+Clicked on enter and
+that's the first result.
+
+62
+00:04:57,770 --> 00:04:58,500
+So, I clicked on it.
+
+63
+00:05:00,990 --> 00:05:02,870
+So, that's the Windows Developer Center.
+
+64
+00:05:04,410 --> 00:05:09,657
+And, you have to click on get
+a developer account here.
+
+65
+00:05:12,118 --> 00:05:17,860
+Because you'll need to register as an app
+developer, so you need to sign up there.
+
+66
+00:05:17,860 --> 00:05:22,650
+They will ask you for Microsoft account,
+that's why you created one just before.
+
+67
+00:05:25,075 --> 00:05:29,885
+Get your credit card ready,
+because it costs the equivalent of $19.
+
+68
+00:05:29,885 --> 00:05:36,745
+You need a credit card to
+register as an app developer.
+
+69
+00:05:36,745 --> 00:05:42,245
+Please do that, please write down your
+passwords, we'll need them later.
+
+70
+00:05:44,002 --> 00:05:49,530
+And finally, we can download
+
+71
+00:05:49,530 --> 00:05:54,510
+the tools that will allow us, as I was
+saying before, that the tools that would
+
+72
+00:05:54,510 --> 00:05:59,840
+allow us to move the app created by
+Codename One onto your Windows phone.
+
+73
+00:05:59,840 --> 00:06:06,090
+You can't just drag and drop a file,
+you have to actually register your phone,
+
+74
+00:06:06,090 --> 00:06:11,850
+and then extract an app on it,
+it's really the tool for that.
+
+75
+00:06:11,850 --> 00:06:14,880
+So to find the tools in here,
+please follow with me.
+
+76
+00:06:15,970 --> 00:06:22,470
+The tool will depend on
+the version of your phone,
+
+77
+00:06:22,470 --> 00:06:28,445
+so you need to know if your
+phone is Windows 8.0 or
+
+78
+00:06:28,445 --> 00:06:32,940
+Windows 8.1, or Windows 10.
+
+79
+00:06:32,940 --> 00:06:37,991
+At the time of this video Windows we
+
+80
+00:06:37,991 --> 00:06:42,700
+had Windows 8.1 for phones.
+
+81
+00:06:44,280 --> 00:06:46,890
+How do you know which
+version is your phone?
+
+82
+00:06:48,290 --> 00:06:50,500
+You have to click on
+settings on your phone.
+
+83
+00:06:52,000 --> 00:06:52,500
+Oops.
+
+84
+00:06:59,000 --> 00:07:03,200
+So my settings is here.
+
+85
+00:07:03,200 --> 00:07:08,890
+You also might be a bit different
+application which in settings,
+
+86
+00:07:10,580 --> 00:07:15,090
+then you scroll down and
+down in the menu until you see About.
+
+87
+00:07:17,470 --> 00:07:19,790
+Sorry it's a bit blurry but
+you can read About.
+
+88
+00:07:19,790 --> 00:07:25,260
+And when you click on it,
+then it's really small now.
+
+89
+00:07:27,090 --> 00:07:30,980
+But you should, and I think you
+encounter it if there is no focus,
+
+90
+00:07:30,980 --> 00:07:32,240
+you want to be able to read.
+
+91
+00:07:32,240 --> 00:07:35,990
+But basically that's why you will be able
+to read that there is a software Windows
+
+92
+00:07:35,990 --> 00:07:39,901
+phone, here we are 8.1.
+
+93
+00:07:39,901 --> 00:07:45,151
+So Is it gonna be 8.1 or 8.0 or 10?
+
+94
+00:07:45,151 --> 00:07:51,118
+What you need is here on Google,
+to type "windows phone",
+
+95
+00:07:51,118 --> 00:07:55,916
+then the number of your version,
+then "sdk".
+
+96
+00:07:55,916 --> 00:08:01,516
+Sdk means development toolkit.
+
+97
+00:08:01,516 --> 00:08:06,870
+So you click, and
+that's the first result in our case.
+
+98
+00:08:06,870 --> 00:08:07,410
+Click on it.
+
+99
+00:08:12,120 --> 00:08:17,517
+Yes, we want the tools for
+the Windows Phone 8.1.
+
+100
+00:08:17,517 --> 00:08:23,396
+And they tell us, that's a bit boring,
+but they tell us that these development
+
+101
+00:08:23,396 --> 00:08:28,512
+tools are actually installed
+with Visual Studio Express 2013.
+
+102
+00:08:28,512 --> 00:08:33,816
+So you need to install
+Visual Studio Express 2013, not 15 or
+
+103
+00:08:33,816 --> 00:08:39,608
+later, to insert in specifically,
+if you have a Windows Phone 8.1.
+
+104
+00:08:39,608 --> 00:08:44,439
+Again, if you have a Windows Phone 10,
+
+105
+00:08:44,439 --> 00:08:48,994
+you might end up with different needs,
+
+106
+00:08:48,994 --> 00:08:53,151
+but here that's what fits 8.1.
+
+107
+00:08:53,151 --> 00:08:56,587
+So we will get Visual Studio Express 2013.
+
+108
+00:08:56,587 --> 00:08:58,660
+So I click here.
+
+109
+00:09:02,700 --> 00:09:06,040
+We aren't doing whatsup.VisualStudio,
+that's fine, but that's
+
+110
+00:09:07,550 --> 00:09:11,880
+Visual Studio 2015, so
+I should be careful.
+
+111
+00:09:11,880 --> 00:09:14,820
+I want 2013, that's here.
+
+112
+00:09:14,820 --> 00:09:18,610
+I click on it, yes, that's the one I need.
+
+113
+00:09:18,610 --> 00:09:20,250
+I will click on Download here.
+
+114
+00:09:23,430 --> 00:09:28,580
+And you get that on your computer and
+then you install it.
+
+115
+00:09:28,580 --> 00:09:34,200
+It can take a long time, so if you have
+a laptop, make sure it's on the battery.
+
+116
+00:09:36,300 --> 00:09:38,939
+I would plan for
+half an hour to an hour for that step.
+
+117
+00:09:40,540 --> 00:09:45,011
+My belly's making strange noises.
+
+118
+00:09:45,011 --> 00:09:49,815
+So, you install Visual Studio
+
+119
+00:09:49,815 --> 00:09:55,370
+2013 and you should be all set.
+
+120
+00:09:56,690 --> 00:10:04,810
+So, now, what you can do, finally, is
+install this app onto your Windows phone.
+
+121
+00:10:04,810 --> 00:10:07,890
+So you go to NetBeans, and
+
+122
+00:10:07,890 --> 00:10:13,210
+you right-click on your app project title.
+
+123
+00:10:14,480 --> 00:10:19,540
+Then you navigate to Codename One and
+you click on Send Windows Phone build
+
+124
+00:10:21,030 --> 00:10:25,470
+which I do now, and at the bottom right
+corner, you should see what the app
+
+125
+00:10:26,590 --> 00:10:30,020
+being sent to Codename One, the website.
+
+126
+00:10:31,370 --> 00:10:33,900
+So, you have some warnings but
+don't worry about all that,
+
+127
+00:10:37,290 --> 00:10:40,300
+as long as it finishes with a green line.
+
+128
+00:10:40,300 --> 00:10:44,680
+Yes, if the green line is there,
+build was successful.
+
+129
+00:10:44,680 --> 00:10:45,599
+That is fine.
+
+130
+00:10:45,599 --> 00:10:51,102
+So your app has just been sent
+to Codename One, the website.
+
+131
+00:10:51,102 --> 00:10:53,656
+So you can log in to Codename One.
+
+132
+00:10:53,656 --> 00:10:56,849
+Okay, that's my log in.
+
+133
+00:11:01,585 --> 00:11:06,786
+And once you're logged in you can go
+to the dashboard, just click on it.
+
+134
+00:11:09,615 --> 00:11:17,280
+And it tells you that Codename One
+is building your app at the moment.
+
+135
+00:11:17,280 --> 00:11:18,260
+It's not finished.
+
+136
+00:11:18,260 --> 00:11:20,290
+It's still in progress.
+
+137
+00:11:20,290 --> 00:11:24,820
+So I'm going to pause the video now,
+because it can take one or two minutes.
+
+138
+00:11:24,820 --> 00:11:28,780
+Your app will be ready when
+this thing will turn green.
+
+139
+00:11:29,910 --> 00:11:33,570
+So I just pause and
+come back to you when it's turned green.
+
+140
+00:11:35,560 --> 00:11:41,050
+So I'm back, and
+after three to five minutes
+
+141
+00:11:41,050 --> 00:11:48,660
+the build is finished, so the screen and
+the part of the screen turned green.
+
+142
+00:11:48,660 --> 00:11:51,710
+Which means that now I can
+download on my computer,
+
+143
+00:11:51,710 --> 00:11:56,670
+not on my phone, on my computer,
+I can download this Windows app.
+
+144
+00:11:56,670 --> 00:12:03,824
+So I click here, and this is the file
+I'm gonna download on the desktop,
+
+145
+00:12:03,824 --> 00:12:08,766
+so I simply click on it,
+MyApplicationRelease.
+
+146
+00:12:08,766 --> 00:12:13,420
+And you see I had a previous
+version already on the desktop.
+
+147
+00:12:15,010 --> 00:12:20,850
+So I'm gonna shorten the name,
+cuz it's very long name for a file.
+
+148
+00:12:20,850 --> 00:12:22,300
+Just delete the first part.
+
+149
+00:12:23,890 --> 00:12:25,080
+And I'm gonna save it.
+
+150
+00:12:25,080 --> 00:12:29,451
+It's going to ask me if I
+want to overwrite the one.
+
+151
+00:12:29,451 --> 00:12:34,250
+Yes, I want to overwrite the previous one.
+
+152
+00:12:34,250 --> 00:12:39,428
+Okay, so now if you see my desktop here,
+this is the file I just downloaded.
+
+153
+00:12:41,259 --> 00:12:45,400
+How do I put that onto my Windows phone,
+which is just there?
+
+154
+00:12:47,570 --> 00:12:53,680
+The Visual Studio that we just
+downloaded will help here.
+
+155
+00:12:56,580 --> 00:13:00,760
+I notice that Visual Studio
+can take a lot of memory, and
+
+156
+00:13:00,760 --> 00:13:05,370
+if you have a small, not very
+powerful laptop, it can be an issue.
+
+157
+00:13:05,370 --> 00:13:09,750
+So I would, in my case,
+my computer is not that powerful, so
+
+158
+00:13:09,750 --> 00:13:16,150
+I'm gonna close NetBeans,
+to free some memory.
+
+159
+00:13:17,670 --> 00:13:22,936
+And yeah, that's the only thing I can,
+well I could even
+
+160
+00:13:22,936 --> 00:13:27,912
+shut down my Google Chrome,
+but that should be okay.
+
+161
+00:13:27,912 --> 00:13:32,020
+And in the programs installed
+on my computer I will look for
+
+162
+00:13:32,020 --> 00:13:35,800
+the folder called Windows Phone SDK 8.1.
+
+163
+00:13:35,800 --> 00:13:41,080
+Again, if you are on Windows 10,
+your folder might be different.
+
+164
+00:13:41,080 --> 00:13:48,380
+I click on it, and I see that there is
+a Windows Phone Developer Registration,
+
+165
+00:13:48,380 --> 00:13:50,924
+so you can register your phone so
+
+166
+00:13:50,924 --> 00:13:55,664
+that it's authorized to
+install Microsoft apps on it.
+
+167
+00:13:55,664 --> 00:13:56,568
+So, I click on it.
+
+168
+00:14:02,522 --> 00:14:09,765
+So, you should plug your
+phone with the USB cable,
+
+169
+00:14:09,765 --> 00:14:14,145
+you should plug your phone onto
+
+170
+00:14:14,145 --> 00:14:18,701
+your computer, which I do now.
+
+171
+00:14:18,701 --> 00:14:26,482
+[SOUND]
+You should unlock your screen.
+
+172
+00:14:26,482 --> 00:14:32,949
+And try again, which I do now.
+
+173
+00:14:35,360 --> 00:14:42,385
+Okay, so it found my phone, and
+I should register it now, yes.
+
+174
+00:14:42,385 --> 00:14:44,536
+[FOREIGN] in French, but
+that means register.
+
+175
+00:14:50,043 --> 00:14:52,010
+Let me just put my phone in here.
+
+176
+00:14:52,010 --> 00:14:55,070
+And it asks me for my Microsoft account.
+
+177
+00:14:56,890 --> 00:15:00,871
+So that's why we created one earlier,
+so I write it.
+
+178
+00:15:00,871 --> 00:15:06,235
+I log in as my Microsoft account,
+I connect.
+
+179
+00:15:11,320 --> 00:15:11,981
+It's connecting.
+
+180
+00:15:16,708 --> 00:15:18,552
+And there's an issue here.
+
+181
+00:15:18,552 --> 00:15:21,360
+I don't know why.
+
+182
+00:15:21,360 --> 00:15:26,291
+It can't establish a connection with
+the Developer Center of Windows, so
+
+183
+00:15:26,291 --> 00:15:27,941
+I'm going to try again.
+
+184
+00:15:33,847 --> 00:15:38,350
+And your phone should be unlocked.
+
+185
+00:15:43,312 --> 00:15:48,942
+Okay, so it can't reach
+the Windows Phone Developer Center.
+
+186
+00:15:48,942 --> 00:15:56,453
+Did I enter the correct password?
+
+187
+00:15:56,453 --> 00:15:58,242
+I thought so.
+
+188
+00:16:04,812 --> 00:16:08,070
+So maybe there is something
+wrong with my DVO protocol.
+
+189
+00:16:08,070 --> 00:16:09,680
+Let me post the video and come back.
+
+190
+00:16:10,980 --> 00:16:18,220
+Okay, so I got it solved, the issue
+was that my phone was not connected,
+
+191
+00:16:18,220 --> 00:16:21,760
+it's connected by a cable to the computer,
+
+192
+00:16:21,760 --> 00:16:26,870
+which is fine, but
+it was not connected to the Internet.
+
+193
+00:16:26,870 --> 00:16:30,960
+So you need your phone to be able to
+communicate through the Internet,
+
+194
+00:16:30,960 --> 00:16:37,240
+through Wi-Fi, or through your mobile
+carrier data plan to the Internet.
+
+195
+00:16:38,580 --> 00:16:45,920
+Once I did that, just doing the same
+steps, finished the registration of
+
+196
+00:16:45,920 --> 00:16:50,650
+my phone and
+just within last message saying
+
+197
+00:16:50,650 --> 00:16:56,090
+congratulations your phone is now
+unlocked for app development.
+
+198
+00:16:56,090 --> 00:16:58,770
+And then you can just close the wizard.
+
+199
+00:17:00,730 --> 00:17:01,620
+We are almost finished.
+
+200
+00:17:01,620 --> 00:17:06,460
+Once we've done that,
+we can begin go back to
+
+201
+00:17:06,460 --> 00:17:12,380
+the programs where it's called
+Windows Phone SDK8.1, you click on it and
+
+202
+00:17:12,380 --> 00:17:16,420
+this time you click on Windows for
+an application deployment.
+
+203
+00:17:17,550 --> 00:17:25,440
+So you click on that and you should be
+able to put the app onto your phone.
+
+204
+00:17:25,440 --> 00:17:30,520
+So the interface is in French,
+because my computer is located in France.
+
+205
+00:17:30,520 --> 00:17:33,240
+But you should the same in your language.
+
+206
+00:17:33,240 --> 00:17:36,760
+So they ask you, for
+which phone would you like to put the app?
+
+207
+00:17:40,420 --> 00:17:46,130
+Devices is just this device here,
+so that's fine.
+
+208
+00:17:46,130 --> 00:17:49,270
+They ask you for the application that
+you want to put on this phone, and
+
+209
+00:17:49,270 --> 00:17:53,590
+that's the one we have put on the desktop.
+
+210
+00:17:54,980 --> 00:17:55,480
+This one.
+
+211
+00:17:58,600 --> 00:18:04,150
+And then you click on Deploy,
+that will install the app on this phone.
+
+212
+00:18:04,150 --> 00:18:09,442
+So, of course,
+you noticed the phone is still plugged in.
+
+213
+00:18:13,193 --> 00:18:16,757
+I click on it, and I hope
+
+214
+00:18:30,758 --> 00:18:33,550
+The app should be being
+deployed on my phone now.
+
+215
+00:18:33,550 --> 00:18:42,198
+I see this icon I wonder if
+it's not my app coming in.
+
+216
+00:18:48,212 --> 00:18:53,215
+So it can take a couple of seconds,
+I hope not minutes.
+
+217
+00:18:55,537 --> 00:18:59,992
+It would be nice to finish this
+tutorial in less than 20 minutes,
+
+218
+00:18:59,992 --> 00:19:04,290
+which would be perfectly short for
+a for such an important step,
+
+219
+00:19:04,290 --> 00:19:06,612
+putting an app on a Windows Phone.
+
+220
+00:19:13,613 --> 00:19:16,950
+Come on, I am gonna pause
+the video if it takes too long.
+
+221
+00:19:16,950 --> 00:19:21,285
+No, it tells me that the app
+is finished being deployed or
+
+222
+00:19:21,285 --> 00:19:23,940
+installed it if you want on my phone.
+
+223
+00:19:25,660 --> 00:19:28,550
+So I should find it on my phone now.
+
+224
+00:19:31,742 --> 00:19:34,700
+So on my phone,
+I have this little arrow here.
+
+225
+00:19:35,796 --> 00:19:41,270
+Sorry, here, to receive the list of
+all my apps, so I click on it now.
+
+226
+00:19:42,370 --> 00:19:47,707
+So this adds the apps on my phone,
+and my app was called Test or
+
+227
+00:19:47,707 --> 00:19:54,837
+something, so if it's in alphabetical
+order, I should go to letter T for Test.
+
+228
+00:20:00,352 --> 00:20:02,410
+Yeah, I see it here, it's got it here.
+
+229
+00:20:04,660 --> 00:20:09,690
+So do you see the app which is called,
+sorry, Test?
+
+230
+00:20:09,690 --> 00:20:15,470
+The strange icon you see next to it
+is the code name one, default icon.
+
+231
+00:20:15,470 --> 00:20:19,660
+And we will learn later how you can
+put your own icon for your app.
+
+232
+00:20:20,670 --> 00:20:23,305
+So, I click on Test to open the app.
+
+233
+00:20:23,305 --> 00:20:27,076
+I just clicked so it opens.
+
+234
+00:20:30,130 --> 00:20:35,920
+Wow, so, that's the app which I created.
+
+235
+00:20:37,520 --> 00:20:40,121
+For testing purposes.
+
+236
+00:20:40,121 --> 00:20:45,453
+This is my picture and
+some random mini-CV.
+
+237
+00:20:45,453 --> 00:20:48,850
+It's me, it's here.
+
+238
+00:20:48,850 --> 00:20:50,300
+We are finished.
+
+239
+00:20:50,300 --> 00:20:53,510
+As you see, it was very long.
+
+240
+00:20:56,020 --> 00:20:59,160
+But essentially it's just
+creating a couple of accounts.
+
+241
+00:21:00,170 --> 00:21:02,710
+Downloading some tools,
+installing them, and
+
+242
+00:21:02,710 --> 00:21:08,810
+then clicking on some
+screens to get it done.
+
+243
+00:21:08,810 --> 00:21:10,760
+As usual if you have any question.
+
+244
+00:21:12,000 --> 00:21:16,630
+Please go to the forum to find answers or
+ask new questions.
+
+245
+00:21:16,630 --> 00:21:17,130
+Thank you.

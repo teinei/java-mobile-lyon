@@ -1,0 +1,600 @@
+1
+00:00:03,342 --> 00:00:04,110
+Hi.
+
+2
+00:00:04,110 --> 00:00:09,900
+In this video, we will learn how to put
+some text on the screen of our app.
+
+3
+00:00:09,900 --> 00:00:14,140
+So we'll switch to
+the designer of the app.
+
+4
+00:00:14,140 --> 00:00:20,730
+You do that by double clicking here,
+so I did it already.
+
+5
+00:00:20,730 --> 00:00:23,530
+The designer is opened.
+
+6
+00:00:23,530 --> 00:00:25,440
+This is a new empty project.
+
+7
+00:00:25,440 --> 00:00:28,390
+You should have a roughly the same.
+
+8
+00:00:28,390 --> 00:00:31,040
+So this is some text here.
+
+9
+00:00:31,040 --> 00:00:32,590
+Hi world.
+
+10
+00:00:32,590 --> 00:00:33,560
+Don't care about that.
+
+11
+00:00:33,560 --> 00:00:37,170
+That's the title of your screen and
+we, that's not what we see here.
+
+12
+00:00:38,390 --> 00:00:40,510
+The text is a label, right?
+
+13
+00:00:40,510 --> 00:00:47,010
+So here what you see is all the elements
+that you will see on screen.
+
+14
+00:00:48,450 --> 00:00:52,270
+Everything that you see
+here is listed here.
+
+15
+00:00:52,270 --> 00:00:56,676
+So we see the label is
+called autotext if you want.
+
+16
+00:00:56,676 --> 00:00:58,490
+It's saying Hi World.
+
+17
+00:01:02,290 --> 00:01:04,260
+The element of text is here.
+
+18
+00:01:04,260 --> 00:01:06,000
+Sorry, it's here.
+
+19
+00:01:06,000 --> 00:01:09,870
+And the properties of this text,
+
+20
+00:01:09,870 --> 00:01:14,260
+of this element of text are here,
+you click here.
+
+21
+00:01:15,730 --> 00:01:18,133
+So that's really intimidating, this stuff.
+
+22
+00:01:18,133 --> 00:01:22,030
+But, I mean,
+you don't need all of that, right?
+
+23
+00:01:22,030 --> 00:01:25,010
+What I want just to insist is
+that the properties that you see
+
+24
+00:01:26,120 --> 00:01:30,240
+here refer to this label.
+
+25
+00:01:30,240 --> 00:01:32,010
+And what is this label?
+
+26
+00:01:32,010 --> 00:01:33,070
+Is this thing here.
+
+27
+00:01:35,450 --> 00:01:41,197
+So how do you change,
+how do you put your own text there?
+
+28
+00:01:41,197 --> 00:01:45,333
+You either double click on it and change.
+
+29
+00:01:45,333 --> 00:01:49,246
+This is my own text for my app.
+
+30
+00:01:49,246 --> 00:01:51,392
+I really like it.
+
+31
+00:01:51,392 --> 00:01:56,440
+And you click on enter just to validate.
+
+32
+00:01:56,440 --> 00:02:00,018
+And now you should see if,
+
+33
+00:02:00,018 --> 00:02:05,546
+make sure you have the label selected and
+
+34
+00:02:05,546 --> 00:02:11,080
+the properties if you scroll down a bit.
+
+35
+00:02:12,780 --> 00:02:15,910
+You see that,
+that's what you have just written here.
+
+36
+00:02:15,910 --> 00:02:16,730
+All right?
+
+37
+00:02:16,730 --> 00:02:19,780
+So I hope you understand by now that
+
+38
+00:02:20,860 --> 00:02:25,410
+the text of your label is there.
+
+39
+00:02:26,930 --> 00:02:30,310
+So if you want to change your text,
+you can easily double click and
+
+40
+00:02:30,310 --> 00:02:31,730
+change it here.
+
+41
+00:02:31,730 --> 00:02:34,550
+And then click on Okay here.
+
+42
+00:02:34,550 --> 00:02:41,380
+Or you go to the properties of your label,
+you double-click and you do stuff here.
+
+43
+00:02:41,380 --> 00:02:43,443
+This is my own text for my app.
+
+44
+00:02:43,443 --> 00:02:46,688
+I really like it.
+
+45
+00:02:46,688 --> 00:02:50,428
+Wonderful, ful, and
+
+46
+00:02:50,428 --> 00:02:55,290
+enter and you'll see that what you've
+written here is reflected there.
+
+47
+00:02:56,860 --> 00:03:01,840
+So we have the label to start with but
+
+48
+00:03:01,840 --> 00:03:05,520
+what if we want to add another one or
+if we don't have any?
+
+49
+00:03:05,520 --> 00:03:08,300
+So I'm gonna delete this one.
+
+50
+00:03:08,300 --> 00:03:13,930
+To delete it's really easy,
+you just click on suppress or
+
+51
+00:03:13,930 --> 00:03:15,826
+the delete key on your keyboard.
+
+52
+00:03:15,826 --> 00:03:20,247
+So doesn't work.
+
+53
+00:03:20,247 --> 00:03:23,707
+Interesting.
+
+54
+00:03:24,785 --> 00:03:26,325
+Let me do it again.
+
+55
+00:03:26,325 --> 00:03:27,335
+Delete.
+
+56
+00:03:27,335 --> 00:03:28,595
+Yes.
+
+57
+00:03:28,595 --> 00:03:31,055
+So I deleted the label.
+
+58
+00:03:31,055 --> 00:03:35,505
+I could have selected the label when
+it was here and click on delete there.
+
+59
+00:03:35,505 --> 00:03:39,585
+So you can delete by doing it here or
+when it's here.
+
+60
+00:03:40,635 --> 00:03:43,885
+Now I'm going to add a new label.
+
+61
+00:03:43,885 --> 00:03:46,550
+I simply click on label here.
+
+62
+00:03:46,550 --> 00:03:48,000
+That is so easy, you click once.
+
+63
+00:03:49,340 --> 00:03:53,150
+If you click once you see your
+label appearing here, and here.
+
+64
+00:03:54,710 --> 00:03:58,130
+So, and then you double click
+it again to change your text.
+
+65
+00:03:58,130 --> 00:04:00,944
+So, this is the CV that
+we want to build so,
+
+66
+00:04:00,944 --> 00:04:04,247
+you know the first time is
+always with be will be a.
+
+67
+00:04:04,247 --> 00:04:08,620
+Clement Levallois.
+
+68
+00:04:08,620 --> 00:04:13,413
+My entire professional title will be
+
+69
+00:04:13,413 --> 00:04:19,912
+Assistant Professor at
+EMLYON Business School.
+
+70
+00:04:23,071 --> 00:04:26,570
+Okay.
+
+71
+00:04:26,570 --> 00:04:32,360
+So now I want to show you
+the issue we have here.
+
+72
+00:04:32,360 --> 00:04:33,740
+So we just put our label here.
+
+73
+00:04:35,160 --> 00:04:36,590
+Let's preview that.
+
+74
+00:04:36,590 --> 00:04:39,439
+So as you have seen
+from previous sessions,
+
+75
+00:04:39,439 --> 00:04:43,368
+to preview you click on preview and
+then on simulate device.
+
+76
+00:04:47,501 --> 00:04:48,987
+We wait a bit.
+
+77
+00:04:55,257 --> 00:04:58,620
+And we see our app coming.
+
+78
+00:05:00,190 --> 00:05:03,070
+Simulated on a fake device on our screen.
+
+79
+00:05:04,140 --> 00:05:08,340
+Great, we have our text,
+it looks really neat to me.
+
+80
+00:05:08,340 --> 00:05:13,880
+The issue is that its completely too long
+for the width, for the size of the screen.
+
+81
+00:05:15,510 --> 00:05:17,450
+So that's what happens with labels.
+
+82
+00:05:17,450 --> 00:05:22,590
+With labels, I mean with that here, it
+
+83
+00:05:22,590 --> 00:05:27,980
+doesn't resize or it doesn't go into
+several lines when you need it.
+
+84
+00:05:27,980 --> 00:05:34,450
+So please use these labels for
+short titles or for short text.
+
+85
+00:05:35,720 --> 00:05:37,370
+When you have longer text,
+
+86
+00:05:37,370 --> 00:05:41,990
+like the one I've written,
+you should use something else.
+
+87
+00:05:41,990 --> 00:05:49,160
+So I close the simulator, and
+this is what you should use, Span Label.
+
+88
+00:05:49,160 --> 00:05:50,790
+So I just click on it.
+
+89
+00:05:50,790 --> 00:05:56,020
+I'm gonna just first delete this one and
+go back to a completely empty app.
+
+90
+00:05:57,740 --> 00:05:59,420
+So, let me show you.
+
+91
+00:06:01,590 --> 00:06:05,640
+You set up the label and
+you click on delete or suppress.
+
+92
+00:06:05,640 --> 00:06:07,670
+I think is for French.
+
+93
+00:06:07,670 --> 00:06:10,140
+It's a delete key for
+an international keyboard.
+
+94
+00:06:11,980 --> 00:06:15,110
+So now you click once on span label.
+
+95
+00:06:15,110 --> 00:06:18,770
+Span label is simply a bit of text
+
+96
+00:06:18,770 --> 00:06:21,010
+that goes into several
+lines when it's too long.
+
+97
+00:06:23,560 --> 00:06:24,260
+Yup.
+
+98
+00:06:24,260 --> 00:06:27,440
+So now I click on it.
+
+99
+00:06:28,500 --> 00:06:32,120
+When I click on it,
+you see it makes it appear here.
+
+100
+00:06:32,120 --> 00:06:33,450
+Even if its empty.
+
+101
+00:06:33,450 --> 00:06:34,576
+So I can double click here.
+
+102
+00:06:34,576 --> 00:06:38,140
+Maybe I can't.
+
+103
+00:06:38,140 --> 00:06:40,740
+Nope, nope, it doesn't work.
+
+104
+00:06:40,740 --> 00:06:45,522
+So in this case you just go to the,
+you select the spain label, span label.
+
+105
+00:06:45,522 --> 00:06:47,700
+We click on properties.
+
+106
+00:06:47,700 --> 00:06:50,240
+And as we did before, we go to text.
+
+107
+00:06:52,670 --> 00:06:54,620
+And we write what we want.
+
+108
+00:06:54,620 --> 00:06:59,993
+So Clement Levallois,
+
+109
+00:06:59,993 --> 00:07:05,366
+assistant professor at
+
+110
+00:07:05,366 --> 00:07:11,281
+EMLYON Business School.
+
+111
+00:07:12,390 --> 00:07:16,150
+And when we validate
+with enter that works.
+
+112
+00:07:16,150 --> 00:07:19,780
+We have the text and
+we already see the difference.
+
+113
+00:07:19,780 --> 00:07:21,630
+It goes upon to several lines.
+
+114
+00:07:21,630 --> 00:07:24,270
+It's a bit weird,
+it doesn't go to the end.
+
+115
+00:07:24,270 --> 00:07:27,010
+But we should check on the simulator.
+
+116
+00:07:27,010 --> 00:07:29,431
+So I click on preview, simulate device.
+
+117
+00:07:55,392 --> 00:07:56,500
+Takes a bit of time.
+
+118
+00:07:57,720 --> 00:07:58,600
+Yay!
+
+119
+00:07:58,600 --> 00:07:59,740
+That's what we wanted.
+
+120
+00:07:59,740 --> 00:08:02,770
+A text that just fits the screen.
+
+121
+00:08:02,770 --> 00:08:09,536
+If you're interested, I think I did
+mention that in a previous sessions,
+
+122
+00:08:09,536 --> 00:08:15,240
+but if you click on rotate you can
+see how your mobile looks like.
+
+123
+00:08:15,240 --> 00:08:19,983
+How the the app would look
+like in panorama mode,
+
+124
+00:08:19,983 --> 00:08:22,690
+or landscape, you say landscape mode.
+
+125
+00:08:23,740 --> 00:08:24,780
+So it really looks nice.
+
+126
+00:08:26,800 --> 00:08:28,040
+That's it.
+
+127
+00:08:28,040 --> 00:08:33,090
+Maybe just before closing, maybe you
+are a bit curious of what happens if
+
+128
+00:08:33,090 --> 00:08:36,430
+you add many labels, so
+I click on label here.
+
+129
+00:08:37,990 --> 00:08:41,020
+It adds a label there,
+just next to the one.
+
+130
+00:08:41,020 --> 00:08:45,050
+And if you click again, so
+you see we have still another label.
+
+131
+00:08:45,050 --> 00:08:50,280
+And maybe you're like, well that's nice
+but I would prefer to have these different
+
+132
+00:08:50,280 --> 00:08:55,070
+bits of text not next to each other but
+one under the other.
+
+133
+00:08:56,740 --> 00:09:03,080
+I just want to tell you that we have a
+video on that which is called the layout.
+
+134
+00:09:03,080 --> 00:09:05,770
+So please check the video on layouts
+
+135
+00:09:05,770 --> 00:09:10,350
+to know how to organize these
+things onto the screen of the app.
+
+136
+00:09:10,350 --> 00:09:12,772
+This video was just on putting some text.
+
+137
+00:09:12,772 --> 00:09:13,907
+Thank you.

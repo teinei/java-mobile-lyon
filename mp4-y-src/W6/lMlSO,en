@@ -1,0 +1,478 @@
+1
+00:00:05,240 --> 00:00:11,100
+Hi and welcome in this video
+where we will create an app.
+
+2
+00:00:11,100 --> 00:00:16,916
+You were very courageous to actually
+follow the two previous tutorials,
+
+3
+00:00:16,916 --> 00:00:20,780
+where You've got
+the fundamentals of cutting.
+
+4
+00:00:20,780 --> 00:00:26,812
+And as I said in these tutorials,
+it's perfectly okay,
+
+5
+00:00:26,812 --> 00:00:31,838
+if you still don't really
+grasp all the details
+
+6
+00:00:31,838 --> 00:00:36,000
+of all these boxes we were discussing.
+
+7
+00:00:36,000 --> 00:00:41,510
+And what's inside, and
+how do you write the loops.
+
+8
+00:00:41,510 --> 00:00:45,850
+And the conditions to understand all
+of that better we need to practice and
+
+9
+00:00:45,850 --> 00:00:48,020
+that's what we're going to do now.
+
+10
+00:00:48,020 --> 00:00:55,880
+We are going to build an app in which is
+going to be the equivalent of Twitter.
+
+11
+00:00:55,880 --> 00:01:00,450
+Twitter as you know it is service
+where you can send a Tweet and
+
+12
+00:01:00,450 --> 00:01:06,600
+you can read the Tweets from
+the other people who use Twitter.
+
+13
+00:01:06,600 --> 00:01:10,350
+So, Twitter already exists,
+so we won't call it Twitter.
+
+14
+00:01:10,350 --> 00:01:15,774
+I live in the city of Lyon, so
+we are going to use their lion,
+
+15
+00:01:15,774 --> 00:01:18,821
+the animal the lion as a.
+
+16
+00:01:18,821 --> 00:01:25,320
+Of course you know a lion doesn't tweet,
+a lion roars.
+
+17
+00:01:25,320 --> 00:01:31,040
+So we are going to build enough
+that I would call a roar.
+
+18
+00:01:31,040 --> 00:01:37,015
+And that's about sending roars and
+receiving these roars.
+
+19
+00:01:38,810 --> 00:01:42,010
+So what do we need to build this app?
+
+20
+00:01:42,010 --> 00:01:49,500
+We're basically need to create
+two screens on their phone.
+
+21
+00:01:49,500 --> 00:01:54,540
+One screen where the user, let me phone.
+
+22
+00:01:54,540 --> 00:02:02,400
+One screen where the user will
+write the roar and press send.
+
+23
+00:02:02,400 --> 00:02:07,541
+And a second screen where
+the user would just scroll and
+
+24
+00:02:07,541 --> 00:02:11,800
+read the roars by the others,
+if we had that.
+
+25
+00:02:11,800 --> 00:02:14,502
+And if we can build that,
+
+26
+00:02:14,502 --> 00:02:20,010
+we have just replicated
+Twitter by ourselves.
+
+27
+00:02:20,010 --> 00:02:21,010
+So let's do it.
+
+28
+00:02:22,220 --> 00:02:25,390
+So we create an app and two screens in it.
+
+29
+00:02:26,870 --> 00:02:31,780
+So, I click on create a project.
+
+30
+00:02:31,780 --> 00:02:33,070
+I select CodenameOne Project.
+
+31
+00:02:33,070 --> 00:02:41,780
+If I call it Roar,
+I've already created such an app so Roar.
+
+32
+00:02:43,800 --> 00:02:45,680
+Oh, yeah.
+
+33
+00:02:45,680 --> 00:02:48,149
+Roars, Roar, okay.
+
+34
+00:02:48,149 --> 00:02:51,018
+It's good.
+
+35
+00:02:51,018 --> 00:02:51,568
+Next.
+
+36
+00:02:58,419 --> 00:03:02,370
+My name.
+
+37
+00:03:02,370 --> 00:03:07,245
+You should use the package
+that I mentioned,
+
+38
+00:03:07,245 --> 00:03:12,250
+you know the tutorial
+which makes it easier for
+
+39
+00:03:12,250 --> 00:03:15,083
+me to that should be okay.
+
+40
+00:03:15,083 --> 00:03:20,530
+You can chose the package
+name that suits you.
+
+41
+00:03:20,530 --> 00:03:22,530
+That's fine.
+
+42
+00:03:22,530 --> 00:03:24,620
+That's fine.
+
+43
+00:03:24,620 --> 00:03:26,860
+You should choose
+the theme that you prefer.
+
+44
+00:03:26,860 --> 00:03:28,410
+I like native.
+
+45
+00:03:30,140 --> 00:03:33,440
+Don't forget to chose visual here.
+
+46
+00:03:33,440 --> 00:03:37,189
+We finish and the project,
+
+47
+00:03:37,189 --> 00:03:41,596
+an empty app, will be created.
+
+48
+00:03:53,425 --> 00:03:56,152
+Yes.
+
+49
+00:03:56,152 --> 00:04:02,585
+So, if we click on it, we relaunch
+the designer to create our two screens.
+
+50
+00:04:10,400 --> 00:04:15,390
+I have a slow computer as you know.
+
+51
+00:04:20,782 --> 00:04:23,460
+I should, I'm just gonna close.
+
+52
+00:04:23,460 --> 00:04:30,500
+So, I cut the video just waiting for the
+designer to open, and that's finally done.
+
+53
+00:04:30,500 --> 00:04:33,800
+So, here I don't see my
+
+54
+00:04:37,090 --> 00:04:44,780
+screens, because I have to select
+GUIBuilder and then click here.
+
+55
+00:04:50,410 --> 00:04:54,850
+And this is my empty screen
+we have at the beginning.
+
+56
+00:04:54,850 --> 00:04:59,710
+So we can start by calling it, so
+this is the screen where we're
+
+57
+00:04:59,710 --> 00:05:05,580
+gonna write our roars and
+send them to the world.
+
+58
+00:05:05,580 --> 00:05:07,560
+So we could call it
+
+59
+00:05:10,730 --> 00:05:15,740
+What's up cuz that's all,
+
+60
+00:05:15,740 --> 00:05:20,131
+what is your roar today?
+
+61
+00:05:20,131 --> 00:05:23,730
+That could be the title of this screen.
+
+62
+00:05:24,820 --> 00:05:30,000
+Then this would,
+we don't need a label here, I deleted it.
+
+63
+00:05:30,000 --> 00:05:35,180
+We would need a space where the user
+would write something, that roar.
+
+64
+00:05:35,180 --> 00:05:42,080
+So I click on text area, and
+so that's what we need here.
+
+65
+00:05:42,080 --> 00:05:48,570
+I just delete the content, it should be an
+empty text area when you open the screen.
+
+66
+00:05:48,570 --> 00:05:50,985
+And we need a button to say send my rooar.
+
+67
+00:05:53,050 --> 00:05:55,330
+So, the button it here.
+
+68
+00:05:55,330 --> 00:06:00,440
+I'm gonna call it, Rooar!, like that.
+
+69
+00:06:00,440 --> 00:06:08,900
+And I would prefer to have all of that
+piled up vertically, not in a line.
+
+70
+00:06:08,900 --> 00:06:15,087
+So you should know that it's,
+I just changed it layout and
+
+71
+00:06:15,087 --> 00:06:19,759
+I select the box layout,
+and finally we need
+
+72
+00:06:19,759 --> 00:06:24,683
+a button that would send
+us to the next screen,
+
+73
+00:06:24,683 --> 00:06:30,390
+the screen where we will read
+the roars by the others.
+
+74
+00:06:30,390 --> 00:06:30,990
+So another button.
+
+75
+00:06:35,680 --> 00:06:37,230
+And record it.
+
+76
+00:06:37,230 --> 00:06:41,565
+Go to the roar wall.
+
+77
+00:06:44,498 --> 00:06:47,852
+To wall.
+
+78
+00:06:50,600 --> 00:06:52,120
+Okay, so that's good.
+
+79
+00:06:53,870 --> 00:06:56,789
+Let's create the screen.
+
+80
+00:06:56,789 --> 00:07:02,800
+The screen is,
+I just click here add a new GUI element.
+
+81
+00:07:03,870 --> 00:07:08,180
+I'm going to put on the wall.
+
+82
+00:07:08,180 --> 00:07:10,120
+Just like the Facebook Wall.
+
+83
+00:07:11,650 --> 00:07:18,639
+This is a wall where I'm going to read
+my roars or the roars from the users.
+
+84
+00:07:19,950 --> 00:07:23,040
+So I should put the title here.
+
+85
+00:07:25,772 --> 00:07:29,704
+The wall of roars.
+
+86
+00:07:33,110 --> 00:07:39,950
+And, yeah, that's it, we should just add
+a button so the rows will appear there,
+
+87
+00:07:39,950 --> 00:07:45,721
+but I can't create them because they
+should be created automatically
+
+88
+00:07:45,721 --> 00:07:50,450
+when somebody sends a roar,
+it should then appear here.
+
+89
+00:07:50,450 --> 00:07:54,360
+But I can't anticipate that,
+I can't put the label there.
+
+90
+00:07:54,360 --> 00:07:58,280
+It's just gonna be created by the code.
+
+91
+00:08:00,180 --> 00:08:04,350
+So we need just a button,
+over the two buttons.
+
+92
+00:08:04,350 --> 00:08:06,120
+One to say refresh.
+
+93
+00:08:09,630 --> 00:08:13,985
+So, when we click on
+this button the app will
+
+94
+00:08:13,985 --> 00:08:18,830
+actually connect to internet and
+get the roars.
+
+95
+00:08:18,830 --> 00:08:22,985
+A button for that and
+
+96
+00:08:22,985 --> 00:08:30,085
+a button to say go back to writing.
+
+97
+00:08:30,085 --> 00:08:34,100
+Write or wrong.
+
+98
+00:08:34,100 --> 00:08:40,602
+It's not very beautiful.
+
+99
+00:08:40,602 --> 00:08:42,200
+Oh let's be more funny.
+
+100
+00:08:42,200 --> 00:08:44,688
+I want to, I want to roar.
+
+101
+00:08:44,688 --> 00:08:48,639
+So if you click that,
+
+102
+00:08:48,639 --> 00:08:56,110
+you just come back there, and you roar.
+
+103
+00:08:59,020 --> 00:09:03,240
+And let's put all of that in
+a box wide layout as well.
+
+104
+00:09:08,960 --> 00:09:10,970
+Just because it's more pretty,
+we don't really need it.
+
+105
+00:09:14,798 --> 00:09:20,580
+Okay, good, good, what else do we need?
+
+106
+00:09:20,580 --> 00:09:27,260
+Not much, so I think we are ready to code.
+
+107
+00:09:27,260 --> 00:09:28,290
+See you in the next tutorial.

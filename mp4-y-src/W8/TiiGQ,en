@@ -1,0 +1,295 @@
+1
+00:00:03,943 --> 00:00:08,950
+Hi in this video I would like to
+share with you the resources, and
+
+2
+00:00:08,950 --> 00:00:14,052
+all the help you could get after Codapps,
+when you would continue
+
+3
+00:00:14,052 --> 00:00:18,968
+creating your mobile app, and
+you will need to ask questions,
+
+4
+00:00:18,968 --> 00:00:23,000
+you will need to get
+information to make progress.
+
+5
+00:00:23,000 --> 00:00:27,950
+Where do you get that I
+suggest you four choices.
+
+6
+00:00:29,330 --> 00:00:36,780
+The first one is to continue using
+the forum of this course on Coursera.
+
+7
+00:00:36,780 --> 00:00:40,720
+The forum is gonna expand in size.
+
+8
+00:00:40,720 --> 00:00:45,980
+The more participants will
+post their questions, and
+
+9
+00:00:45,980 --> 00:00:50,380
+give their answers on the forum,
+the more useful it's going to become.
+
+10
+00:00:50,380 --> 00:00:54,110
+So I'm sure that many questions you have,
+
+11
+00:00:54,110 --> 00:00:57,570
+have already been asked and
+answered on the forum.
+
+12
+00:00:57,570 --> 00:01:00,910
+So that's a good way to start looking.
+
+13
+00:01:00,910 --> 00:01:04,680
+When you have an issue or just when
+you want to show your progress and
+
+14
+00:01:04,680 --> 00:01:12,030
+discuss around the development of apps.
+
+15
+00:01:12,030 --> 00:01:20,344
+The second option is to use all the
+documentation provided by CodeName One.
+
+16
+00:01:20,344 --> 00:01:24,030
+They have YouTube channels,
+they have many things.
+
+17
+00:01:24,030 --> 00:01:30,970
+But the two places where I would encourage
+you to look, is first the Google group.
+
+18
+00:01:30,970 --> 00:01:36,134
+There is a very active Google group for
+Codename One.
+
+19
+00:01:36,134 --> 00:01:41,020
+And you can find many answers there and
+you can ask your question.
+
+20
+00:01:41,020 --> 00:01:45,968
+If you ask your question,
+in my experience,
+
+21
+00:01:45,968 --> 00:01:54,530
+you have somebody who is answering it
+very quickly, like in the day usually.
+
+22
+00:01:54,530 --> 00:01:57,695
+So that's a very rich resource.
+
+23
+00:01:57,695 --> 00:02:02,450
+And on their website, codenameone.com,
+they also have what should
+
+24
+00:02:02,450 --> 00:02:07,450
+have what should be the reference for you,
+which is the manual of the developer.
+
+25
+00:02:07,450 --> 00:02:09,920
+This is where it's a kind of a book, but
+
+26
+00:02:09,920 --> 00:02:13,780
+in a web page,
+where they show you how to do everything.
+
+27
+00:02:13,780 --> 00:02:18,890
+Like how if you want to insert
+a map in your mobile app,
+
+28
+00:02:18,890 --> 00:02:23,140
+or if you want to connect to Facebook,
+or if you want to do anything.
+
+29
+00:02:23,140 --> 00:02:26,530
+All of that is explained on the website.
+
+30
+00:02:26,530 --> 00:02:30,590
+Especially in the manual of
+the developer that you can find.
+
+31
+00:02:31,798 --> 00:02:37,290
+Very often,
+the explanations are a bit short.
+
+32
+00:02:37,290 --> 00:02:40,450
+So I would think you
+would use the website.
+
+33
+00:02:40,450 --> 00:02:44,300
+And then you would ask questions
+on Coursera or somewhere else.
+
+34
+00:02:47,360 --> 00:02:52,600
+Another thing which is gonna be useful
+is a website which is called pttrns.
+
+35
+00:02:52,600 --> 00:02:55,940
+It's written this way, so
+it's pttrns.com, I think.
+
+36
+00:02:55,940 --> 00:02:58,580
+But if you Google it, you would find it.
+
+37
+00:02:58,580 --> 00:03:05,160
+It is a list of screens of mobile apps.
+
+38
+00:03:05,160 --> 00:03:07,080
+And they're organized by themes.
+
+39
+00:03:07,080 --> 00:03:11,630
+So you have a lot of screens
+of mobile apps showing
+
+40
+00:03:12,790 --> 00:03:17,590
+screens to log in, or
+screens to show pictures or
+
+41
+00:03:17,590 --> 00:03:22,110
+screens showing to do lists.
+
+42
+00:03:22,110 --> 00:03:27,230
+Anything that has been created
+as apps is shown here and
+
+43
+00:03:27,230 --> 00:03:30,220
+its a very good inspiration when
+you want to design your app.
+
+44
+00:03:30,220 --> 00:03:31,950
+Maybe that's when you
+want to build a screen,
+
+45
+00:03:31,950 --> 00:03:34,550
+you don't know where
+to put things exactly.
+
+46
+00:03:34,550 --> 00:03:39,530
+These websites will give you information,
+so go and check it.
+
+47
+00:03:41,630 --> 00:03:45,360
+And finally,
+when you're with code in Codename One,
+
+48
+00:03:45,360 --> 00:03:50,940
+you will find issues, like it's not
+always going to work the first time.
+
+49
+00:03:50,940 --> 00:03:54,940
+So either you ask your question on
+the Google group of Codename One,
+
+50
+00:03:54,940 --> 00:03:57,280
+it's actually very convenient.
+
+51
+00:03:57,280 --> 00:04:02,550
+But stack overflow is the most,
+is the biggest forum for
+
+52
+00:04:02,550 --> 00:04:06,900
+anything related to coding,
+on Earth, that's the biggest.
+
+53
+00:04:07,980 --> 00:04:10,640
+And it works for
+all programming languages.
+
+54
+00:04:10,640 --> 00:04:14,660
+Not just the one by apps but for anything
+you want to create with a computer.
+
+55
+00:04:16,020 --> 00:04:17,470
+And it's very active.
+
+56
+00:04:17,470 --> 00:04:21,916
+If you have many people active on
+stackoverflow posting questions and
+
+57
+00:04:21,916 --> 00:04:23,865
+answering them.
+
+58
+00:04:23,865 --> 00:04:26,565
+So, I would encourage you if,
+
+59
+00:04:26,565 --> 00:04:31,315
+you have any issue in cutting to
+ask your question on stackoverflow.
+
+60
+00:04:32,665 --> 00:04:34,705
+It's a very, very nice website.
+
+61
+00:04:36,405 --> 00:04:36,965
+So, that's it.
+
+62
+00:04:36,965 --> 00:04:39,195
+With that, you should be covered.
+
+63
+00:04:39,195 --> 00:04:41,625
+And you will be able to develop your app.

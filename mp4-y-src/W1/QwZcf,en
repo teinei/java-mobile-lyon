@@ -1,0 +1,351 @@
+1
+00:00:03,445 --> 00:00:07,970
+Hi, and welcome on this video where we
+will learn how to install NetBeans.
+
+2
+00:00:09,210 --> 00:00:10,110
+So it's very easy.
+
+3
+00:00:10,110 --> 00:00:13,150
+We'll just go on Google and or
+
+4
+00:00:13,150 --> 00:00:18,170
+your preferred search engine and
+you will type NetBeans.
+
+5
+00:00:19,390 --> 00:00:21,410
+This is the name of the software.
+
+6
+00:00:21,410 --> 00:00:22,910
+It comes in different versions.
+
+7
+00:00:22,910 --> 00:00:28,790
+We want the latest, which is 8 at
+the time I'm recording this video.
+
+8
+00:00:28,790 --> 00:00:32,550
+Maybe it's 9 at by the time you watch it.
+
+9
+00:00:32,550 --> 00:00:37,570
+NetBeans 8, and you want it to be bundled
+
+10
+00:00:37,570 --> 00:00:41,740
+with a tool it needs to run so
+you type bundle
+
+11
+00:00:43,630 --> 00:00:48,630
+and the tool it needs, it's called
+the jdk, the java developement kit.
+
+12
+00:00:50,150 --> 00:00:51,350
+So when you do that.
+
+13
+00:00:52,660 --> 00:00:58,830
+That should be the first
+result is this one.
+
+14
+00:00:58,830 --> 00:01:03,330
+On the website of Oracle something
+that says Java SE downloads,
+
+15
+00:01:03,330 --> 00:01:05,760
+that's the one we want.
+
+16
+00:01:05,760 --> 00:01:06,500
+So this page.
+
+17
+00:01:06,500 --> 00:01:07,140
+Don't worry.
+
+18
+00:01:07,140 --> 00:01:11,510
+You have actually a PDF
+next to this video in
+
+19
+00:01:12,880 --> 00:01:18,400
+the module where this
+web address is written.
+
+20
+00:01:18,400 --> 00:01:21,415
+You can find it.
+
+21
+00:01:21,415 --> 00:01:26,230
+So this is a tutorial to
+install NetBeans on a PC.
+
+22
+00:01:26,230 --> 00:01:29,470
+So we first start by accepting
+the license agreement.
+
+23
+00:01:29,470 --> 00:01:32,130
+I just clicked on this button.
+
+24
+00:01:32,130 --> 00:01:38,195
+And you have two versions for Windows,
+and which one should you choose?
+
+25
+00:01:40,165 --> 00:01:44,615
+So either you know the difference
+between Windows 86 and Windows 64.
+
+26
+00:01:44,615 --> 00:01:47,560
+If you don't know the difference,
+
+27
+00:01:47,560 --> 00:01:51,630
+It depends on how much memory
+there is on your computer.
+
+28
+00:01:52,820 --> 00:01:58,380
+So how do you know if your computer,
+how much memory there is?
+
+29
+00:01:58,380 --> 00:02:02,950
+So you can open a new
+tab in your browser and
+
+30
+00:02:02,950 --> 00:02:08,010
+what I type is how much RAM,
+RAM means memory,
+
+31
+00:02:08,010 --> 00:02:12,700
+how much RAM my PC has It's in English.
+
+32
+00:02:12,700 --> 00:02:19,380
+Anyway, when I do that, Google
+
+33
+00:02:21,220 --> 00:02:25,410
+gives me an answer that say
+on my PC I should open,
+
+34
+00:02:25,410 --> 00:02:29,030
+I should click on the start button.
+
+35
+00:02:29,030 --> 00:02:32,060
+So maybe yes.
+
+36
+00:02:32,060 --> 00:02:36,180
+It should work on Windows 7,
+and Windows 10, and Windows XP.
+
+37
+00:02:37,258 --> 00:02:40,830
+Then you right-click on Computer, while
+you follow the instructions basically what
+
+38
+00:02:40,830 --> 00:02:44,320
+I want to say is that it's
+very easy to find on internet
+
+39
+00:02:45,620 --> 00:02:50,280
+explanations to tell you how much
+RAM there is on the computer.
+
+40
+00:02:50,280 --> 00:02:55,250
+So if you have more than four gigabytes,
+you can use Windows,
+
+41
+00:02:55,250 --> 00:02:56,310
+you can download this one.
+
+42
+00:02:56,310 --> 00:03:02,050
+If you have less than four gigabytes
+of RAM, you choose this one.
+
+43
+00:03:02,050 --> 00:03:06,870
+And if you don't know, because you
+tried to find it but you couldn't.
+
+44
+00:03:08,550 --> 00:03:17,270
+You choose the, this one here,
+the X86, right.
+
+45
+00:03:18,400 --> 00:03:23,151
+So you click here.
+In any case I have more than 4
+
+46
+00:03:23,151 --> 00:03:25,470
+gigabit RAM.
+
+47
+00:03:25,470 --> 00:03:31,563
+And then I just download it and
+
+48
+00:03:31,563 --> 00:03:34,490
+install it.
+
+49
+00:03:34,490 --> 00:03:35,300
+So that's very simple.
+
+50
+00:03:36,790 --> 00:03:40,872
+So I leave you doing that,
+and you should have
+
+51
+00:03:40,872 --> 00:03:46,170
+a good WiFi connection cuz
+that's kind of a big file.
+
+52
+00:03:46,170 --> 00:03:51,370
+And then I will start again
+when NetBeans is installed.
+
+53
+00:03:51,370 --> 00:03:55,400
+Just a last thing,
+you might need administrative rights.
+
+54
+00:03:55,400 --> 00:03:57,760
+If you were to install that.
+
+55
+00:03:57,760 --> 00:04:00,920
+It means that if you have
+a PC from your office,
+
+56
+00:04:00,920 --> 00:04:03,990
+you may need the password from
+you IT department to install it.
+
+57
+00:04:05,590 --> 00:04:08,950
+So that's how it looks when
+NetBeans is installed and opened.
+
+58
+00:04:10,020 --> 00:04:13,180
+NetBeans is where we gonna
+create the mobile app, but
+
+59
+00:04:13,180 --> 00:04:15,310
+it needs something inside it to work.
+
+60
+00:04:17,060 --> 00:04:20,358
+So you open NetBeans,
+you go to tools, here.
+
+61
+00:04:20,358 --> 00:04:23,600
+And then plug-ins, which is here.
+
+62
+00:04:27,670 --> 00:04:30,450
+You should have the WiFi
+connection enabled as well.
+
+63
+00:04:31,550 --> 00:04:34,620
+And then you go to available plug-ins.
+
+64
+00:04:34,620 --> 00:04:37,950
+Which gives you all the things
+you can install in NetBeans.
+
+65
+00:04:37,950 --> 00:04:38,980
+And that's a long list.
+
+66
+00:04:40,520 --> 00:04:45,860
+To find what we want, we can click
+on name, in this column, name.
+
+67
+00:04:45,860 --> 00:04:48,420
+Because it ranks them alphabetically, and
+
+68
+00:04:48,420 --> 00:04:52,050
+we see the one we need
+which is CodeNameOnePlugin.
+
+69
+00:04:52,050 --> 00:04:53,160
+So we select it here.
+
+70
+00:04:53,160 --> 00:04:55,200
+We click on install.
+
+71
+00:04:56,950 --> 00:04:58,820
+And then you follow the wizard.
+
+72
+00:05:00,583 --> 00:05:05,800
+You accept the license it's a free tool,
+and the download starts,
+
+73
+00:05:06,860 --> 00:05:10,910
+it's a long download but
+that's basically it.
+
+74
+00:05:10,910 --> 00:05:15,790
+After that we have all the tools
+we need to create a mobile app.
+
+75
+00:05:15,790 --> 00:05:19,380
+We just need to restart NetBeans
+after this is finished.
+
+76
+00:05:20,790 --> 00:05:21,720
+But that's basically it.
+
+77
+00:05:21,720 --> 00:05:23,553
+Thank you.

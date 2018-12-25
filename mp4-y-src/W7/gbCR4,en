@@ -1,0 +1,418 @@
+1
+00:00:03,373 --> 00:00:03,890
+Hi.
+
+2
+00:00:03,890 --> 00:00:08,760
+In this video, we learn how you can put
+some analytics in your app in order
+
+3
+00:00:08,760 --> 00:00:13,760
+to know how do your users use it and
+what is their,
+
+4
+00:00:16,430 --> 00:00:19,510
+basically what do they do with your app.
+
+5
+00:00:19,510 --> 00:00:27,420
+So to do that, you go to the file we used
+from the beginning which is StateMachine.
+
+6
+00:00:27,420 --> 00:00:33,980
+And usually we were kind of in
+actions that we had defined ourselves.
+
+7
+00:00:33,980 --> 00:00:39,397
+But this time we are gonna go above
+near the beginning of the file,
+
+8
+00:00:39,397 --> 00:00:42,265
+where you see an initVars action.
+
+9
+00:00:42,265 --> 00:00:48,335
+Which means initialization of viables,
+I suppose.
+
+10
+00:00:48,335 --> 00:00:50,615
+And this is the line that you should act.
+
+11
+00:00:50,615 --> 00:00:52,285
+So AnalyticsService.
+
+12
+00:00:53,325 --> 00:00:55,975
+Don't forget about capital A, capital S.
+
+13
+00:00:57,125 --> 00:01:02,795
+It's one of these special actions
+that can start without a box,
+
+14
+00:01:02,795 --> 00:01:06,500
+.init.
+
+15
+00:01:06,500 --> 00:01:10,620
+In here, the first thing you
+put between double quotes is
+
+16
+00:01:11,840 --> 00:01:15,240
+the identifier from Google Analytics.
+
+17
+00:01:16,760 --> 00:01:19,190
+Yeah, but the way,
+this works with Google Analytics.
+
+18
+00:01:20,588 --> 00:01:25,100
+So, Google Analytics is
+a free service by Google to
+
+19
+00:01:26,340 --> 00:01:30,550
+trace how people navigate your website but
+it also works for apps.
+
+20
+00:01:31,790 --> 00:01:35,997
+So you google Google Analytics,
+you click there.
+
+21
+00:01:35,997 --> 00:01:41,006
+You sign up for an account and
+
+22
+00:01:41,006 --> 00:01:48,320
+you create a new account or a new project.
+
+23
+00:01:49,810 --> 00:01:55,370
+New projects give you this unique
+identifier that starts with U.
+
+24
+00:01:57,025 --> 00:02:02,560
+UA followed by a couple of letters and
+numbers.
+
+25
+00:02:02,560 --> 00:02:07,930
+And then you put a comma, and
+then between the following double quotes,
+
+26
+00:02:07,930 --> 00:02:12,010
+you put something which
+should be unique to your app,
+
+27
+00:02:12,010 --> 00:02:15,130
+which is like the name of your package,
+you know,
+
+28
+00:02:15,130 --> 00:02:19,340
+the package name that we have
+created when we do your project.
+
+29
+00:02:19,340 --> 00:02:22,296
+So basically how do you find
+your package name again?
+
+30
+00:02:22,296 --> 00:02:28,061
+You select Project,
+you right click and go to Properties.
+
+31
+00:02:32,521 --> 00:02:36,970
+You wait and this you see it here, right.
+
+32
+00:02:36,970 --> 00:02:40,740
+So in my case it's
+net.clementlevallois.roars.
+
+33
+00:02:40,740 --> 00:02:45,870
+But that could be, I mean that
+should be your own package name.
+
+34
+00:02:45,870 --> 00:02:46,900
+That's the one for my app.
+
+35
+00:02:49,320 --> 00:02:50,060
+And that's it.
+
+36
+00:02:50,060 --> 00:02:56,120
+And And when you do that, it's,
+all the data will be sent to,
+
+37
+00:02:56,120 --> 00:02:58,700
+so it's analyzed of course.
+
+38
+00:02:58,700 --> 00:03:00,650
+But it's sent to Google Analytics so
+
+39
+00:03:00,650 --> 00:03:04,730
+that you can understand better
+how does your app perform.
+
+40
+00:03:04,730 --> 00:03:09,970
+What you can do to make
+it even more precise is
+
+41
+00:03:09,970 --> 00:03:13,906
+you use the same analytic service, and
+
+42
+00:03:13,906 --> 00:03:20,750
+you add it to each time
+a user changes a screen,
+
+43
+00:03:20,750 --> 00:03:25,990
+you can add this extra information
+to be sent to Google Analytics.
+
+44
+00:03:25,990 --> 00:03:31,569
+So for example,
+you remember from the previous slide,
+
+45
+00:03:31,569 --> 00:03:36,199
+from the previous tutorial,
+you say that when
+
+46
+00:03:36,199 --> 00:03:41,554
+the user creates their username and
+they click on ok.
+
+47
+00:03:41,554 --> 00:03:42,234
+Where was it?
+
+48
+00:03:42,234 --> 00:03:44,555
+That was here.
+
+49
+00:03:44,555 --> 00:03:50,149
+When they click on the button
+after they have input
+
+50
+00:03:50,149 --> 00:03:55,215
+their username,
+we move to the main screen.
+
+51
+00:03:55,215 --> 00:03:55,990
+Yes.
+
+52
+00:03:55,990 --> 00:03:56,805
+Yes, yes yes.
+
+53
+00:03:56,805 --> 00:04:00,583
+So in this case,
+we should go to main, sorry.
+
+54
+00:04:05,995 --> 00:04:08,391
+So yes, what we should do is.
+
+55
+00:04:12,625 --> 00:04:19,610
+That's not completely obvious
+That's not completely obvious.
+
+56
+00:04:19,610 --> 00:04:21,390
+Let's do it again.
+
+57
+00:04:21,390 --> 00:04:26,840
+So we set our main screen,we go to Events.
+
+58
+00:04:27,970 --> 00:04:35,620
+And before the main screen is opened,
+Where, that's not you.
+
+59
+00:04:35,620 --> 00:04:37,520
+That's not you.
+
+60
+00:04:37,520 --> 00:04:38,730
+Let me rephrase that.
+
+61
+00:04:38,730 --> 00:04:39,830
+You go to the wall.
+
+62
+00:04:39,830 --> 00:04:42,346
+That's better.
+
+63
+00:04:42,346 --> 00:04:45,037
+And you go from
+
+64
+00:04:45,037 --> 00:04:54,995
+the I'm thinking as I, no, no.
+
+65
+00:04:54,995 --> 00:04:57,195
+This, no.
+
+66
+00:04:57,195 --> 00:05:00,216
+So that's why I was correct actually.
+
+67
+00:05:00,216 --> 00:05:04,780
+So when the user clicks on
+
+68
+00:05:04,780 --> 00:05:10,860
+the button after they have
+input their username,
+
+69
+00:05:10,860 --> 00:05:14,960
+they navigate to the change screen and
+they go to the main screen.
+
+70
+00:05:16,600 --> 00:05:19,910
+You can write in this case, analytics.
+
+71
+00:05:19,910 --> 00:05:22,400
+You can add a line in analytics service.
+
+72
+00:05:23,430 --> 00:05:24,830
+.visit.
+
+73
+00:05:26,620 --> 00:05:31,541
+And you tell Google Analytics that
+
+74
+00:05:31,541 --> 00:05:36,802
+somebody just moved from this screen
+
+75
+00:05:36,802 --> 00:05:41,051
+to username on user, sorry.
+
+76
+00:05:47,242 --> 00:05:53,660
+Somebody just moved from the screen
+username to the screen main.
+
+77
+00:05:53,660 --> 00:05:59,870
+And if you do that for all locations where
+
+78
+00:05:59,870 --> 00:06:05,170
+your users are changing screen.
+
+79
+00:06:05,170 --> 00:06:09,392
+Then you will have, in Google Analytics,
+
+80
+00:06:09,392 --> 00:06:14,937
+a very detailed view of how
+do people navigate your app.
+
+81
+00:06:14,937 --> 00:06:18,180
+So here, I have just added the line that,
+
+82
+00:06:21,050 --> 00:06:25,200
+if there is original username,
+we go directly to Main.
+
+83
+00:06:26,350 --> 00:06:29,810
+And that's, in this case,
+we move from username to Main.
+
+84
+00:06:29,810 --> 00:06:31,141
+And same here.
+
+85
+00:06:31,141 --> 00:06:36,083
+When the user changes or
+adds their username,
+
+86
+00:06:36,083 --> 00:06:39,891
+we navigate from username to name.
+
+87
+00:06:39,891 --> 00:06:44,303
+And just adding that creates all
+the connection you need on the internet to
+
+88
+00:06:44,303 --> 00:06:47,880
+send to Google Analytics this information.
+
+89
+00:06:47,880 --> 00:06:53,905
+And that's again very useful
+to know if the users actually
+
+90
+00:06:53,905 --> 00:06:59,625
+use all the screens of your app and
+how do they go from one screen to another.
+
+91
+00:06:59,625 --> 00:07:03,522
+You might be well surprised
+as to how they use your app.
+
+92
+00:07:03,522 --> 00:07:09,990
+So that's how you introduce
+Google Analytics services into your app.
+
+93
+00:07:09,990 --> 00:07:12,363
+Thank you.

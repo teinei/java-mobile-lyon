@@ -1,0 +1,1053 @@
+1
+00:00:03,820 --> 00:00:08,800
+Hi, in this tutorial, we learn something
+which is very very common when we
+
+2
+00:00:10,470 --> 00:00:14,590
+do anything with the internet,
+and it's called JSON.
+
+3
+00:00:15,940 --> 00:00:20,530
+JSON is both very simple and
+a bit complicated, but
+
+4
+00:00:20,530 --> 00:00:22,350
+we'll explain it in four slides.
+
+5
+00:00:22,350 --> 00:00:25,140
+It's very easy actually.
+
+6
+00:00:25,140 --> 00:00:28,630
+So JSON is an answer to this.
+
+7
+00:00:30,880 --> 00:00:34,490
+Lets say that Julie,
+who is a user of your app,
+
+8
+00:00:34,490 --> 00:00:37,450
+wants to send a message to
+another user of your app.
+
+9
+00:00:38,650 --> 00:00:41,730
+So if you're coding using that,
+that's gonna be easy.
+
+10
+00:00:41,730 --> 00:00:47,550
+I'm just gonna take what
+Julie has written so
+
+11
+00:00:47,550 --> 00:00:49,940
+may be she has written hey,
+how are you today?
+
+12
+00:00:51,170 --> 00:00:56,110
+And I'm gonna send that over the internet
+to the other guy who will receive that.
+
+13
+00:00:58,220 --> 00:01:01,670
+But no, that would be too simple.
+
+14
+00:01:01,670 --> 00:01:08,790
+When you send text over the Internet, you
+can't just send the sentence like that.
+
+15
+00:01:08,790 --> 00:01:10,640
+What you do instead is the following.
+
+16
+00:01:13,380 --> 00:01:18,590
+You do that, and
+this way to write curly braces and
+
+17
+00:01:18,590 --> 00:01:23,510
+double quotes and all these things,
+it's called JSON, JSON.
+
+18
+00:01:25,240 --> 00:01:29,060
+And as you see,
+
+19
+00:01:32,000 --> 00:01:35,570
+so what we want to send,
+is just that, hey, how are you today?
+
+20
+00:01:35,570 --> 00:01:42,960
+And the way it works is that you
+always put what you want in pair.
+
+21
+00:01:42,960 --> 00:01:45,370
+You have to give it a title so
+
+22
+00:01:45,370 --> 00:01:49,510
+it's the message and
+the value is hey, how are you today?
+
+23
+00:01:51,000 --> 00:01:55,920
+And between the two you
+put this semicolon here.
+
+24
+00:01:57,890 --> 00:02:02,493
+And you start with curly braces,
+and you end with curly braces.
+
+25
+00:02:05,533 --> 00:02:08,010
+So, the question is why?
+
+26
+00:02:08,010 --> 00:02:10,550
+Why do we, why is it so boring?
+
+27
+00:02:10,550 --> 00:02:12,690
+Why can't we just send,
+hey, how are you today?
+
+28
+00:02:14,150 --> 00:02:15,850
+It's actually convenient.
+
+29
+00:02:15,850 --> 00:02:17,400
+So, why?
+
+30
+00:02:17,400 --> 00:02:21,790
+Because then we can send
+different stuff at the same time.
+
+31
+00:02:22,930 --> 00:02:26,790
+So here you see that thanks to this
+
+32
+00:02:26,790 --> 00:02:31,010
+way of writing stuff we can say hey
+how are you, how are you today?
+
+33
+00:02:31,010 --> 00:02:36,240
+But we can also send
+the name of the author, and
+
+34
+00:02:36,240 --> 00:02:40,660
+we could actually continue
+this list with as many
+
+35
+00:02:40,660 --> 00:02:45,660
+details that we would like to add,
+then, in the package that we send.
+
+36
+00:02:45,660 --> 00:02:50,750
+So thanks to these conventions,
+you know, things should have a title,
+
+37
+00:02:50,750 --> 00:02:53,960
+the title and the value should
+be separated by a semicolon.
+
+38
+00:02:54,970 --> 00:03:01,660
+The title should be between double quotes
+and value should be between quotes.
+
+39
+00:03:01,660 --> 00:03:06,660
+I mean, all of that is super practical
+to actually send a lot of stuff,
+
+40
+00:03:06,660 --> 00:03:08,960
+a lot of information.
+
+41
+00:03:08,960 --> 00:03:11,780
+And keeping all of that organized.
+
+42
+00:03:12,830 --> 00:03:17,840
+The second great advantage of
+that is that if everybody,
+
+43
+00:03:17,840 --> 00:03:23,020
+if every app developer like you and
+everybody else in the world
+
+44
+00:03:23,020 --> 00:03:29,760
+knows that text is sent on the internet,
+using this kind of way.
+
+45
+00:03:29,760 --> 00:03:33,700
+Then we can all use
+the same code to read it.
+
+46
+00:03:35,210 --> 00:03:40,060
+So for example, it would be very good
+to say give me the name of the author,
+
+47
+00:03:41,510 --> 00:03:49,770
+because if everybody says the name of
+the author Is what follows the semicolon.
+
+48
+00:03:49,770 --> 00:03:57,550
+Then we are going to all use the same code
+to read the information in these texts.
+
+49
+00:03:57,550 --> 00:04:01,430
+So that's gonna be,
+as it is very standardized,
+
+50
+00:04:01,430 --> 00:04:04,309
+we're gonna be able to use,
+all of us, the same tools.
+
+51
+00:04:06,050 --> 00:04:08,860
+So I think I have an example here.
+
+52
+00:04:08,860 --> 00:04:14,360
+That's how we would send stuff
+to the Internet using all this.
+
+53
+00:04:14,360 --> 00:04:17,030
+So we would, as usual,
+it's always the same.
+
+54
+00:04:17,030 --> 00:04:23,900
+We create a box and it's a table where
+I'm going to put this information here.
+
+55
+00:04:23,900 --> 00:04:25,638
+So I create a tableOfMessages.
+
+56
+00:04:25,638 --> 00:04:31,780
+It receives an object which
+is called hash table.
+
+57
+00:04:33,390 --> 00:04:37,090
+And immediately,
+I put the hash table inside it.
+
+58
+00:04:37,090 --> 00:04:41,390
+What is a hash table We don't
+really care what we are.
+
+59
+00:04:41,390 --> 00:04:44,140
+It's just very useful thing because, oops,
+
+60
+00:04:44,140 --> 00:04:47,240
+I can't see the pointer of the mouse,
+it's here.
+
+61
+00:04:48,410 --> 00:04:52,280
+It's just an object which is very
+convenient because look at the action
+
+62
+00:04:52,280 --> 00:04:53,990
+that you can have with it.
+
+63
+00:04:53,990 --> 00:04:58,940
+If you put a dot in the menu
+you see an action which is put
+
+64
+00:05:00,310 --> 00:05:08,280
+and what you put in a hashtable is
+two things, a title and the value.
+
+65
+00:05:08,280 --> 00:05:14,920
+It's very nice because actually,
+it's exactly how JSON stuff works.
+
+66
+00:05:14,920 --> 00:05:18,320
+So I put author, Julie.
+
+67
+00:05:19,840 --> 00:05:23,940
+Table at M can add another thing,
+the message, hey, how are you today?
+
+68
+00:05:25,570 --> 00:05:26,900
+So I have an object
+
+69
+00:05:28,620 --> 00:05:33,330
+in the box tableOfMessages
+which contains these things.
+
+70
+00:05:34,780 --> 00:05:38,880
+Now I'm gonna use a bit of BlackMagic,
+and you should know what it is if
+
+71
+00:05:38,880 --> 00:05:42,810
+you watched the previous tutorial
+from the previous session.
+
+72
+00:05:42,810 --> 00:05:47,920
+We're gonna use a kind
+of weird object which
+
+73
+00:05:47,920 --> 00:05:53,510
+basically takes your object
+where you store what you want.
+
+74
+00:05:53,510 --> 00:05:59,370
+And it converts it into
+the textFormattedInJson.
+
+75
+00:05:59,370 --> 00:06:01,480
+It means it adds the curly braces,
+
+76
+00:06:01,480 --> 00:06:06,100
+it adds a semicolon,
+it puts the commas where it should.
+
+77
+00:06:06,100 --> 00:06:07,840
+I mean it does all of that for you.
+
+78
+00:06:07,840 --> 00:06:12,930
+So you don't have to worry
+about writing these things.
+
+79
+00:06:14,310 --> 00:06:19,250
+The Black Magic bit of code does it.
+
+80
+00:06:19,250 --> 00:06:23,210
+So now you have a text
+which is formatted in JSON,
+
+81
+00:06:23,210 --> 00:06:27,390
+which means it has all the curly braces
+and the double quotes where it needs it.
+
+82
+00:06:27,390 --> 00:06:29,670
+And this can be sent to the Internet.
+
+83
+00:06:29,670 --> 00:06:34,870
+Because the person who will receive it,
+on their app, and
+
+84
+00:06:34,870 --> 00:06:41,830
+then we'll be able to read it because
+JSON, it's a standout every computer,
+
+85
+00:06:41,830 --> 00:06:45,940
+every app has the cod to read that.
+
+86
+00:06:47,550 --> 00:06:52,050
+So I know hashtables are a bit
+intimidating because hashtable sounds just
+
+87
+00:06:53,290 --> 00:06:53,890
+geeky and stuff.
+
+88
+00:06:55,100 --> 00:07:01,550
+But, it's just an object that allows
+you to put a title, and a value.
+
+89
+00:07:01,550 --> 00:07:04,020
+So, the title is author,
+the value is July.
+
+90
+00:07:05,790 --> 00:07:13,160
+Another bit of information is the message,
+which is, hey, how are you today?
+
+91
+00:07:13,160 --> 00:07:16,242
+And then you it uses, I mean,
+I say Black Magic, and
+
+92
+00:07:16,242 --> 00:07:19,900
+you could name one that's gonna
+be a different name, right?
+
+93
+00:07:19,900 --> 00:07:23,580
+But you just choose a function,
+something which is very convenient,
+
+94
+00:07:23,580 --> 00:07:28,650
+that converts the thing we just
+created into a text formatted in JSON,
+
+95
+00:07:28,650 --> 00:07:32,690
+and this thing can be sent to another app,
+where it would be read.
+
+96
+00:07:34,680 --> 00:07:36,320
+So that's convenient.
+
+97
+00:07:36,320 --> 00:07:42,290
+Now what about the other side when
+the other app will receive the message?
+
+98
+00:07:43,420 --> 00:07:45,540
+How can they read it?
+
+99
+00:07:45,540 --> 00:07:47,370
+It's very easy as well.
+
+100
+00:07:48,620 --> 00:07:53,970
+So that's the piece of text received from
+the internet, whatIReceivedFromInternet.
+
+101
+00:07:55,660 --> 00:08:01,650
+You just use an object which is called
+JSONObject which is using that.
+
+102
+00:08:02,860 --> 00:08:09,450
+And so you create a new JSONObject that
+you put in a new box that you create.
+
+103
+00:08:09,450 --> 00:08:11,030
+The box is called stuffinjson.
+
+104
+00:08:11,030 --> 00:08:13,520
+That's how I chose to name this box.
+
+105
+00:08:13,520 --> 00:08:18,840
+And this box is specialized in receiving
+JSONObjects, contained in JSONObjects.
+
+106
+00:08:19,920 --> 00:08:23,550
+So you have in this box, a JSONObject,
+
+107
+00:08:23,550 --> 00:08:28,760
+which is a bit like that, but
+you can't read it like that.
+
+108
+00:08:30,030 --> 00:08:36,430
+The object has methods that can
+are going to save you time.
+
+109
+00:08:37,680 --> 00:08:43,080
+So if you want to, basically,
+find the name of the author.
+
+110
+00:08:43,080 --> 00:08:47,090
+So Julie, how do you get that
+from what you just received.
+
+111
+00:08:47,090 --> 00:08:50,260
+You take the object that you have
+put in the box, you take it here.
+
+112
+00:08:51,750 --> 00:08:54,910
+And there is a method that says get,
+you know, get.
+
+113
+00:08:54,910 --> 00:08:56,830
+But what should you get, everything?
+
+114
+00:08:56,830 --> 00:09:02,720
+No, just the name of the author,
+so name of the object, in the box,
+
+115
+00:09:02,720 --> 00:09:09,340
+dot get, and inside the brackets you say,
+I just want the name of the author.
+
+116
+00:09:09,340 --> 00:09:14,490
+And this will put here in the box
+you create, that we put dry.
+
+117
+00:09:15,850 --> 00:09:20,516
+Same if you want to know
+the message that Julie has sent.
+
+118
+00:09:20,516 --> 00:09:25,080
+The stuffinJson,
+dot to have the menu of actions,
+
+119
+00:09:25,080 --> 00:09:30,870
+get message and this goes into
+the box that you create for it.
+
+120
+00:09:30,870 --> 00:09:32,630
+And what do you do with it?
+
+121
+00:09:32,630 --> 00:09:37,275
+Well, maybe you turn that into a label and
+you show it on screen,
+
+122
+00:09:37,275 --> 00:09:40,385
+then you can act on it
+in your application.
+
+123
+00:09:42,868 --> 00:09:48,220
+So, that's very easy.
+
+124
+00:09:48,220 --> 00:09:52,380
+And very convenient so of course we
+don't have to know all of that by heart.
+
+125
+00:09:52,380 --> 00:09:55,810
+You are completely free to
+do some copy pasting but
+
+126
+00:09:55,810 --> 00:09:57,690
+the principle is pretty much okay.
+
+127
+00:09:59,390 --> 00:10:02,715
+So if JSON was just that, so
+yeah, let me comment on that.
+
+128
+00:10:02,715 --> 00:10:06,335
+JSON is actually a convenient way
+to exchange text over the Internet.
+
+129
+00:10:09,015 --> 00:10:11,625
+But, there is a dark side to JSON.
+
+130
+00:10:11,625 --> 00:10:20,260
+The dark side is that if we just had these
+kind of messages that would be, you know?
+
+131
+00:10:20,260 --> 00:10:24,340
+The pressure slides would explain
+all of it, and we would be fine.
+
+132
+00:10:24,340 --> 00:10:27,350
+But as usual, we have special cases.
+
+133
+00:10:27,350 --> 00:10:32,180
+So let me, I want to show you
+
+134
+00:10:32,180 --> 00:10:37,640
+an example where you see pretty
+
+135
+00:10:37,640 --> 00:10:42,690
+much all the special cases.
+
+136
+00:10:42,690 --> 00:10:48,146
+So the beginning is just like
+the before author Julie.
+
+137
+00:10:48,146 --> 00:10:51,450
+But yea,
+just change the message to show you
+
+138
+00:10:51,450 --> 00:10:55,260
+that you will see sometimes
+something like that.
+
+139
+00:10:55,260 --> 00:10:58,270
+Like why do we have these
+strange balls there.
+
+140
+00:10:59,320 --> 00:11:01,110
+The reason is the following.
+
+141
+00:11:01,110 --> 00:11:04,890
+It's because, how should I say that?
+
+142
+00:11:04,890 --> 00:11:08,860
+If in your message you have
+a double quote, my friend says hi.
+
+143
+00:11:09,970 --> 00:11:13,280
+Well, that's a mistake because
+it's my friends say hi.
+
+144
+00:11:13,280 --> 00:11:17,990
+My friends say hi with double quotes,
+well then JSON will be confused,
+
+145
+00:11:17,990 --> 00:11:23,580
+because if, in JSON you see a double
+quote, you think it's the end right.
+
+146
+00:11:23,580 --> 00:11:26,810
+You think it's the end of the message,
+but here is not the end.
+
+147
+00:11:26,810 --> 00:11:30,130
+It's just that in the message
+you have a double quote.
+
+148
+00:11:30,130 --> 00:11:34,810
+So JSON will be completely
+confused with that and
+
+149
+00:11:34,810 --> 00:11:38,240
+that's why you put the double quote
+before before the word, sorry.
+
+150
+00:11:38,240 --> 00:11:42,620
+That's why you've put the bar before
+the double quote to say hey, be careful,
+
+151
+00:11:42,620 --> 00:11:43,940
+that's not the end of it.
+
+152
+00:11:43,940 --> 00:11:46,620
+That's not the end of the line.
+
+153
+00:11:46,620 --> 00:11:50,120
+It's just something that,
+you should ignore that.
+
+154
+00:11:50,120 --> 00:11:54,970
+It's not part of the JSON formatting,
+it's just part of the message.
+
+155
+00:11:54,970 --> 00:11:59,790
+So you put the bar before that to say,
+just ignore the double quote.
+
+156
+00:11:59,790 --> 00:12:02,840
+It's not, it's just part of the text.
+
+157
+00:12:02,840 --> 00:12:05,820
+It's not part of the formatting.
+
+158
+00:12:05,820 --> 00:12:08,970
+So that's one difficulty,
+but pretty much okay.
+
+159
+00:12:10,000 --> 00:12:11,780
+That should be okay.
+
+160
+00:12:11,780 --> 00:12:14,468
+The second difficulty is that sometimes.
+
+161
+00:12:14,468 --> 00:12:18,180
+We have a list.
+
+162
+00:12:18,180 --> 00:12:18,810
+Right?
+
+163
+00:12:18,810 --> 00:12:23,010
+So, for example, author,
+the value is Julie, it's simple.
+
+164
+00:12:23,010 --> 00:12:27,830
+Message, is my friends says hi, but
+
+165
+00:12:27,830 --> 00:12:34,760
+the recipients, the value is a list,
+Mike, Liu, and Mohamed.
+
+166
+00:12:34,760 --> 00:12:41,140
+So in this case,
+it's a different case where
+
+167
+00:12:41,140 --> 00:12:46,370
+you would need a special tool
+to go through this list.
+
+168
+00:12:47,570 --> 00:12:49,410
+We have the tool so it's going to be fine.
+
+169
+00:12:49,410 --> 00:12:54,160
+But I just wanted to tell you that
+sometimes you're going to have
+
+170
+00:12:54,160 --> 00:12:56,250
+at two that disk is erased.
+
+171
+00:12:56,250 --> 00:12:59,070
+And I made a mistake,
+it's just two R's here.
+
+172
+00:12:59,070 --> 00:13:00,270
+I think I want to be tired.
+
+173
+00:13:02,290 --> 00:13:04,240
+This list is called an array.
+
+174
+00:13:04,240 --> 00:13:09,560
+So at some point we're gonna use
+an object which says JSON array and
+
+175
+00:13:09,560 --> 00:13:14,940
+that refers to oops, hold on, yeah,
+that refers to this kind of list.
+
+176
+00:13:17,000 --> 00:13:23,350
+Nothing difficult but, you know,
+it adds a bit of complexity.
+
+177
+00:13:24,380 --> 00:13:28,150
+And finally, so this is our JSON stuff.
+
+178
+00:13:28,150 --> 00:13:30,590
+In green is what we
+received from the Internet.
+
+179
+00:13:32,090 --> 00:13:35,020
+Inside a JSON Object.
+
+180
+00:13:35,020 --> 00:13:37,060
+This thing is called an object,
+the whole stuff.
+
+181
+00:13:37,060 --> 00:13:41,000
+You have other JSON objects.
+
+182
+00:13:41,000 --> 00:13:42,170
+It's nested.
+
+183
+00:13:42,170 --> 00:13:44,140
+It's like one inside the other.
+
+184
+00:13:45,600 --> 00:13:47,750
+Why do we do this complex stuff?
+
+185
+00:13:47,750 --> 00:13:51,020
+It's just that sometimes it's logical.
+
+186
+00:13:51,020 --> 00:13:55,110
+Like the message is sent by the author,
+the message is this one.
+
+187
+00:13:55,110 --> 00:13:57,790
+The recipients of
+the message are these ones.
+
+188
+00:13:57,790 --> 00:14:02,330
+And when you want to say what is the time
+stamp, when is the message sent?
+
+189
+00:14:03,770 --> 00:14:07,170
+Actually there is a date for
+it and there is a time for it.
+
+190
+00:14:07,170 --> 00:14:11,760
+So it makes sense to
+create a new JSONObject
+
+191
+00:14:11,760 --> 00:14:16,080
+inside the big one where
+you say date this one.
+
+192
+00:14:17,660 --> 00:14:21,540
+The title is date and
+the value is this, and
+
+193
+00:14:21,540 --> 00:14:23,890
+the title is time, and
+the value is this one.
+
+194
+00:14:23,890 --> 00:14:28,830
+And then you close this small JSON object,
+and you close the big one.
+
+195
+00:14:30,250 --> 00:14:33,730
+So, nothing really difficult,
+
+196
+00:14:33,730 --> 00:14:38,550
+but sometimes it's a bit confusing or
+boring.
+
+197
+00:14:40,410 --> 00:14:45,010
+So I just wanted to conclude,
+how do you, to be a really complete,
+
+198
+00:14:45,010 --> 00:14:47,450
+how do you read it?
+
+199
+00:14:47,450 --> 00:14:51,800
+In your app you are Mike, and
+you receive the message from Julie,
+
+200
+00:14:51,800 --> 00:14:56,040
+how do you read the time
+when the message was sent?
+
+201
+00:14:57,130 --> 00:14:59,300
+The first thing,
+just like the slide before,
+
+202
+00:14:59,300 --> 00:15:03,120
+is that we take what we will
+receive from the Internet, and
+
+203
+00:15:03,120 --> 00:15:07,360
+we create a new JSON object with
+it that we put in this box.
+
+204
+00:15:09,150 --> 00:15:14,734
+And then the thing which is different,
+is that this time we use a method which
+
+205
+00:15:14,734 --> 00:15:23,370
+says get the object which
+corresponds to the title time stamp.
+
+206
+00:15:23,370 --> 00:15:28,400
+And put it in the box specializing
+in receiving JSON objects.
+
+207
+00:15:28,400 --> 00:15:30,130
+So we see we have two JSON objects.
+
+208
+00:15:30,130 --> 00:15:32,460
+This one is the big one in green.
+
+209
+00:15:32,460 --> 00:15:36,310
+And this one is the orange one
+that we retrieve by saying,
+
+210
+00:15:36,310 --> 00:15:40,080
+get the JSON object
+corresponding to timestamp.
+
+211
+00:15:40,080 --> 00:15:44,920
+And when we have this timestamp
+JSON object, we can get, we
+
+212
+00:15:46,310 --> 00:15:51,230
+can create a new box where we
+will store the value for time.
+
+213
+00:15:52,740 --> 00:15:58,630
+So by now I think your brain hurts so
+does mine.
+
+214
+00:15:58,630 --> 00:16:03,240
+But that's because I just
+want complete in terms of
+
+215
+00:16:03,240 --> 00:16:05,490
+inside of a JSON object
+you can have another one.
+
+216
+00:16:07,460 --> 00:16:10,600
+But when we would practice
+it in a real case
+
+217
+00:16:11,880 --> 00:16:14,720
+there is nothing really difficult there.
+
+218
+00:16:15,980 --> 00:16:18,330
+And I want to finish here and
+
+219
+00:16:18,330 --> 00:16:22,610
+really insist that if you
+understood this tutorial,
+
+220
+00:16:22,610 --> 00:16:28,540
+you really understood an important way
+because now an important thing you know
+
+221
+00:16:28,540 --> 00:16:34,930
+how to communicate text over the Internet
+in a standardized way, which is JSON.
+
+222
+00:16:37,360 --> 00:16:39,070
+So congratulations.
+
+223
+00:16:39,070 --> 00:16:45,660
+Okay, now you're ready to code your
+first app where we're gonna send
+
+224
+00:16:45,660 --> 00:16:51,508
+roles over the internet and
+role are text so that's gonna beat JSON.
+
+225
+00:16:51,508 --> 00:16:53,318
+Thank you.

@@ -1,0 +1,341 @@
+1
+00:00:03,590 --> 00:00:07,390
+Hi, in this tutorial we learn how
+to put pictures on our screen.
+
+2
+00:00:08,620 --> 00:00:13,610
+So, it's actually very easy,
+we just use a label.
+
+3
+00:00:13,610 --> 00:00:20,290
+Delete the text from the label,
+and then add picture to the label.
+
+4
+00:00:20,290 --> 00:00:24,710
+So, to do that we need to have
+a label ready in the Designer.
+
+5
+00:00:24,710 --> 00:00:32,590
+So we're just gonna have to
+find a picture on our desktop,
+
+6
+00:00:32,590 --> 00:00:37,820
+somewhere on your computer, and
+we will add it to the Designer.
+
+7
+00:00:37,820 --> 00:00:42,310
+So the cool thing about Codename One
+is that there is a tool
+
+8
+00:00:42,310 --> 00:00:45,770
+that allows you to import a picture.
+
+9
+00:00:45,770 --> 00:00:50,250
+And then,
+it will automatically create different
+
+10
+00:00:50,250 --> 00:00:55,215
+versions of your picture
+in different sizes.
+
+11
+00:00:55,215 --> 00:01:00,118
+The reason is that, of course,
+mobile phones have different
+
+12
+00:01:00,118 --> 00:01:05,225
+sizes of screen and
+different densities of pixels.
+
+13
+00:01:05,225 --> 00:01:11,285
+Some mobile phones have a high resolution,
+some others have a low resolution.
+
+14
+00:01:11,285 --> 00:01:15,218
+And if you just have one
+picture in one size,
+
+15
+00:01:15,218 --> 00:01:19,690
+it's gonna look too small, or too big, or
+
+16
+00:01:19,690 --> 00:01:25,700
+it will look blurry on some screens.
+
+17
+00:01:25,700 --> 00:01:29,957
+And what Codename One
+provides you is a one click
+
+18
+00:01:29,957 --> 00:01:34,650
+solution to have your
+picture fit all screen sizes.
+
+19
+00:01:34,650 --> 00:01:37,273
+So, it's gonna save you a lot of time.
+
+20
+00:01:42,897 --> 00:01:47,872
+To do that, you just, to import a picture,
+
+21
+00:01:47,872 --> 00:01:55,277
+you just take the Menu and
+you do Images, Quick Add Multi Images.
+
+22
+00:01:55,277 --> 00:02:01,883
+And here you try to find a picture
+that you would like to add.
+
+23
+00:02:01,883 --> 00:02:05,999
+So for a CV, I take my portrait, and
+
+24
+00:02:05,999 --> 00:02:11,650
+that's a very small picture, 160 X 168.
+
+25
+00:02:11,650 --> 00:02:17,930
+It's like a post stamp, it's really small.
+
+26
+00:02:17,930 --> 00:02:22,402
+I would advise you to take a bigger
+picture, actually like, yeah,
+
+27
+00:02:22,402 --> 00:02:24,608
+just a bigger picture than that.
+
+28
+00:02:24,608 --> 00:02:27,500
+And then, when you choose it, you open it.
+
+29
+00:02:29,140 --> 00:02:34,960
+And here you are suggested
+to choose which resolution.
+
+30
+00:02:34,960 --> 00:02:39,260
+So here, I'm gonna choose Low Resolution.
+
+31
+00:02:39,260 --> 00:02:40,930
+Because it's a very small picture.
+
+32
+00:02:42,010 --> 00:02:49,630
+So I select Low, and that's it.
+
+33
+00:02:49,630 --> 00:02:54,365
+It has created all the bigger
+versions of my picture.
+
+34
+00:02:54,365 --> 00:02:58,765
+Actually, for Very High,
+sorry for that noise.
+
+35
+00:02:58,765 --> 00:03:04,580
+For very high resolutions,
+I suppose it's still gonna be blurry.
+
+36
+00:03:04,580 --> 00:03:08,305
+What I just did is clicked on All Images.
+
+37
+00:03:10,755 --> 00:03:12,435
+And I should have my picture here, yeah.
+
+38
+00:03:12,435 --> 00:03:15,315
+And If I click on it, I see it here.
+
+39
+00:03:17,820 --> 00:03:20,500
+And indeed that's the picture I imported.
+
+40
+00:03:20,500 --> 00:03:26,030
+It's a Very Low Density,
+but if you click on
+
+41
+00:03:26,030 --> 00:03:32,840
+High Density you see a larger
+version of it has been created.
+
+42
+00:03:32,840 --> 00:03:35,050
+So here,
+I don't know if you see in the video, but
+
+43
+00:03:35,050 --> 00:03:38,020
+it's a bit blurry because of course,
+if you take a very small picture and
+
+44
+00:03:38,020 --> 00:03:40,440
+you enlarge it a lot,
+it's gonna be blurry.
+
+45
+00:03:40,440 --> 00:03:45,260
+So, I would advise you to,
+when you import a picture not to
+
+46
+00:03:45,260 --> 00:03:48,060
+choose a big one that you
+just take from your camera.
+
+47
+00:03:48,060 --> 00:03:50,510
+That would be much too large.
+
+48
+00:03:51,840 --> 00:03:57,094
+But a picture, I would say a rough size of
+
+49
+00:03:57,094 --> 00:04:03,450
+600 pixels time 800, that would be nice.
+
+50
+00:04:03,450 --> 00:04:09,520
+If you don't know how to measure,
+or how to resize a picture.
+
+51
+00:04:09,520 --> 00:04:14,900
+I would advise you, I'm gonna just
+put on the video some names of
+
+52
+00:04:16,690 --> 00:04:20,560
+software that allow you
+to do that very easily.
+
+53
+00:04:20,560 --> 00:04:25,520
+And on Google, you will find plenty of
+easy tutorials on how to resize pictures.
+
+54
+00:04:26,690 --> 00:04:28,640
+Anyway, we have a picture in the Designer.
+
+55
+00:04:28,640 --> 00:04:33,626
+So we can go back to the GUI Builder,
+where we have the list of our screens.
+
+56
+00:04:33,626 --> 00:04:37,700
+I have created two screens,
+but the main one is this one.
+
+57
+00:04:37,700 --> 00:04:41,280
+As I told you,
+I'm gonna put that in a label, so
+
+58
+00:04:41,280 --> 00:04:46,330
+I create a label here for the picture.
+
+59
+00:04:46,330 --> 00:04:51,100
+I delete the text, cuz I just want
+a picture in the label, no text.
+
+60
+00:04:53,250 --> 00:04:54,000
+The label is here.
+
+61
+00:04:55,370 --> 00:04:58,202
+And then in the properties of the label,
+
+62
+00:04:58,202 --> 00:05:03,210
+I'm gonna find something that says
+Picture, or actually it's Icon.
+
+63
+00:05:03,210 --> 00:05:08,486
+Icon is the property you need
+to add a picture to a label.
+
+64
+00:05:08,486 --> 00:05:09,930
+It says newUI.
+
+65
+00:05:09,930 --> 00:05:14,210
+But if you click on newUI, you have
+a list of all your pictures in your app.
+
+66
+00:05:15,580 --> 00:05:17,800
+So all these pictures,
+I did not add them myself.
+
+67
+00:05:17,800 --> 00:05:20,825
+It's when you choose a theme,
+which is not native.
+
+68
+00:05:20,825 --> 00:05:25,840
+Codename One is using a lot
+of pictures to actually
+
+69
+00:05:25,840 --> 00:05:29,820
+create all this nice,
+shiny background, then balance.
+
+70
+00:05:29,820 --> 00:05:34,460
+Anyway, the picture, oh, I've seen it.
+
+71
+00:05:34,460 --> 00:05:39,580
+The picture I've imported is just there.
+
+72
+00:05:39,580 --> 00:05:44,441
+So, I select it, and
+bingo, we have it, right?
+
+73
+00:05:44,441 --> 00:05:49,538
+So, that's how you add
+pictures to Codename One.
+
+74
+00:05:49,538 --> 00:05:51,323
+Thank you.

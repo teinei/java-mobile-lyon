@@ -1,0 +1,1211 @@
+1
+00:00:03,263 --> 00:00:08,132
+Hi, this is the last part of the three
+tutorials we need to learn in order
+
+2
+00:00:08,132 --> 00:00:10,370
+to be able to code.
+
+3
+00:00:10,370 --> 00:00:16,690
+I hope you revised a bit,
+the two previous ones.
+
+4
+00:00:16,690 --> 00:00:18,580
+And we start the third one.
+
+5
+00:00:18,580 --> 00:00:22,950
+So the third one is all about curly
+braces, you know these brackets,
+
+6
+00:00:22,950 --> 00:00:24,880
+curly brackets we have here.
+
+7
+00:00:24,880 --> 00:00:29,880
+Because we see them everywhere in code,
+and this tutorial is gonna help
+
+8
+00:00:29,880 --> 00:00:34,420
+you understanding what they do, and
+they're gonna help you use them.
+
+9
+00:00:35,720 --> 00:00:39,400
+So you find curly braces in
+three important situations.
+
+10
+00:00:39,400 --> 00:00:45,440
+The first one is when in code you
+need to do a if this is true,
+
+11
+00:00:45,440 --> 00:00:47,020
+then do all these things.
+
+12
+00:00:48,668 --> 00:00:53,920
+So to illustrate, to show you,
+let's start with what we know,
+
+13
+00:00:53,920 --> 00:00:56,020
+we know how to create a box.
+
+14
+00:00:57,340 --> 00:01:04,520
+This box is to store some text obviously,
+and we directly put some things in it.
+
+15
+00:01:04,520 --> 00:01:11,980
+So we put some text in it, and
+we close the line with a semi colon.
+
+16
+00:01:11,980 --> 00:01:13,760
+So here you might be intrigued.
+
+17
+00:01:13,760 --> 00:01:16,290
+I say you put some text in it.
+
+18
+00:01:16,290 --> 00:01:21,790
+When you put some text in a box,
+you need to put the text in double quotes,
+
+19
+00:01:21,790 --> 00:01:25,150
+if you studied the first tutorial
+
+20
+00:01:27,400 --> 00:01:32,570
+you should know that, but here, my double
+quotes, there is nothing inside it, right?
+
+21
+00:01:32,570 --> 00:01:36,080
+Well, you can do that, it just means
+that in the box you put some text, but
+
+22
+00:01:36,080 --> 00:01:37,600
+it's an empty text.
+
+23
+00:01:37,600 --> 00:01:42,030
+So it's a bit weird, but that's just for
+the example, you are allowed to do that.
+
+24
+00:01:43,440 --> 00:01:48,320
+So we have some text in the box,
+is just an empty text, like zero letters.
+
+25
+00:01:50,940 --> 00:01:54,620
+So let's imagine we want to
+do something a bit strange.
+
+26
+00:01:55,760 --> 00:01:58,130
+We want to say, we want to do something.
+
+27
+00:01:58,130 --> 00:02:03,190
+If this box here contains an empty text,
+
+28
+00:02:03,190 --> 00:02:07,170
+then we should add some text in the box.
+
+29
+00:02:07,170 --> 00:02:08,010
+Some new text.
+
+30
+00:02:09,310 --> 00:02:13,050
+And then we should put this
+new text in uppercase.
+
+31
+00:02:13,050 --> 00:02:13,900
+Why?
+
+32
+00:02:13,900 --> 00:02:20,170
+Well it's just a silly example but,
+is just to illustrate.
+
+33
+00:02:22,010 --> 00:02:25,360
+And this is what we should write for that.
+
+34
+00:02:25,360 --> 00:02:28,620
+So we have this new thing,
+which we don't know.
+
+35
+00:02:31,360 --> 00:02:33,690
+And then we open the brackets here.
+
+36
+00:02:33,690 --> 00:02:34,380
+You see here?
+
+37
+00:02:34,380 --> 00:02:36,770
+And we close them here.
+
+38
+00:02:36,770 --> 00:02:42,958
+So if what is inside the bracket Is true
+
+39
+00:02:42,958 --> 00:02:47,400
+then do everything in the curly braces.
+
+40
+00:02:48,790 --> 00:02:52,330
+And that's what the curly
+braces are about.
+
+41
+00:02:52,330 --> 00:02:59,210
+They are very useful to create a group
+of lines that will stick together.
+
+42
+00:03:00,440 --> 00:03:08,250
+So to repeat you write if ,you open
+the parentheses and you close it.
+
+43
+00:03:08,250 --> 00:03:14,840
+And between the parentheses you write
+something which is, is it true or false.
+
+44
+00:03:14,840 --> 00:03:20,620
+In this case I take the name of my box,
+I put a dot to
+
+45
+00:03:20,620 --> 00:03:25,310
+find an action, and
+in the actions that you can find for
+
+46
+00:03:25,310 --> 00:03:31,180
+box there is this one which is called
+is Empty, so I don't know it by heart.
+
+47
+00:03:31,180 --> 00:03:35,080
+But when you write the dot after
+the box you have a long list of actions
+
+48
+00:03:36,650 --> 00:03:38,794
+and this is one of the actions.
+
+49
+00:03:38,794 --> 00:03:47,870
+And this is Empty', the action gives
+a result which is true or false.
+
+50
+00:03:47,870 --> 00:03:53,580
+In this case I have put
+an empty text in my box.
+
+51
+00:03:53,580 --> 00:03:54,115
+It's true.
+
+52
+00:03:54,115 --> 00:03:58,900
+My text dot is empty,
+
+53
+00:03:58,900 --> 00:04:02,091
+gives a result which is true.
+
+54
+00:04:02,091 --> 00:04:06,830
+Since it's true,
+
+55
+00:04:06,830 --> 00:04:12,480
+everything in the curly brackets
+will be executed with work.
+
+56
+00:04:13,580 --> 00:04:18,690
+It will put a new text in my box and
+
+57
+00:04:18,690 --> 00:04:22,030
+then it will take this new text and
+it will put it in upper case and
+
+58
+00:04:22,030 --> 00:04:27,190
+it will put it in the box.
+
+59
+00:04:27,190 --> 00:04:32,350
+And I, between the curly braces
+I could have added many lines.
+
+60
+00:04:32,350 --> 00:04:37,880
+I just have two stuff here but if the text
+
+61
+00:04:37,880 --> 00:04:44,460
+in my books was not empty may be I had
+put something here like a, b, c, d.
+
+62
+00:04:46,850 --> 00:04:49,880
+Then it's false, my text is not empty.
+
+63
+00:04:49,880 --> 00:04:54,330
+In this case, anything in
+the curly braces does not happen.
+
+64
+00:04:56,310 --> 00:05:00,060
+Okay, so
+you see curly braces when you have,
+
+65
+00:05:00,060 --> 00:05:05,860
+when you want to do if something,
+
+66
+00:05:05,860 --> 00:05:10,530
+then do everything in the curly braces,
+that's how you use curly braces.
+
+67
+00:05:11,890 --> 00:05:17,130
+Okay, so it's a bit complicated you
+have never seen that before, but
+
+68
+00:05:17,130 --> 00:05:21,710
+it's just one line to to get.
+
+69
+00:05:21,710 --> 00:05:25,601
+We are going to see next, another
+case where curly braces are useful.
+
+70
+00:05:26,900 --> 00:05:27,400
+That's here.
+
+71
+00:05:29,660 --> 00:05:35,720
+It's when you want to do,
+when you have a list of objects
+
+72
+00:05:35,720 --> 00:05:41,400
+then do some actions on
+each items of the list.
+
+73
+00:05:41,400 --> 00:05:44,210
+So I need to explain a bit.
+
+74
+00:05:45,400 --> 00:05:48,630
+We're gonna use an object
+that we have not seen before.
+
+75
+00:05:48,630 --> 00:05:53,250
+It's called, it's not a string,
+it's not an integer, it's not a label.
+
+76
+00:05:53,250 --> 00:05:54,840
+It's called an ArrayList.
+
+77
+00:05:54,840 --> 00:05:58,380
+And what is this object, and
+why is it called ArrayList?
+
+78
+00:05:58,380 --> 00:06:00,910
+Just imagine it's a shopping list.
+
+79
+00:06:00,910 --> 00:06:03,420
+It's an object,
+which is kind of a shopping list.
+
+80
+00:06:03,420 --> 00:06:08,240
+At the beginning it's empty, but
+there are actions with these objects that
+
+81
+00:06:08,240 --> 00:06:11,800
+allow it to,
+you can put stuff on your shopping list.
+
+82
+00:06:13,140 --> 00:06:14,300
+It's always the same.
+
+83
+00:06:15,310 --> 00:06:19,130
+You create a box, you give it a name.
+
+84
+00:06:19,130 --> 00:06:21,770
+I call it, my box, I call it myList.
+
+85
+00:06:21,770 --> 00:06:28,190
+Before the box, you should write what
+type of object are allowed in the box.
+
+86
+00:06:28,190 --> 00:06:33,145
+So, it's a box for array lists,
+and inside this box,
+
+87
+00:06:33,145 --> 00:06:38,573
+I put a new
+
+88
+00:06:38,573 --> 00:06:42,760
+empty shopping list.
+
+89
+00:06:42,760 --> 00:06:44,460
+You create a box.
+
+90
+00:06:44,460 --> 00:06:51,580
+When you create a box, you are obliged to
+say what kind of objects it can contain.
+
+91
+00:06:51,580 --> 00:06:59,860
+In one line I add an array list to my box
+and the semi-colon to finish the line.
+
+92
+00:07:02,550 --> 00:07:08,870
+So, now that I have something in my
+box I can take the name of my box,
+
+93
+00:07:08,870 --> 00:07:13,470
+write my dot, and
+I see a menu of actions for my list.
+
+94
+00:07:14,830 --> 00:07:21,050
+You know, for the object in my box,
+and one action is called put,
+
+95
+00:07:21,050 --> 00:07:27,640
+because I can put stuff in the list,
+inside my box.
+
+96
+00:07:27,640 --> 00:07:30,490
+So here I'm going to put
+something which is a bit stupid,
+
+97
+00:07:30,490 --> 00:07:36,910
+my first item in the list, it's some text
+so I have to put it between semicolons.
+
+98
+00:07:36,910 --> 00:07:41,720
+And I put something else,
+my second item in the list.
+
+99
+00:07:44,380 --> 00:07:47,450
+So I have two stuff in my list now.
+
+100
+00:07:50,720 --> 00:07:53,377
+So I didn't talk about curly braces yet.
+
+101
+00:07:53,377 --> 00:07:55,145
+It's, now I start.
+
+102
+00:07:55,145 --> 00:07:59,533
+What if you want to apply the same action?
+
+103
+00:07:59,533 --> 00:08:03,007
+To the two things you have in your list.
+
+104
+00:08:03,007 --> 00:08:07,140
+We use curly brackets, so be prepared.
+
+105
+00:08:08,460 --> 00:08:12,320
+It's like four lines of code
+to understand, it's not much.
+
+106
+00:08:13,770 --> 00:08:15,609
+The hardest is this one, I guess.
+
+107
+00:08:15,609 --> 00:08:19,647
+This one says, For
+
+108
+00:08:19,647 --> 00:08:24,438
+each item in the list of the box,
+
+109
+00:08:24,438 --> 00:08:28,519
+do this, do the two lines,
+
+110
+00:08:28,519 --> 00:08:35,290
+do the things inside the curly braces.
+
+111
+00:08:35,290 --> 00:08:39,450
+So maybe I will repeat because these
+things, I mean when you will understand
+
+112
+00:08:39,450 --> 00:08:43,660
+it, it's gonna be so easy but
+that's the first time you see that.
+
+113
+00:08:43,660 --> 00:08:51,359
+What this line says is that anything in
+the curly braces, in the red curly braces,
+
+114
+00:08:51,359 --> 00:08:56,955
+these two lines should apply to
+all of the items of the list.
+
+115
+00:08:59,800 --> 00:09:07,390
+So for each item of the list, so for
+this one, for this one, we should do that.
+
+116
+00:09:07,390 --> 00:09:12,973
+Replace the letters my
+by the letters your.
+
+117
+00:09:12,973 --> 00:09:15,830
+That's an action here.
+
+118
+00:09:17,920 --> 00:09:24,045
+And the second thing that should
+happen is change them to UpperCase.
+
+119
+00:09:25,960 --> 00:09:30,724
+So I think it's quite complicated if
+you see that for the first time, but
+
+120
+00:09:30,724 --> 00:09:32,607
+let me repeat the last time.
+
+121
+00:09:36,682 --> 00:09:41,061
+If you have a list inside your box,
+
+122
+00:09:41,061 --> 00:09:46,950
+a list has many actions
+that you can have on it,
+
+123
+00:09:46,950 --> 00:09:55,660
+on this object, but one useful
+action is to put stuff in the list.
+
+124
+00:09:55,660 --> 00:09:58,810
+That is the action I use.
+
+125
+00:09:58,810 --> 00:10:01,700
+I put one thing and a second thing.
+
+126
+00:10:01,700 --> 00:10:06,987
+Then the question is,
+how do you go through all items that
+
+127
+00:10:06,987 --> 00:10:14,387
+you added in the list to apply things to
+each of these items, this is what you do.
+
+128
+00:10:14,387 --> 00:10:21,829
+You do for, you open the bracket and
+you say for each item of the list.
+
+129
+00:10:21,829 --> 00:10:24,200
+And why do you have string before?
+
+130
+00:10:24,200 --> 00:10:27,890
+Because you have to say that the objects,
+or
+
+131
+00:10:27,890 --> 00:10:31,330
+you have to say which
+type of object this is.
+
+132
+00:10:31,330 --> 00:10:33,580
+So that's why we repeat string here.
+
+133
+00:10:35,490 --> 00:10:40,641
+We say for each object which
+is a string in the list, so
+
+134
+00:10:40,641 --> 00:10:47,740
+you have basically to learn by heart
+that it should be this and then this and
+
+135
+00:10:47,740 --> 00:10:56,605
+then, Why, it's a semicolon?
+
+136
+00:10:57,660 --> 00:11:01,100
+And then here you open
+the curly braces and
+
+137
+00:11:01,100 --> 00:11:05,230
+everything inside will apply to
+each of the items of the list.
+
+138
+00:11:08,110 --> 00:11:10,680
+I think it's a semicolon.
+
+139
+00:11:10,680 --> 00:11:13,398
+Why did I say semicolon here?
+
+140
+00:11:13,398 --> 00:11:16,881
+I might have made a mistake.
+
+141
+00:11:16,881 --> 00:11:22,458
+Anyway, that's where you
+can find curly braces.
+
+142
+00:11:26,255 --> 00:11:32,210
+And finally, this is the last case
+where curly braces are useful.
+
+143
+00:11:33,310 --> 00:11:36,090
+And, I know the previous
+slide was a bit difficult,
+
+144
+00:11:36,090 --> 00:11:38,150
+so we're gonna have a reward here.
+
+145
+00:11:40,030 --> 00:11:45,060
+We gonna have, we won't code and
+we will see on the real
+
+146
+00:11:45,060 --> 00:11:49,670
+application what curly braces can do.
+
+147
+00:11:49,670 --> 00:11:55,710
+So curly braces are used when you create
+your own objects and their actions.
+
+148
+00:11:55,710 --> 00:12:01,357
+So far we have seen a string,
+integer label in the previous tutorial.
+
+149
+00:12:01,357 --> 00:12:08,710
+And now we have seen our list,
+all these objects they have been provided.
+
+150
+00:12:09,730 --> 00:12:12,510
+I mean, we didn't create them,
+we just used them.
+
+151
+00:12:12,510 --> 00:12:14,420
+But you could create your own objects.
+
+152
+00:12:14,420 --> 00:12:17,720
+It's gonna be very easy,
+but we won't do that here.
+
+153
+00:12:17,720 --> 00:12:22,427
+It's enough, but we are very lucky that
+
+154
+00:12:22,427 --> 00:12:26,580
+the designer, you could name one,
+
+155
+00:12:26,580 --> 00:12:32,540
+helps us in creating new
+actions just by clicking.
+
+156
+00:12:32,540 --> 00:12:33,810
+So let's do that together.
+
+157
+00:12:35,040 --> 00:12:41,280
+Here I should leave, I mean,
+either I show you the slides,
+
+158
+00:12:41,280 --> 00:12:45,420
+but we could do that in code name one,
+in NetBeans.
+
+159
+00:12:45,420 --> 00:12:50,843
+So I'm gonna show you the slides, but as
+an exercise, please do that in NetBeans.
+
+160
+00:12:50,843 --> 00:12:53,420
+So you create an empty project.
+
+161
+00:12:55,130 --> 00:13:01,870
+As usual, there is a Hello World visual,
+and an empty project.
+
+162
+00:13:01,870 --> 00:13:05,850
+So you have the Hi World first screen, and
+
+163
+00:13:05,850 --> 00:13:09,770
+what you start doing is, click on
+Button to add a button to your screen.
+
+164
+00:13:10,890 --> 00:13:13,380
+You should see your button here.
+
+165
+00:13:13,380 --> 00:13:20,330
+You select your button by clicking
+on the button in the bottom panel,
+
+166
+00:13:21,350 --> 00:13:27,890
+and when you have done that you
+can shift to the Events tab and
+
+167
+00:13:27,890 --> 00:13:31,190
+you click once on Action Event.
+
+168
+00:13:31,190 --> 00:13:38,120
+When you do that you create, oh, yeah,
+you create a new action for the button.
+
+169
+00:13:40,930 --> 00:13:45,755
+It means that when you
+create the button alone,
+
+170
+00:13:45,755 --> 00:13:47,605
+when you click on it, nothing happens.
+
+171
+00:13:47,605 --> 00:13:48,365
+There is no action.
+
+172
+00:13:49,385 --> 00:13:56,075
+But when you have clicked here we have
+created a new action for the button.
+
+173
+00:13:56,075 --> 00:14:02,265
+It means that when somebody will click on
+the button, an action will take place.
+
+174
+00:14:02,265 --> 00:14:03,345
+Which action?
+
+175
+00:14:03,345 --> 00:14:04,895
+The one you're gonna create.
+
+176
+00:14:06,255 --> 00:14:10,690
+So we do that and we can move to NetBeans.
+
+177
+00:14:10,690 --> 00:14:14,950
+So before you move to NetBeans, please,
+in the designer, I'm gonna add it
+
+178
+00:14:16,590 --> 00:14:22,130
+in the PowerPoint,
+please do File > Save in the designer.
+
+179
+00:14:22,130 --> 00:14:26,440
+If you don't do that, NetBeans might not
+be aware that you created an action.
+
+180
+00:14:26,440 --> 00:14:28,599
+Anyway, let's move to NetBeans.
+
+181
+00:14:30,310 --> 00:14:35,690
+So, because you did all the previous
+steps, when you will move to
+
+182
+00:14:35,690 --> 00:14:40,330
+this file here, so it's very intimidating,
+we agree, state machines, like whoa.
+
+183
+00:14:41,380 --> 00:14:44,850
+You double click on State Machine,
+and then you scroll down, and
+
+184
+00:14:44,850 --> 00:14:49,185
+you should see something that
+says onMain_ButtonAction.
+
+185
+00:14:50,520 --> 00:14:52,690
+And what I want, so it's intimidating.
+
+186
+00:14:52,690 --> 00:14:55,020
+We didn't learn all of that.
+
+187
+00:14:55,020 --> 00:14:59,440
+What is very important is that,
+you see the curly braces here?
+
+188
+00:15:00,750 --> 00:15:05,479
+Everything you will write
+inside will be executed when
+
+189
+00:15:05,479 --> 00:15:08,470
+the user will click on the button.
+
+190
+00:15:10,200 --> 00:15:15,510
+So we are free to write whatever
+we want inside the curly braces,
+
+191
+00:15:15,510 --> 00:15:18,470
+and what we write is gonna be executed.
+
+192
+00:15:18,470 --> 00:15:21,910
+It's gonna work when the user
+will click on the banner.
+
+193
+00:15:23,530 --> 00:15:27,557
+A short note here,
+on this screenshot everything is fine,
+
+194
+00:15:27,557 --> 00:15:31,677
+you see our green stuff here,
+you don't see red stuff here.
+
+195
+00:15:31,677 --> 00:15:35,615
+If you see red stuff here,
+like red alert buttons,
+
+196
+00:15:35,615 --> 00:15:40,938
+you should make sure that you saved,
+File > Save, in the designer.
+
+197
+00:15:40,938 --> 00:15:46,658
+And if it's still red here
+after you did the File
+
+198
+00:15:46,658 --> 00:15:52,092
+> Save in the designer,
+what you should do is
+
+199
+00:15:52,092 --> 00:15:57,246
+right-click on the title of the project.
+
+200
+00:15:57,246 --> 00:16:00,870
+Right-click on it and
+select clean and blend.
+
+201
+00:16:02,630 --> 00:16:09,280
+I would expect it to solve the red
+signs that you might have here.
+
+202
+00:16:10,690 --> 00:16:15,790
+Anyway so,
+what we just did is add an action
+
+203
+00:16:15,790 --> 00:16:20,990
+to the button and the action will be
+whatever you write between these brackets.
+
+204
+00:16:20,990 --> 00:16:22,880
+So, let's write something.
+
+205
+00:16:22,880 --> 00:16:24,743
+That's what I've written here.
+
+206
+00:16:24,743 --> 00:16:28,148
+I've created the box and
+
+207
+00:16:28,148 --> 00:16:33,520
+I invite you to do the same in NetBeans.
+
+208
+00:16:33,520 --> 00:16:35,820
+I created a box here.
+
+209
+00:16:35,820 --> 00:16:37,320
+The name is myNewScreen.
+
+210
+00:16:39,010 --> 00:16:41,900
+It's a box just to have forms,
+
+211
+00:16:41,900 --> 00:16:47,290
+can just contain forms and
+I told you in the previous tutorial,
+
+212
+00:16:47,290 --> 00:16:52,290
+a form is just a vocabulary
+name when to say the screen.
+
+213
+00:16:52,290 --> 00:16:53,790
+So, I create the box.
+
+214
+00:16:53,790 --> 00:16:55,660
+In this box I put a new form.
+
+215
+00:16:56,810 --> 00:17:00,930
+So, you should not be surprised
+by the previous tutorials.
+
+216
+00:17:00,930 --> 00:17:04,460
+You know how to do that and then,
+
+217
+00:17:04,460 --> 00:17:08,700
+now I have something in the box so,
+I can put a dot after the name of the box.
+
+218
+00:17:09,850 --> 00:17:15,500
+It opens a menu of actions I can
+take on the object of the box and
+
+219
+00:17:15,500 --> 00:17:18,010
+the action I want to have is show.
+
+220
+00:17:19,100 --> 00:17:22,950
+And this action has for effect to
+
+221
+00:17:27,710 --> 00:17:31,840
+show this screen on the form of your user.
+
+222
+00:17:31,840 --> 00:17:37,940
+So, the screen's going to change and
+we'll move to this new screen.
+
+223
+00:17:39,490 --> 00:17:45,900
+So, I don't know if you realized but
+you just created in code
+
+224
+00:17:45,900 --> 00:17:52,030
+something that allows your user to
+navigate between one screen and another.
+
+225
+00:17:52,030 --> 00:17:53,570
+I mean, this is huge.
+
+226
+00:17:53,570 --> 00:17:55,340
+So, congratulation.
+
+227
+00:17:55,340 --> 00:18:00,520
+If you are watching that just on,
+I think it's going to be a PDF at the end.
+
+228
+00:18:00,520 --> 00:18:05,150
+If you just watched that on the PDF,
+press My Comments on the video.
+
+229
+00:18:05,150 --> 00:18:09,160
+That's good, but you should really
+do that by yourself in advance.
+
+230
+00:18:09,160 --> 00:18:12,340
+It's just three lines of code.
+
+231
+00:18:12,340 --> 00:18:15,900
+The important is to
+understand what they mean.
+
+232
+00:18:15,900 --> 00:18:16,870
+You create a box.
+
+233
+00:18:16,870 --> 00:18:19,150
+You put an object in the box and
+
+234
+00:18:19,150 --> 00:18:23,700
+then you execute an action
+on the object of the box.
+
+235
+00:18:23,700 --> 00:18:28,020
+It's important that you
+get the logic of it
+
+236
+00:18:28,020 --> 00:18:30,660
+because we're going to
+stop the tutorial here.
+
+237
+00:18:31,690 --> 00:18:35,160
+All the rest, you're good,
+you can code now.
+
+238
+00:18:35,160 --> 00:18:41,110
+All the rest is gonna be always this kind
+of logic, but with different objects.
+
+239
+00:18:42,620 --> 00:18:46,910
+All the objects created by code
+name one that allow you to create
+
+240
+00:18:48,670 --> 00:18:53,850
+anything you want and
+that you need to create an app.
+
+241
+00:18:53,850 --> 00:18:57,730
+So, it's gonna be the same logic but
+with more objects.
+
+242
+00:18:58,730 --> 00:19:02,036
+So, please revise these
+three tutorials and
+
+243
+00:19:02,036 --> 00:19:05,872
+see you next week to actually
+create an amazing app.
+
+244
+00:19:05,872 --> 00:19:08,240
+Next week on actually.
+
+245
+00:19:08,240 --> 00:19:08,821
+Bye.
+
+246
+00:19:08,821 --> 00:19:13,972
+I hope you'll see there
+I forgot to show you how
+
+247
+00:19:13,972 --> 00:19:19,390
+to put the app on screen
+to show the results.
+
+248
+00:19:19,390 --> 00:19:21,080
+It's the next slide.
+
+249
+00:19:21,080 --> 00:19:24,800
+In the next slide you have
+written these three lines and
+
+250
+00:19:24,800 --> 00:19:26,380
+you want to see the effects.
+
+251
+00:19:26,380 --> 00:19:28,600
+You don't want to just trust me.
+
+252
+00:19:28,600 --> 00:19:29,320
+It's so easy.
+
+253
+00:19:29,320 --> 00:19:33,650
+You just select the name
+of your project here.
+
+254
+00:19:33,650 --> 00:19:37,720
+So it should be blue and
+then you click on the green arrow.
+
+255
+00:19:37,720 --> 00:19:43,020
+When you do that it's gonna
+launch the simulator and when
+
+256
+00:19:43,020 --> 00:19:47,690
+you're gonna click on the button
+it's gonna change screens.
+
+257
+00:19:48,700 --> 00:19:54,440
+So just to finish when you write code
+as a professional coder that you
+
+258
+00:19:54,440 --> 00:19:57,920
+are now you should use the,
+this simulator here.
+
+259
+00:19:57,920 --> 00:19:59,880
+When you click here and here.
+
+260
+00:19:59,880 --> 00:20:02,850
+If you use the simulator from
+the designer it's not good enough.
+
+261
+00:20:02,850 --> 00:20:04,610
+It doesn't know how to execute code.
+
+262
+00:20:06,080 --> 00:20:06,710
+Right?
+
+263
+00:20:06,710 --> 00:20:12,340
+So, as soon as you execute the code,
+I mean write code please do these steps.
+
+264
+00:20:12,340 --> 00:20:12,880
+That's the way.
+
+265
+00:20:15,085 --> 00:20:17,011
+Congrats, this time it's really finished.

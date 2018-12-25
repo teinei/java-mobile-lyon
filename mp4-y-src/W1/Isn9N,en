@@ -1,0 +1,574 @@
+1
+00:00:01,090 --> 00:00:04,680
+Welcome to this video where
+we will create our first app.
+
+2
+00:00:04,680 --> 00:00:08,666
+So we need first to open NetBeans
+that you should have installed.
+
+3
+00:00:08,666 --> 00:00:12,760
+Where's that produce videos?
+
+4
+00:00:12,760 --> 00:00:18,254
+So I just click on the icon here.
+
+5
+00:00:18,254 --> 00:00:22,756
+It's launching NetBeans 8.1.
+
+6
+00:00:22,756 --> 00:00:29,978
+And if you watch this video later,
+it might be 8.2 by that time.
+
+7
+00:00:34,938 --> 00:00:36,935
+So it takes a couple of seconds.
+
+8
+00:00:43,649 --> 00:00:46,889
+We should be fine anytime soon.
+
+9
+00:00:54,967 --> 00:00:55,589
+Come on.
+
+10
+00:00:56,830 --> 00:01:01,740
+Of course that's when you film the video
+that takes 20 minutes to launch.
+
+11
+00:01:03,950 --> 00:01:05,320
+Okay, we have done now.
+
+12
+00:01:07,040 --> 00:01:13,921
+So NetBeans has opened and you will
+create an app by creating a new project.
+
+13
+00:01:13,921 --> 00:01:18,368
+So to create a new project
+you click on this icon there,
+
+14
+00:01:18,368 --> 00:01:21,667
+the orange folder with the green cross.
+
+15
+00:01:21,667 --> 00:01:26,190
+You could also do File,
+New Project, as you wish.
+
+16
+00:01:29,120 --> 00:01:34,780
+And since you installed the Codename One
+plugin in the previous videos, among
+
+17
+00:01:34,780 --> 00:01:41,070
+the kinds of projects you can create you
+should have Codename One as a possibility.
+
+18
+00:01:41,070 --> 00:01:45,240
+So you select Codename One or
+it's already selected.
+
+19
+00:01:45,240 --> 00:01:49,080
+And then on the right you
+select Codename One project.
+
+20
+00:01:49,080 --> 00:01:49,960
+And we'll click on Next.
+
+21
+00:01:52,720 --> 00:01:54,310
+So here we start.
+
+22
+00:01:54,310 --> 00:01:59,150
+We need a name for the project, so there
+the big mistake would be to use accents or
+
+23
+00:01:59,150 --> 00:02:00,920
+special characters.
+
+24
+00:02:00,920 --> 00:02:04,570
+Please keep it simple with the simple
+letters from the alphabet.
+
+25
+00:02:04,570 --> 00:02:09,820
+So I'm going to create the CV,
+an app of my resume,
+
+26
+00:02:09,820 --> 00:02:14,442
+so I'm going to call it
+Clement Levelois CV.
+
+27
+00:02:14,442 --> 00:02:20,930
+And then clicking on next.
+
+28
+00:02:20,930 --> 00:02:22,980
+So then I'm asked about the package name.
+
+29
+00:02:22,980 --> 00:02:27,806
+So the package name for
+my app is the kind of unique
+
+30
+00:02:27,806 --> 00:02:32,518
+ID that will identify without ambiguity.
+
+31
+00:02:32,518 --> 00:02:36,980
+When I would put this app on the Play
+Store or the App Store from the Apple.
+
+32
+00:02:36,980 --> 00:02:39,150
+So a kind of single thing.
+
+33
+00:02:40,230 --> 00:02:44,120
+You don't,
+there is a procedure a way to do that.
+
+34
+00:02:45,530 --> 00:02:50,730
+The habit is to take the name of your
+
+35
+00:02:50,730 --> 00:02:55,530
+personal website or the website of
+your company and to reverse it.
+
+36
+00:02:55,530 --> 00:03:03,170
+So if you're called yahoo.com, your
+package name would start by com.yahoo.
+
+37
+00:03:03,170 --> 00:03:06,125
+Or if you have an app for yourself.
+
+38
+00:03:06,125 --> 00:03:09,380
+You're called John McKenzie,
+
+39
+00:03:09,380 --> 00:03:14,650
+you would start your package
+name by mckenzie.john.
+
+40
+00:03:14,650 --> 00:03:17,630
+And then you can create many apps.
+
+41
+00:03:17,630 --> 00:03:24,341
+So just creating a package that would be
+called mckenzie.john would not be enough.
+
+42
+00:03:24,341 --> 00:03:27,844
+You have a last dot.
+
+43
+00:03:27,844 --> 00:03:30,990
+So mckenzie.john.
+
+44
+00:03:30,990 --> 00:03:35,180
+And then you put something
+which is unique to your app.
+
+45
+00:03:35,180 --> 00:03:41,509
+In my case I have a website,
+go to clementlovelois.net,
+
+46
+00:03:41,509 --> 00:03:45,030
+so I do net.clementlovelois.
+
+47
+00:03:45,030 --> 00:03:48,793
+And there I choose something unique
+to the app I'm building now.
+
+48
+00:03:48,793 --> 00:03:51,064
+So clementlovelois cv.
+
+49
+00:03:53,737 --> 00:04:00,190
+If you don't have a website,
+clemen lovelois.CV.
+
+50
+00:04:00,190 --> 00:04:02,450
+So no space in the package name, and
+
+51
+00:04:02,450 --> 00:04:07,200
+again, try to avoid numbers or
+special characters.
+
+52
+00:04:07,200 --> 00:04:09,270
+Just letters from the alphabet.
+
+53
+00:04:10,850 --> 00:04:16,710
+If you don't have a website please
+choose something that would be you.
+
+54
+00:04:17,900 --> 00:04:22,200
+The nickname that you use on
+social media or on Skype or
+
+55
+00:04:24,790 --> 00:04:30,380
+any messenger system you use, so
+that the package name is unique.
+
+56
+00:04:30,380 --> 00:04:35,190
+The package name should include a dot and
+
+57
+00:04:35,190 --> 00:04:39,760
+should not finish with a dot.
+
+58
+00:04:39,760 --> 00:04:43,030
+On this screen we just need to switch.
+
+59
+00:04:43,030 --> 00:04:49,260
+The theme will be the general appearance
+of your app when you create it.
+
+60
+00:04:49,260 --> 00:04:55,090
+So you can just look at how
+your app would look like.
+
+61
+00:04:55,090 --> 00:04:56,940
+Of course you will able
+to change that letter,
+
+62
+00:04:56,940 --> 00:05:01,350
+but from the start you can
+choose a theme to start.
+
+63
+00:05:02,390 --> 00:05:07,180
+In this exercise please choose native
+because native just means that is going to
+
+64
+00:05:07,180 --> 00:05:10,260
+look like an Android app on Androids.
+
+65
+00:05:10,260 --> 00:05:15,160
+And it will have the Apple look
+when the app is in the Apple store.
+
+66
+00:05:15,160 --> 00:05:17,370
+It's going to be done automatically for
+you.
+
+67
+00:05:17,370 --> 00:05:22,560
+And we choose native because it makes for
+an app which has the smaller size.
+
+68
+00:05:22,560 --> 00:05:27,660
+And it's important because the tool
+we use allows you to create apps for
+
+69
+00:05:27,660 --> 00:05:31,279
+free but up to a maximum size.
+
+70
+00:05:32,630 --> 00:05:36,090
+So choosing native allows
+you to start with an app,
+
+71
+00:05:36,090 --> 00:05:39,240
+which is actually at zero of size.
+
+72
+00:05:39,240 --> 00:05:44,450
+Any other theme would add pictures or
+stuff that will increase in size.
+
+73
+00:05:44,450 --> 00:05:45,760
+So native.
+
+74
+00:05:45,760 --> 00:05:53,127
+And finally, template,
+which is what kind of scaffolding or
+
+75
+00:05:53,127 --> 00:05:58,379
+what kind of starting
+app we're going to use.
+
+76
+00:05:58,379 --> 00:06:04,319
+And please choose and don't make
+mistake there Hello world, Bare Bones.
+
+77
+00:06:04,319 --> 00:06:09,467
+It's means that we're going to create
+an app where we see we could have chosen
+
+78
+00:06:09,467 --> 00:06:15,530
+something where the get started app where
+it already provide pictures in screens.
+
+79
+00:06:15,530 --> 00:06:19,720
+We want something,
+bare bones which means completely naked,
+
+80
+00:06:19,720 --> 00:06:23,530
+completely empty so we can start fresh.
+
+81
+00:06:25,120 --> 00:06:26,944
+And that's it, finish.
+
+82
+00:06:29,930 --> 00:06:34,599
+So it's not creating this empty app for
+us, and
+
+83
+00:06:34,599 --> 00:06:40,215
+we should see it appear on
+the left in a couple of seconds.
+
+84
+00:06:42,967 --> 00:06:44,760
+Yes, it's there.
+
+85
+00:06:44,760 --> 00:06:48,600
+So it's interesting because I'm sure
+you're going to have the same issue.
+
+86
+00:06:48,600 --> 00:06:51,040
+It already start with a mistake,
+with a bug.
+
+87
+00:06:51,040 --> 00:06:51,700
+So don't worry.
+
+88
+00:06:51,700 --> 00:06:57,560
+This is the only big bug we're going to
+admit, and this one is so easy to solve.
+
+89
+00:06:57,560 --> 00:06:59,685
+Actually, I know why there is this bug.
+
+90
+00:06:59,685 --> 00:07:03,890
+It's because we have put space
+in the name of our project.
+
+91
+00:07:03,890 --> 00:07:07,370
+If you have put no space,
+you wouldn't have that.
+
+92
+00:07:07,370 --> 00:07:09,420
+But we don't care,
+because it's so easy to solve.
+
+93
+00:07:09,420 --> 00:07:11,069
+We click on Resolve Problems.
+
+94
+00:07:12,660 --> 00:07:16,012
+Okay, it tells us there is a problem,
+so we click on Resolve.
+
+95
+00:07:18,949 --> 00:07:25,914
+And there it opens the file
+where we have our,
+
+96
+00:07:25,914 --> 00:07:29,947
+it opens File Explorer and
+
+97
+00:07:29,947 --> 00:07:37,660
+we should find the place
+where our app is created.
+
+98
+00:07:37,660 --> 00:07:39,070
+So in your case, that should be here.
+
+99
+00:07:40,980 --> 00:07:46,538
+In my case, let me find it differently.
+
+100
+00:07:46,538 --> 00:07:48,530
+I think that's somewhere else.
+
+101
+00:07:51,906 --> 00:07:55,160
+So clement.lovelois.cv.
+
+102
+00:07:55,160 --> 00:07:56,490
+Yes, this one.
+
+103
+00:07:56,490 --> 00:08:00,345
+You just click on,
+once you run the net bins project folder,
+
+104
+00:08:00,345 --> 00:08:03,225
+you just double click on
+the name of your app.
+
+105
+00:08:08,385 --> 00:08:09,164
+And Open.
+
+106
+00:08:11,551 --> 00:08:15,940
+And when you click on Open,
+the problem was resolved.
+
+107
+00:08:17,340 --> 00:08:23,470
+And you see that the name of your
+project turned from red to not red.
+
+108
+00:08:25,670 --> 00:08:30,190
+So just to conclude,
+we might want to actually preview our app.
+
+109
+00:08:30,190 --> 00:08:34,830
+It's empty, but
+how do we actually look at our app?
+
+110
+00:08:34,830 --> 00:08:37,240
+You have two ways that's the same.
+
+111
+00:08:37,240 --> 00:08:39,710
+So first you select
+the name of your project,
+
+112
+00:08:39,710 --> 00:08:43,830
+then you just click on the green arrows.
+
+113
+00:08:45,120 --> 00:08:48,130
+And you're going to launch
+your app on your computer.
+
+114
+00:08:49,380 --> 00:08:53,800
+Or you can right click on the name of
+your project and you click on Run.
+
+115
+00:08:53,800 --> 00:08:56,800
+That's exactly like clicking
+on the green arrow.
+
+116
+00:08:56,800 --> 00:08:57,960
+So I click on Run.
+
+117
+00:09:03,808 --> 00:09:07,890
+So you see a lot of things being
+written there, it's information.
+
+118
+00:09:08,890 --> 00:09:11,480
+Even if it's in red.
+
+119
+00:09:11,480 --> 00:09:16,788
+It's all fine as long as the app launches.
+
+120
+00:09:16,788 --> 00:09:20,162
+So you see your app here, which is empty.
+
+121
+00:09:20,162 --> 00:09:25,140
+There is,
+just put a title to your first screen and
+
+122
+00:09:25,140 --> 00:09:28,330
+just a first bit of text there in gray.
+
+123
+00:09:29,700 --> 00:09:33,510
+We will learn in the next lessons
+
+124
+00:09:33,510 --> 00:09:39,380
+how we can put things that our
+content we choose, in our app.
+
+125
+00:09:39,380 --> 00:09:40,230
+That's it for today.
+
+126
+00:09:40,230 --> 00:09:40,730
+Thank you.

@@ -1,0 +1,1016 @@
+1
+00:00:03,088 --> 00:00:07,208
+Hi, in this video we will
+learn how to organize
+
+2
+00:00:07,208 --> 00:00:11,910
+different elements on
+the screen of your app.
+
+3
+00:00:11,910 --> 00:00:15,703
+So, as usual,
+we start with NetBeans Open and
+
+4
+00:00:15,703 --> 00:00:20,450
+we double-click on theme.rest
+to open the designer.
+
+5
+00:00:20,450 --> 00:00:25,744
+So my designer was already opened and
+
+6
+00:00:25,744 --> 00:00:30,183
+for the sake of this tutorial,
+
+7
+00:00:30,183 --> 00:00:36,514
+I just added some elements
+of text to my app.
+
+8
+00:00:36,514 --> 00:00:41,149
+So you see most of them are,
+there's one button, and
+
+9
+00:00:41,149 --> 00:00:45,681
+most of them are labels,
+except for panLabel here,
+
+10
+00:00:45,681 --> 00:00:50,934
+I don't know why I use this panLabel,
+but anyhow you see that
+
+11
+00:00:50,934 --> 00:00:56,702
+I try to build a CV,
+which is kind of a tag line for what I do.
+
+12
+00:00:56,702 --> 00:01:03,782
+This is my current position and then I
+have a list of the courses I am teaching.
+
+13
+00:01:06,482 --> 00:01:12,750
+And that's what happens when you
+just drop elements on your screen.
+
+14
+00:01:12,750 --> 00:01:16,890
+They just align like that, so
+
+15
+00:01:16,890 --> 00:01:21,490
+let me show you if I add
+a label it's appearing here.
+
+16
+00:01:21,490 --> 00:01:23,180
+And let me add many labels.
+
+17
+00:01:24,350 --> 00:01:29,700
+You see they just align from left to right
+and then they break to the line under.
+
+18
+00:01:30,890 --> 00:01:35,610
+There is basically no organization.
+
+19
+00:01:36,790 --> 00:01:40,060
+So let me delete if I can, these things.
+
+20
+00:01:40,060 --> 00:01:40,870
+Yes, that works.
+
+21
+00:01:43,010 --> 00:01:45,027
+Oh, I delete the wrong ones.
+
+22
+00:01:45,027 --> 00:01:45,668
+Yeah, deleted a couple.
+
+23
+00:01:46,670 --> 00:01:54,495
+Let me add another one like
+we actually are currently in.
+
+24
+00:01:56,182 --> 00:02:01,248
+And the last one must be data.
+
+25
+00:02:06,587 --> 00:02:07,284
+For business.
+
+26
+00:02:10,326 --> 00:02:14,050
+Okay.
+This tutorial is about how do we put some,
+
+27
+00:02:14,050 --> 00:02:18,340
+how do we organize these things
+in the space of the screen.
+
+28
+00:02:18,340 --> 00:02:21,100
+Okay, so that's very easy.
+
+29
+00:02:21,100 --> 00:02:22,400
+Follow me here.
+
+30
+00:02:22,400 --> 00:02:27,680
+This yellow folder here
+represents the screen.
+
+31
+00:02:27,680 --> 00:02:35,420
+In the screen we have all
+our textual elements and.
+
+32
+00:02:35,420 --> 00:02:40,070
+If we want to modify how
+it is organized here,
+
+33
+00:02:40,070 --> 00:02:45,270
+we will just instruct the screen
+to be organized differently.
+
+34
+00:02:46,510 --> 00:02:50,910
+So you select this folder,
+this main form, and
+
+35
+00:02:50,910 --> 00:02:56,560
+then you can see in
+the properties of this screen or
+
+36
+00:02:56,560 --> 00:03:00,702
+this folder, that the layout of
+
+37
+00:03:00,702 --> 00:03:05,970
+the screen is a flow layout, and the flow
+layout is exactly what we have here.
+
+38
+00:03:05,970 --> 00:03:11,660
+From left to right, a flow from left
+to right, and then the line below.
+
+39
+00:03:11,660 --> 00:03:15,390
+If we click here on flow layout,
+
+40
+00:03:15,390 --> 00:03:21,440
+we are offered a larger menu of layouts.
+
+41
+00:03:21,440 --> 00:03:27,956
+So we have a flow layout here which is
+exemplified like that, left to right.
+
+42
+00:03:27,956 --> 00:03:30,530
+And then etc.
+
+43
+00:03:30,530 --> 00:03:36,920
+But we could try, let me, why they are.
+
+44
+00:03:36,920 --> 00:03:37,420
+Let's do that.
+
+45
+00:03:38,510 --> 00:03:42,880
+Yeah so you see that you should choose
+the box layout Y as in the Y axis,
+
+46
+00:03:42,880 --> 00:03:50,070
+the vertical axis of the screen,
+everything will be one under each other.
+
+47
+00:03:50,070 --> 00:03:51,390
+So, let's try that.
+
+48
+00:03:51,390 --> 00:03:52,192
+I click on OK.
+
+49
+00:03:54,666 --> 00:03:56,560
+And that's what happened.
+
+50
+00:03:56,560 --> 00:03:57,480
+You see?
+
+51
+00:03:57,480 --> 00:04:01,890
+Now, if we add stuff, so
+
+52
+00:04:01,890 --> 00:04:07,142
+let me, you add some labels.
+
+53
+00:04:07,142 --> 00:04:12,490
+They are laid out one under each other,
+there's no left to right.
+
+54
+00:04:14,410 --> 00:04:16,810
+So that's how you change layouts.
+
+55
+00:04:16,810 --> 00:04:18,738
+Let's explore some others.
+
+56
+00:04:18,738 --> 00:04:22,280
+So that's the box layout.
+
+57
+00:04:22,280 --> 00:04:26,130
+Notice that I came back
+to selecting main form.
+
+58
+00:04:26,130 --> 00:04:30,120
+If you don't have that selected, you
+can't change the layout of your screen.
+
+59
+00:04:31,380 --> 00:04:32,510
+And the properties.
+
+60
+00:04:35,840 --> 00:04:39,510
+A grid, oh sorry, that's not here,
+so it's just an illustration here.
+
+61
+00:04:39,510 --> 00:04:43,870
+That's where you should choose, I think,
+grid layout so let's try this flavor.
+
+62
+00:04:45,220 --> 00:04:50,840
+Okay so it will neatly align
+stuff as in a table, basically.
+
+63
+00:04:50,840 --> 00:04:54,210
+I mean, I shouldn't say table,
+because there is a table layout.
+
+64
+00:04:54,210 --> 00:04:55,520
+So, as in a grid.
+
+65
+00:04:55,520 --> 00:04:59,930
+And here, you can,
+if you just select one row and
+
+66
+00:04:59,930 --> 00:05:04,490
+one column, everything will be
+compacted into, you know, one box.
+
+67
+00:05:07,310 --> 00:05:16,220
+But we would like to spread our text into
+three columns and let's say three rows.
+
+68
+00:05:16,220 --> 00:05:20,090
+If I click on OK, you see the result.
+
+69
+00:05:20,090 --> 00:05:24,480
+The screen has been
+divided to three columns,
+
+70
+00:05:24,480 --> 00:05:29,500
+one, two, three and
+three rows, one, two, three.
+
+71
+00:05:30,710 --> 00:05:36,010
+What you notice that in this layout,
+the size of your elements
+
+72
+00:05:37,870 --> 00:05:44,215
+adapt themselves to the size of the box or
+the where they are.
+
+73
+00:05:44,215 --> 00:05:48,505
+So where you want, or not, it depends
+on what kind of app you are building.
+
+74
+00:05:49,765 --> 00:05:51,385
+Let's try another one.
+
+75
+00:05:51,385 --> 00:05:56,415
+So that's a grid layout, and as you see
+you can play with the number of rows and
+
+76
+00:05:56,415 --> 00:05:59,511
+columns, I mean you can
+achieve any effect you want.
+
+77
+00:05:59,511 --> 00:06:02,205
+I like to insist on the table layout.
+
+78
+00:06:02,205 --> 00:06:07,230
+The table layout is a bit like grid
+layout, like what you see on screen, but
+
+79
+00:06:07,230 --> 00:06:08,430
+with more options.
+
+80
+00:06:09,700 --> 00:06:15,620
+If you're just beginning table layout
+it might be just intimidating.
+
+81
+00:06:15,620 --> 00:06:18,310
+But if become more advanced and
+
+82
+00:06:18,310 --> 00:06:23,970
+you want to build an amazing app
+that looks exactly as you want.
+
+83
+00:06:23,970 --> 00:06:25,420
+Let's have a look at the table layout.
+
+84
+00:06:27,150 --> 00:06:31,950
+So it looks, actually, like a, let me
+select three rows and three columns so
+
+85
+00:06:31,950 --> 00:06:35,720
+it actually looks like a grid layout.
+
+86
+00:06:38,200 --> 00:06:42,739
+But when you select it,
+you see that with this layout,
+
+87
+00:06:42,739 --> 00:06:46,490
+your elements, your buttons and your text,
+
+88
+00:06:46,490 --> 00:06:51,042
+are not obliged to use
+the fullest pace of this screen.
+
+89
+00:06:51,042 --> 00:06:53,984
+They just use their default size,
+
+90
+00:06:53,984 --> 00:06:58,725
+like buttons this size
+Aand a label is this size.
+
+91
+00:06:58,725 --> 00:07:06,280
+So this is a major difference, but look
+the other differences with a grid layout.
+
+92
+00:07:06,280 --> 00:07:06,900
+Yeah.
+
+93
+00:07:06,900 --> 00:07:08,690
+Let's take, yeah.
+
+94
+00:07:08,690 --> 00:07:12,750
+Let's actually do, yeah,
+let's take this one.
+
+95
+00:07:12,750 --> 00:07:15,720
+I would like it to be reddish,
+but I would this
+
+96
+00:07:19,560 --> 00:07:26,090
+label to take up the space of this column,
+but also this one which is left empty.
+
+97
+00:07:26,090 --> 00:07:31,040
+So I would like big half of business
+to be spread on these two columns.
+
+98
+00:07:32,560 --> 00:07:34,530
+A table layout allows you to do that.
+
+99
+00:07:35,570 --> 00:07:37,950
+You select your label.
+
+100
+00:07:37,950 --> 00:07:41,020
+So this one, it's selected, here.
+
+101
+00:07:41,020 --> 00:07:43,130
+You go to the properties.
+
+102
+00:07:43,130 --> 00:07:50,508
+You scroll down, and layout constraint
+is the place where you can modify
+
+103
+00:07:50,508 --> 00:07:55,780
+options for this piece of text for
+this layer.
+
+104
+00:07:55,780 --> 00:08:01,610
+So I click on it, and this menu is
+intimidating, that's why I would say,
+
+105
+00:08:01,610 --> 00:08:07,050
+maybe you should prefer to start with
+a grade layout where everything is simple.
+
+106
+00:08:07,050 --> 00:08:12,090
+But in this case you just,
+if I'm not mistaken,
+
+107
+00:08:12,090 --> 00:08:18,250
+you can decide that this label will span,
+
+108
+00:08:18,250 --> 00:08:22,920
+which means it will occupy the space,
+not just of one
+
+109
+00:08:24,090 --> 00:08:27,800
+cell, one we call a box here,
+but two cells.
+
+110
+00:08:29,160 --> 00:08:30,890
+Let's see if I'm not wrong here.
+
+111
+00:08:33,990 --> 00:08:36,512
+Wow, oh no, I'm good.
+
+112
+00:08:36,512 --> 00:08:44,350
+You decided that this
+label would not just fit
+
+113
+00:08:44,350 --> 00:08:49,370
+one cell, but actually two cells, the one
+where it was, and the one on the right.
+
+114
+00:08:52,250 --> 00:08:57,850
+Visually, you don't see the difference,
+because the text is aligned on the left.
+
+115
+00:08:57,850 --> 00:09:00,700
+But if we click again where we were.
+
+116
+00:09:00,700 --> 00:09:03,290
+We [INAUDIBLE] two cells, here.
+
+117
+00:09:03,290 --> 00:09:08,700
+But we want to align the content
+of this label to the center.
+
+118
+00:09:09,900 --> 00:09:14,020
+And if we do that, hopefully, yes,
+
+119
+00:09:14,020 --> 00:09:18,610
+now it is aligned between this
+cell here and the one here.
+
+120
+00:09:20,290 --> 00:09:27,790
+So let's now move to a concrete example
+where all of that would make sense.
+
+121
+00:09:30,130 --> 00:09:35,430
+And I would like to, yes, and that's where
+I would like to show you how you can
+
+122
+00:09:39,170 --> 00:09:43,350
+use different layouts in the same screen.
+
+123
+00:09:44,520 --> 00:09:49,810
+So it looks like weird or
+complicated but that's easy.
+
+124
+00:09:49,810 --> 00:09:52,600
+For example, let me show you.
+
+125
+00:09:52,600 --> 00:09:57,410
+Yeah, I would like that to be at the top,
+
+126
+00:09:59,220 --> 00:10:03,210
+and I would like all
+the rest to be below it.
+
+127
+00:10:03,210 --> 00:10:09,500
+To achieve that, let's start with a grid.
+
+128
+00:10:10,530 --> 00:10:14,610
+So, to achieve that,
+I'll go to the screen,
+
+129
+00:10:14,610 --> 00:10:21,380
+I choose a layout maybe you remember,
+but it was a box layout Y.
+
+130
+00:10:21,380 --> 00:10:24,770
+Everything will be neatly
+ordered under each other.
+
+131
+00:10:27,330 --> 00:10:33,410
+Yes, I would like this to be,
+
+132
+00:10:33,410 --> 00:10:36,180
+well, no that's worry,
+that's a fine way to use.
+
+133
+00:10:38,260 --> 00:10:40,520
+I will leave that here, that's okay.
+
+134
+00:10:43,670 --> 00:10:48,626
+Then assistant professor is fine,
+course is fine, but then I would like
+
+135
+00:10:48,626 --> 00:10:53,434
+this list of courses not to be listed
+like that, one under each other.
+
+136
+00:10:53,434 --> 00:11:00,840
+I would it to occupy all this
+space below courses taught.
+
+137
+00:11:00,840 --> 00:11:04,630
+I would like to have again if,
+that it would take all the space.
+
+138
+00:11:05,710 --> 00:11:15,000
+So, these should be a box Y layout,
+these things that are aligned.
+
+139
+00:11:15,000 --> 00:11:17,830
+But these should be more
+like a grid layout.
+
+140
+00:11:17,830 --> 00:11:21,030
+How do you do the two
+things in the same screen?
+
+141
+00:11:22,120 --> 00:11:29,030
+Well, the trick here is to use, and
+it's a simple trick, we stop there.
+
+142
+00:11:29,030 --> 00:11:34,250
+We use a container, so let me do it.
+
+143
+00:11:34,250 --> 00:11:39,900
+You just click once on container and
+you see a container appearing here.
+
+144
+00:11:39,900 --> 00:11:45,850
+It's like an empty box where you can place
+elements and apply your layout to them.
+
+145
+00:11:47,170 --> 00:11:51,420
+So this container is like an empty
+box that you don't see it on screen,
+
+146
+00:11:51,420 --> 00:11:54,790
+it's nowhere, but
+
+147
+00:11:54,790 --> 00:11:59,842
+we would like to put
+all the courses in it.
+
+148
+00:11:59,842 --> 00:12:02,460
+So let me put the container here.
+
+149
+00:12:04,510 --> 00:12:05,700
+And, oops.
+
+150
+00:12:05,700 --> 00:12:09,140
+And in the container,
+I would put all the list of my course.
+
+151
+00:12:09,140 --> 00:12:14,780
+So, to put stuff in a container,
+you just drag it in the container,
+
+152
+00:12:14,780 --> 00:12:17,700
+and you'll see that, oh,
+it's kind of inside it.
+
+153
+00:12:17,700 --> 00:12:21,900
+You see the little visual aid here,
+the dotted line?
+
+154
+00:12:21,900 --> 00:12:25,884
+It means that the label four,
+so my course,
+
+155
+00:12:25,884 --> 00:12:29,770
+market research, is inside a container.
+
+156
+00:12:32,070 --> 00:12:34,960
+I do the same, I put all my courses in it.
+
+157
+00:12:37,650 --> 00:12:40,540
+And we have kind of strange thing because
+
+158
+00:12:42,190 --> 00:12:47,410
+suddenly the layout is changing just for
+these four courses.
+
+159
+00:12:47,410 --> 00:12:50,010
+I mean the thing here has not moved.
+
+160
+00:12:50,010 --> 00:12:55,710
+So why do we have kind of a flow layout
+as we had at the beginning just for
+
+161
+00:12:55,710 --> 00:13:00,030
+them and we have a box Y,
+
+162
+00:13:00,030 --> 00:13:05,150
+the vertically aligned layout above that.
+
+163
+00:13:05,150 --> 00:13:09,660
+The reason is that you can
+apply your layout here,
+
+164
+00:13:11,350 --> 00:13:17,250
+and a different layout here,
+and you can check that here.
+
+165
+00:13:17,250 --> 00:13:21,620
+The layout of the container of
+everything inside the container
+
+166
+00:13:22,800 --> 00:13:24,310
+will be a float layout.
+
+167
+00:13:24,310 --> 00:13:24,820
+Whoops sorry.
+
+168
+00:13:26,240 --> 00:13:27,510
+And that's what we see,
+
+169
+00:13:27,510 --> 00:13:32,150
+everything inside this container
+is organized from left to right.
+
+170
+00:13:33,530 --> 00:13:36,311
+And we could add label just to show you.
+
+171
+00:13:40,930 --> 00:13:43,640
+Now that's a flow layout
+inside a container.
+
+172
+00:13:44,670 --> 00:13:50,660
+Anything outside the container,
+anything that relates to this part
+
+173
+00:13:51,760 --> 00:13:56,810
+will be box layout,
+because here we have a box layout Y.
+
+174
+00:13:57,910 --> 00:14:02,162
+So, let me add neighbors here, and you
+will see that they will appear here, and
+
+175
+00:14:02,162 --> 00:14:03,063
+let me show you.
+
+176
+00:14:06,024 --> 00:14:10,400
+Well, they appear below the container.
+
+177
+00:14:10,400 --> 00:14:15,980
+That's so you see what I do here.
+
+178
+00:14:17,810 --> 00:14:19,081
+Let me delete these things.
+
+179
+00:14:23,342 --> 00:14:28,183
+And maybe delete all these
+unnecessary things as well.
+
+180
+00:14:32,920 --> 00:14:35,398
+So that's the strength of,
+
+181
+00:14:35,398 --> 00:14:41,190
+that's a very powerful tool to
+organize the space on your screen.
+
+182
+00:14:42,290 --> 00:14:46,900
+You can divide the regions
+of your screen and
+
+183
+00:14:46,900 --> 00:14:52,070
+organize each of these regions
+with different layouts.
+
+184
+00:14:52,070 --> 00:14:56,910
+The way to do that is to use
+containers and place the elements
+
+185
+00:14:56,910 --> 00:15:01,530
+that you want to organize in these
+containers, and then these containers,
+
+186
+00:15:01,530 --> 00:15:07,135
+each of them, have a different
+layout that you can apply.
+
+187
+00:15:07,135 --> 00:15:12,055
+So, for example, this one that I created,
+by default the container has a flow
+
+188
+00:15:12,055 --> 00:15:15,735
+layout, but
+I told you I wanted a grid layout.
+
+189
+00:15:15,735 --> 00:15:21,180
+So I just click on the container to
+select it and then I change it's layout.
+
+190
+00:15:21,180 --> 00:15:23,390
+I just choose a grid layout.
+
+191
+00:15:23,390 --> 00:15:25,330
+And that and I choose not one.
+
+192
+00:15:25,330 --> 00:15:29,620
+Let me show you what happens when you
+have just one row and one column.
+
+193
+00:15:32,420 --> 00:15:38,450
+Yeah so everything get's
+crammed into one cell all box.
+
+194
+00:15:39,550 --> 00:15:40,630
+That's not what we want.
+
+195
+00:15:40,630 --> 00:15:45,400
+We prefer to have two rows and
+two columns.
+
+196
+00:15:45,400 --> 00:15:46,521
+Okay, that square stuff.
+
+197
+00:15:49,538 --> 00:15:55,290
+Yeah, and here everything is
+just In this container so
+
+198
+00:15:55,290 --> 00:16:02,962
+the four labels that describe my cost
+is are nearly organized in a green.
+
+199
+00:16:02,962 --> 00:16:07,885
+So, I have to stop here, not to make
+an hour video longer than an hour,
+
+200
+00:16:07,885 --> 00:16:15,000
+but the sky is the limit here for you.
+
+201
+00:16:15,000 --> 00:16:21,530
+Once you understand that containers
+can have different lay outs and
+
+202
+00:16:21,530 --> 00:16:26,510
+you can put stuff in containers and then
+you can put containers inside containers.
+
+203
+00:16:28,640 --> 00:16:35,790
+You can really organize things
+on your screen just as you want.
+
+204
+00:16:35,790 --> 00:16:39,570
+You can put stuff at the bottom
+left corner of your screen.
+
+205
+00:16:39,570 --> 00:16:40,900
+You can center things.
+
+206
+00:16:40,900 --> 00:16:42,650
+You can organize things in grids.
+
+207
+00:16:44,600 --> 00:16:47,660
+You can achieve any design
+that you want for your app.
+
+208
+00:16:48,850 --> 00:16:53,049
+So, it requires practice and
+exploration for sure.
+
+209
+00:16:54,130 --> 00:16:57,690
+But the tool is there for,
+and is very simple to use.
+
+210
+00:16:57,690 --> 00:17:03,980
+We didn't code anything, we didn't
+compute pixels or margins or whatnot.
+
+211
+00:17:03,980 --> 00:17:05,650
+We just drag and drop.
+
+212
+00:17:05,650 --> 00:17:09,370
+Keep stuff in containers and choose
+a layout for each of these containers.
+
+213
+00:17:10,448 --> 00:17:15,750
+So no doubt, I think this lesson
+is one that would need practice.
+
+214
+00:17:15,750 --> 00:17:20,310
+What would help you in practicing
+this lesson would be to for example,
+
+215
+00:17:21,520 --> 00:17:25,460
+pick a design of a screen of an app.
+
+216
+00:17:25,460 --> 00:17:28,020
+Let me pick my phone
+
+217
+00:17:30,098 --> 00:17:34,550
+Yeah would be to pick
+the design of an app and
+
+218
+00:17:34,550 --> 00:17:38,760
+try to repurpose it using layouts.
+
+219
+00:17:38,760 --> 00:17:43,980
+Like positioning pictures and
+logos and titles and text.
+
+220
+00:17:46,010 --> 00:17:49,290
+As an app that you want to reproduce.
+
+221
+00:17:51,710 --> 00:17:58,176
+Please use the forums for
+all your questions and wow, good work.

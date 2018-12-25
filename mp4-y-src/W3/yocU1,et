@@ -1,0 +1,944 @@
+1
+00:00:03,380 --> 00:00:11,690
+Hi, in this video, we will learn how to
+take control on the style of our app.
+
+2
+00:00:11,690 --> 00:00:16,990
+Because when we chose a template,
+you remember, when we create a project,
+
+3
+00:00:16,990 --> 00:00:21,660
+we chose what is going to be the visual
+
+4
+00:00:21,660 --> 00:00:26,210
+style of our app, and
+this is what defines the different style.
+
+5
+00:00:28,080 --> 00:00:29,350
+So that's very useful.
+
+6
+00:00:29,350 --> 00:00:34,380
+But we might want to change
+the style of some buttons or
+
+7
+00:00:34,380 --> 00:00:40,510
+some pictures or labels in some cases.
+
+8
+00:00:40,510 --> 00:00:41,760
+How do we do that?
+
+9
+00:00:41,760 --> 00:00:43,670
+We can change everything we want.
+
+10
+00:00:44,860 --> 00:00:48,300
+Just gonna allow that bit.
+
+11
+00:00:48,300 --> 00:00:51,210
+So the number I'm going to
+take is the one of a button.
+
+12
+00:00:51,210 --> 00:00:58,470
+I would like to add a button
+linking to my LinkedIn profile.
+
+13
+00:00:58,470 --> 00:01:03,380
+And in my CV I would like the use of
+the app to click on the button, and
+
+14
+00:01:03,380 --> 00:01:05,700
+it opens my LinkedIn profile.
+
+15
+00:01:05,700 --> 00:01:07,160
+That would be nice.
+
+16
+00:01:07,160 --> 00:01:08,490
+So I just add a button.
+
+17
+00:01:08,490 --> 00:01:09,230
+You know it's here.
+
+18
+00:01:10,630 --> 00:01:11,960
+The button is added here.
+
+19
+00:01:11,960 --> 00:01:12,480
+That's good.
+
+20
+00:01:12,480 --> 00:01:17,880
+I can call it
+
+21
+00:01:17,880 --> 00:01:23,120
+Visit my LinkedIn profile.
+
+22
+00:01:25,680 --> 00:01:30,280
+And I would like the button to
+stand out a bit, with the color and
+
+23
+00:01:30,280 --> 00:01:35,720
+style different from what we
+get from the other buttons.
+
+24
+00:01:35,720 --> 00:01:38,900
+How do I do that?
+
+25
+00:01:38,900 --> 00:01:44,980
+So I'm going to go in the menu to Theme.
+
+26
+00:01:47,100 --> 00:01:51,180
+And this is the theme that we,
+I'm gonna click on it.
+
+27
+00:01:51,180 --> 00:01:56,100
+This is the theme that I have
+on the app at the moment.
+
+28
+00:01:57,260 --> 00:02:01,820
+And it shows me the look and
+
+29
+00:02:01,820 --> 00:02:06,430
+the appearance of all of
+the components I have on my screen.
+
+30
+00:02:06,430 --> 00:02:10,820
+So for example,
+button here is gonna look like that.
+
+31
+00:02:10,820 --> 00:02:14,440
+Our label is gonna be like that.
+
+32
+00:02:14,440 --> 00:02:16,129
+Indeed, I can check it's the case.
+
+33
+00:02:17,320 --> 00:02:21,910
+So it's nice but how do I add new styles?
+
+34
+00:02:23,590 --> 00:02:25,980
+We just click on Add here.
+
+35
+00:02:25,980 --> 00:02:32,978
+I'm gonna add a style for new type
+of button which is going to be my.
+
+36
+00:02:32,978 --> 00:02:36,009
+So I click on Add, and
+this opens this window.
+
+37
+00:02:37,760 --> 00:02:45,210
+And here I start by giving a special name
+to this style of my LinkedIn button.
+
+38
+00:02:45,210 --> 00:02:48,540
+It's going to be a style
+that will apply to.
+
+39
+00:02:49,680 --> 00:02:51,850
+I give it the name, LinkedIn button.
+
+40
+00:02:53,410 --> 00:02:55,964
+And here, if you click on OK.
+
+41
+00:02:57,440 --> 00:02:59,720
+The style will not be created.
+
+42
+00:02:59,720 --> 00:03:01,540
+The special style you want.
+
+43
+00:03:01,540 --> 00:03:04,730
+The reason is that you didn't
+change anything yet and
+
+44
+00:03:04,730 --> 00:03:10,000
+if you just click on OK at this stage it
+will not recall this new style because
+
+45
+00:03:10,000 --> 00:03:16,420
+it's exactly the same as the default,
+so it won't record it.
+
+46
+00:03:17,710 --> 00:03:19,530
+Let me show you, I did that many times.
+
+47
+00:03:19,530 --> 00:03:26,100
+I click on OK, and then I'm looking for
+my style, I can't see it.
+
+48
+00:03:26,100 --> 00:03:30,290
+So I click on Add again,
+and I click on linked.
+
+49
+00:03:30,290 --> 00:03:33,720
+Then I view the name,
+the style for linked inference.
+
+50
+00:03:33,720 --> 00:03:38,974
+And I'm just going to change the,
+let's say,
+
+51
+00:03:38,974 --> 00:03:43,330
+the alignment.
+
+52
+00:03:43,330 --> 00:03:46,980
+So it's gonna be the center
+of the button is gonna be,
+
+53
+00:03:48,130 --> 00:03:51,410
+I want the text to be at the center.
+
+54
+00:03:51,410 --> 00:03:56,400
+So as soon as you want to change
+something, you have to untick derive.
+
+55
+00:03:56,400 --> 00:03:57,920
+Right?
+It means that you want to
+
+56
+00:03:57,920 --> 00:03:59,150
+take control of things.
+
+57
+00:04:00,860 --> 00:04:07,550
+So text is gonna be center and you see
+here the preview this is centered indeed.
+
+58
+00:04:07,550 --> 00:04:12,850
+So you click on OK and
+now you see LinkedInButton
+
+59
+00:04:12,850 --> 00:04:16,070
+because indeed you have
+started creating a new style.
+
+60
+00:04:17,350 --> 00:04:21,550
+So you can double-click on it and
+go back to the creation of your style.
+
+61
+00:04:21,550 --> 00:04:24,330
+So how do I want my button to be?
+
+62
+00:04:24,330 --> 00:04:26,686
+I want the text of
+the button to be centered.
+
+63
+00:04:26,686 --> 00:04:32,490
+I want the margin,
+
+64
+00:04:32,490 --> 00:04:35,460
+so the margin is this thing here.
+
+65
+00:04:36,500 --> 00:04:38,000
+Here you see this button.
+
+66
+00:04:38,000 --> 00:04:42,260
+It takes all the space of the grid.
+
+67
+00:04:42,260 --> 00:04:46,140
+It takes all the space it has but
+
+68
+00:04:46,140 --> 00:04:50,030
+maybe you like this button
+to take a smaller space.
+
+69
+00:04:50,030 --> 00:04:55,160
+You would like to have some space here,
+space here, space all around.
+
+70
+00:04:55,160 --> 00:04:58,370
+This is with margin that you control that.
+
+71
+00:04:58,370 --> 00:05:00,640
+So that's what I like for
+my LinkedIn button.
+
+72
+00:05:00,640 --> 00:05:03,140
+I would like it to not take all the space.
+
+73
+00:05:05,440 --> 00:05:12,470
+So I'm gonna increase
+the margins on every side.
+
+74
+00:05:15,500 --> 00:05:17,080
+And this is good.
+
+75
+00:05:17,080 --> 00:05:19,410
+Now I would like to increase padding.
+
+76
+00:05:19,410 --> 00:05:21,740
+Padding is a bit like margin.
+
+77
+00:05:21,740 --> 00:05:25,450
+So margin,
+if I take the regular part of this button,
+
+78
+00:05:25,450 --> 00:05:29,640
+margin is going to give some
+space around the button.
+
+79
+00:05:30,660 --> 00:05:36,310
+Padding is adding some
+space inside the button
+
+80
+00:05:36,310 --> 00:05:40,120
+between the border of the button and
+the text.
+
+81
+00:05:44,030 --> 00:05:48,587
+So let me add some padding.
+
+82
+00:05:52,970 --> 00:05:59,050
+Okay, and finally,
+what I would like to have is round shapes,
+
+83
+00:05:59,050 --> 00:06:05,030
+a bit like a but
+I would like to have rounder shapes.
+
+84
+00:06:05,030 --> 00:06:06,100
+It's not round enough.
+
+85
+00:06:07,420 --> 00:06:09,242
+So here I go to border.
+
+86
+00:06:09,242 --> 00:06:15,409
+I untick derive, I click on image
+border and this opens a new window.
+
+87
+00:06:16,510 --> 00:06:20,090
+So I'm gonna be able to change
+the shape of the borders here.
+
+88
+00:06:20,090 --> 00:06:24,920
+And I'm gonna be able to change
+the color of the border and
+
+89
+00:06:24,920 --> 00:06:25,880
+the color of the background.
+
+90
+00:06:27,000 --> 00:06:32,270
+So I'm gonna take a light blue color.
+
+91
+00:06:34,050 --> 00:06:40,000
+So this is the color, and
+this is the color translated in the code.
+
+92
+00:06:40,000 --> 00:06:42,620
+So I'm just going to copy this code and
+put it here.
+
+93
+00:06:43,630 --> 00:06:46,460
+So why do I have color A and color B?
+
+94
+00:06:46,460 --> 00:06:49,835
+Color A is the color at
+the top of your button.
+
+95
+00:06:49,835 --> 00:06:53,200
+And color B is the color at the bottom.
+
+96
+00:06:53,200 --> 00:06:56,210
+So we should choose two different colors,
+let's say going like that.
+
+97
+00:06:57,720 --> 00:07:00,710
+You see, it makes a button like that.
+
+98
+00:07:00,710 --> 00:07:03,560
+The A is the top, B is the bottom, and
+
+99
+00:07:03,560 --> 00:07:07,520
+then you have a gradient
+between the two colors.
+
+100
+00:07:07,520 --> 00:07:10,880
+I don't want this gradient effect,
+so I just give the same.
+
+101
+00:07:10,880 --> 00:07:14,470
+Color C is the color of the,
+many of you don't see it well, but
+
+102
+00:07:14,470 --> 00:07:20,445
+there is a white border all around
+my button, and I could give it,
+
+103
+00:07:20,445 --> 00:07:26,060
+you know, one color for the top of
+this line, and another color here.
+
+104
+00:07:26,060 --> 00:07:31,030
+But I don't want all of that,
+I just want a plain blue button.
+
+105
+00:07:31,030 --> 00:07:32,850
+So, same color everywhere.
+
+106
+00:07:35,020 --> 00:07:38,850
+And then I can change
+the shape of the angles.
+
+107
+00:07:38,850 --> 00:07:44,730
+So I'm going to put 20 and
+
+108
+00:07:44,730 --> 00:07:50,005
+20, so that's arc width and arc height and
+
+109
+00:07:50,005 --> 00:07:54,185
+you see that with these values the button
+is changing shapes for the corners.
+
+110
+00:07:54,185 --> 00:07:58,075
+So I'm gonna increase, I don't know if
+it's possible to increase that much.
+
+111
+00:07:59,115 --> 00:08:02,815
+We're gonna see that yeah,
+it's really round I like it.
+
+112
+00:08:02,815 --> 00:08:03,505
+That's what I want.
+
+113
+00:08:04,545 --> 00:08:06,002
+And then I click on OK.
+
+114
+00:08:06,002 --> 00:08:10,819
+And then, you should
+
+115
+00:08:10,819 --> 00:08:15,636
+see the effect here,
+
+116
+00:08:15,636 --> 00:08:20,190
+pretty soon, yes.
+
+117
+00:08:20,190 --> 00:08:23,220
+The last thing I would like to
+have is the text of the button,
+
+118
+00:08:23,220 --> 00:08:27,490
+I would like it to be,
+oops, that's a bit strange.
+
+119
+00:08:28,600 --> 00:08:29,570
+We'll see how it goes.
+
+120
+00:08:30,660 --> 00:08:33,920
+I would like the text of the button
+to be in bold, you know,
+
+121
+00:08:33,920 --> 00:08:40,020
+like in thick lines, and large.
+
+122
+00:08:40,020 --> 00:08:41,900
+So now I click on OK.
+
+123
+00:08:41,900 --> 00:08:44,060
+I don't like this effect.
+
+124
+00:08:44,060 --> 00:08:44,770
+We're going to see.
+
+125
+00:08:53,750 --> 00:08:56,980
+Yes, I do not know why it does this.
+
+126
+00:08:56,980 --> 00:08:58,030
+Strange thing here.
+
+127
+00:08:59,929 --> 00:09:00,630
+I see.
+
+128
+00:09:00,630 --> 00:09:03,678
+Anyway so when you have created
+a style for your button.
+
+129
+00:09:03,678 --> 00:09:06,120
+For a.
+
+130
+00:09:06,120 --> 00:09:11,280
+So now you can go back to your screen,
+select your button,
+
+131
+00:09:12,370 --> 00:09:16,850
+and say in the properties,
+I would like this button to
+
+132
+00:09:16,850 --> 00:09:21,720
+have the style not of a regular button,
+but here you have a drop down menu.
+
+133
+00:09:21,720 --> 00:09:25,912
+I would like it to have
+the style of a button,
+
+134
+00:09:25,912 --> 00:09:30,990
+the one I just created,
+oops, LinkedIn button here.
+
+135
+00:09:30,990 --> 00:09:33,187
+Yes, there is something wrong here.
+
+136
+00:09:33,187 --> 00:09:34,380
+You see this effect.
+
+137
+00:09:34,380 --> 00:09:37,240
+I am a bit curious as to why it does that.
+
+138
+00:09:42,010 --> 00:09:42,569
+What we see.
+
+139
+00:09:44,600 --> 00:09:49,710
+Okay, then I save, I go to File, Save.
+
+140
+00:09:51,810 --> 00:09:54,340
+And I run my app to see the effect.
+
+141
+00:10:03,087 --> 00:10:04,020
+And there.
+
+142
+00:10:05,320 --> 00:10:08,940
+Now there is something wrong here.
+
+143
+00:10:08,940 --> 00:10:11,680
+I don't know why.
+
+144
+00:10:11,680 --> 00:10:12,550
+Let me go back.
+
+145
+00:10:12,550 --> 00:10:13,760
+What did I do wrong.
+
+146
+00:10:13,760 --> 00:10:18,410
+So if you have to change this time
+that you've just created in here.
+
+147
+00:10:18,410 --> 00:10:23,620
+We like to change it because
+it's obviously buggy.
+
+148
+00:10:23,620 --> 00:10:28,750
+You go back to Theme, you select
+New Theme, the one of your app, and
+
+149
+00:10:28,750 --> 00:10:32,170
+here you have the style of
+the button you created.
+
+150
+00:10:32,170 --> 00:10:34,740
+If you double-click on it,
+you have access.
+
+151
+00:10:34,740 --> 00:10:38,680
+You go back to where you can define it.
+
+152
+00:10:38,680 --> 00:10:44,060
+I would like the font to be white,
+so it's in Color.
+
+153
+00:10:45,370 --> 00:10:50,060
+I'm gonna choose white here.
+
+154
+00:10:50,060 --> 00:10:51,910
+And I'm just gonna use white.
+
+155
+00:10:51,910 --> 00:10:52,930
+We get this effect.
+
+156
+00:10:52,930 --> 00:10:56,460
+It's a bit strange here.
+
+157
+00:10:56,460 --> 00:10:59,230
+It might be due to my border.
+
+158
+00:10:59,230 --> 00:11:04,245
+Which will have, oh yes, so
+border, each time you open
+
+159
+00:11:04,245 --> 00:11:09,920
+it you have to redefine the color,
+and I find it indeed boring.
+
+160
+00:11:09,920 --> 00:11:15,740
+But that's,
+it always forgets the choices you made.
+
+161
+00:11:19,290 --> 00:11:22,760
+Oh, so you might encounter this issue,
+
+162
+00:11:23,870 --> 00:11:28,125
+this error and
+it's an error which I don't really get.
+
+163
+00:11:28,125 --> 00:11:34,705
+Define wrong shapes and
+
+164
+00:11:34,705 --> 00:11:37,600
+define a blue color.
+
+165
+00:11:41,310 --> 00:11:46,560
+And here you might have to
+select apply to in this tab,
+
+166
+00:11:46,560 --> 00:11:51,610
+apply to and you should click on OK.
+
+167
+00:11:52,980 --> 00:11:57,670
+It's good but
+we still have this effect which is weird.
+
+168
+00:12:00,590 --> 00:12:03,130
+Why is it the case?
+
+169
+00:12:06,170 --> 00:12:08,520
+Out of that is perfectly correct.
+
+170
+00:12:09,900 --> 00:12:14,130
+Or I should say that the padding
+should be in millimeters.
+
+171
+00:12:14,130 --> 00:12:17,430
+Oh, you see, that's what defined.
+
+172
+00:12:17,430 --> 00:12:20,090
+The padding,
+I want it to be in millimeters.
+
+173
+00:12:21,500 --> 00:12:26,228
+Same for margin, I say 5 millimeters or
+not pixels, okay,
+
+174
+00:12:26,228 --> 00:12:29,670
+that was the same rating
+that I issued here.
+
+175
+00:12:32,050 --> 00:12:33,920
+Ooh, that's really strange.
+
+176
+00:12:40,870 --> 00:12:45,043
+Yeah so if I chose too much,
+
+177
+00:12:45,043 --> 00:12:51,605
+if the margin was too
+large we had an issue.
+
+178
+00:12:51,605 --> 00:12:56,534
+Same for padding.
+
+179
+00:12:59,920 --> 00:13:05,010
+And I was correct, that's good.
+
+180
+00:13:05,010 --> 00:13:06,390
+I think we're good now.
+
+181
+00:13:13,080 --> 00:13:14,050
+Margin is correct.
+
+182
+00:13:15,430 --> 00:13:17,520
+The border was good.
+
+183
+00:13:17,520 --> 00:13:18,020
+Okei.
+
+184
+00:13:19,440 --> 00:13:20,660
+Let's press OK.
+
+185
+00:13:23,410 --> 00:13:27,905
+And let's go back to, so I save,
+
+186
+00:13:27,905 --> 00:13:33,050
+let's go back to the app, launch it.
+
+187
+00:13:41,720 --> 00:13:45,410
+And we have our profile here, our button.
+
+188
+00:13:45,410 --> 00:13:46,860
+So that's it.
+
+189
+00:13:46,860 --> 00:13:49,220
+You see that I had some issues, but
+
+190
+00:13:49,220 --> 00:13:53,680
+the good news is that I
+hope you follow with me.
+
+191
+00:13:53,680 --> 00:13:58,830
+The first thing that you should do
+is that when you create a new style,
+
+192
+00:13:58,830 --> 00:14:02,730
+if you click on OK immediately,
+the style will not be created.
+
+193
+00:14:02,730 --> 00:14:05,880
+You should change something
+in the appearance so
+
+194
+00:14:05,880 --> 00:14:08,420
+that the style gets recorded.
+
+195
+00:14:08,420 --> 00:14:11,170
+Then the mistake that you
+see I've made is that
+
+196
+00:14:11,170 --> 00:14:13,790
+when you when you want
+to define some padding.
+
+197
+00:14:13,790 --> 00:14:17,660
+So the space between the border
+of your component and the text.
+
+198
+00:14:19,330 --> 00:14:25,040
+You should define it in millimeters and
+the same for margin.
+
+199
+00:14:26,160 --> 00:14:30,700
+You should,
+each time you change something you
+
+200
+00:14:30,700 --> 00:14:34,520
+should untick derive so
+that it's taken into account.
+
+201
+00:14:34,520 --> 00:14:40,260
+And finally,
+you can change the borders of your button,
+
+202
+00:14:40,260 --> 00:14:44,210
+or whatever you're styling here.
+
+203
+00:14:44,210 --> 00:14:45,969
+By clicking on image border wizard.
+
+204
+00:14:48,630 --> 00:14:50,230
+Then you click on OK.
+
+205
+00:14:50,230 --> 00:14:55,000
+You have a style here, and
+how to apply the style to what you want.
+
+206
+00:14:56,000 --> 00:15:03,040
+You go back to your screen, you select
+the component that you want to style,
+
+207
+00:15:03,040 --> 00:15:07,940
+and you change the UIID, it's property.
+
+208
+00:15:07,940 --> 00:15:12,208
+You change it for
+the style you just created
+
+209
+00:15:12,208 --> 00:15:15,980
+[INAUDIBLE]
+to here.
+
+210
+00:15:15,980 --> 00:15:20,838
+So we could reshape our
+button from that to that.
+
+211
+00:15:20,838 --> 00:15:21,468
+Aitäh.

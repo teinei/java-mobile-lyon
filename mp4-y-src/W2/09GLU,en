@@ -1,0 +1,515 @@
+1
+00:00:01,280 --> 00:00:08,010
+So, welcome to this video where
+we will add screens to our app.
+
+2
+00:00:08,010 --> 00:00:14,110
+So you should have done
+the practice module where
+
+3
+00:00:14,110 --> 00:00:18,580
+you installed NetBeans, and
+you installed the plugin and
+
+4
+00:00:18,580 --> 00:00:22,420
+you created your first project,
+because we start from there.
+
+5
+00:00:22,420 --> 00:00:25,770
+So how to create a screen for your app.
+
+6
+00:00:28,095 --> 00:00:34,535
+This is your project and
+you can click on the cross
+
+7
+00:00:34,535 --> 00:00:39,650
+there to expand the content of your
+project or you can just double-click.
+
+8
+00:00:41,005 --> 00:00:46,016
+And there you'll see source, packages and
+libraries, you don't care about libraries.
+
+9
+00:00:46,016 --> 00:00:51,032
+We look at source packages directly and
+
+10
+00:00:51,032 --> 00:00:53,926
+you see three things.
+
+11
+00:00:53,926 --> 00:00:58,940
+The default package, we don't care.
+
+12
+00:00:58,940 --> 00:00:59,757
+Come which is great.
+
+13
+00:00:59,757 --> 00:01:02,251
+It means it's empty.
+
+14
+00:01:02,251 --> 00:01:04,010
+We don't care.
+
+15
+00:01:04,010 --> 00:01:04,580
+And this one.
+
+16
+00:01:07,070 --> 00:01:10,170
+This folder has the name
+of your package name.
+
+17
+00:01:11,890 --> 00:01:15,900
+So you will have a folder with
+the name of your package name.
+
+18
+00:01:15,900 --> 00:01:19,990
+Please do not change
+the name of this folder.
+
+19
+00:01:21,120 --> 00:01:26,520
+Anyway, so this is inside this
+folder that we will see and
+
+20
+00:01:26,520 --> 00:01:29,610
+the files for your screens.
+
+21
+00:01:29,610 --> 00:01:31,830
+Each screen is a file.
+
+22
+00:01:31,830 --> 00:01:37,050
+So at the moment there is my application,
+which is the only file
+
+23
+00:01:37,050 --> 00:01:42,170
+that has some specific code
+which is not a screen,
+
+24
+00:01:42,170 --> 00:01:45,960
+but all the other files can be screens.
+
+25
+00:01:45,960 --> 00:01:47,720
+So how do we add a screen?
+
+26
+00:01:49,310 --> 00:01:54,280
+You select the folder with
+the name of your package.
+
+27
+00:01:54,280 --> 00:02:00,990
+You right-click on it, and go on New.
+
+28
+00:02:02,420 --> 00:02:04,620
+So you want to add something new.
+
+29
+00:02:04,620 --> 00:02:06,800
+Nothing here is what you need.
+
+30
+00:02:06,800 --> 00:02:07,862
+We go to Other.
+
+31
+00:02:10,706 --> 00:02:12,660
+You want something else.
+
+32
+00:02:12,660 --> 00:02:15,400
+You want a file from code name one.
+
+33
+00:02:15,400 --> 00:02:21,293
+Yes, and inside the code name
+one category, you want this one.
+
+34
+00:02:21,293 --> 00:02:27,814
+So a screen in code name one
+vocabulary is called a form.
+
+35
+00:02:27,814 --> 00:02:32,900
+In GUI beater is just GUI means
+
+36
+00:02:32,900 --> 00:02:37,787
+graphical user interface.
+
+37
+00:02:37,787 --> 00:02:41,915
+So we don't really care what it means,
+
+38
+00:02:41,915 --> 00:02:46,930
+it just means that this
+is a screen that we need.
+
+39
+00:02:48,200 --> 00:02:53,460
+So Next, and
+we should give a name to our screen.
+
+40
+00:02:53,460 --> 00:02:56,918
+So, the name should start
+with a capitalized letter.
+
+41
+00:02:56,918 --> 00:03:01,173
+It's a convention, and
+in the rest of our exercises,
+
+42
+00:03:01,173 --> 00:03:07,570
+I'm going to use very simple names for
+screens like Screen1 Screen2, as it was.
+
+43
+00:03:07,570 --> 00:03:13,160
+So, for our first screen,
+please choose Screen1, with a capital S.
+
+44
+00:03:14,730 --> 00:03:17,420
+The rule for the names of files and
+
+45
+00:03:17,420 --> 00:03:22,300
+screens is should start
+with a capitalized letter.
+
+46
+00:03:22,300 --> 00:03:25,880
+No space in it and no special characters.
+
+47
+00:03:25,880 --> 00:03:29,200
+So no accents, no tilde.
+
+48
+00:03:29,200 --> 00:03:35,011
+Screen1, Finish.
+
+49
+00:03:35,011 --> 00:03:39,362
+We wait and
+indeed we see here that a file called
+
+50
+00:03:39,362 --> 00:03:43,390
+Screen1 has been added to to this folder.
+
+51
+00:03:43,390 --> 00:03:49,515
+But the thing is if we just do that and
+if we preview our app,
+
+52
+00:03:49,515 --> 00:03:54,140
+the app will not show
+the Screen1 because we
+
+53
+00:03:54,140 --> 00:03:58,515
+didn't instruct the application to show
+
+54
+00:03:58,515 --> 00:04:03,401
+the Screen1 when the app
+when the app starts.
+
+55
+00:04:03,401 --> 00:04:08,429
+So here we're going to write
+three lines of code to say that.
+
+56
+00:04:08,429 --> 00:04:13,588
+And I'm not very happy with
+that because it's the logic
+
+57
+00:04:13,588 --> 00:04:21,702
+of this course that we don't code at the
+beginning if we don't know how it works.
+
+58
+00:04:21,702 --> 00:04:27,090
+Because we would like to see the result
+of our app without doing some magic
+
+59
+00:04:29,250 --> 00:04:33,170
+coding that we don't understand,
+but in this case we have to.
+
+60
+00:04:33,170 --> 00:04:36,990
+Just three lines of code, and this helps
+
+61
+00:04:36,990 --> 00:04:42,130
+us show the Screen1 in
+the app when the app starts.
+
+62
+00:04:42,130 --> 00:04:45,554
+If we don't do that,
+not going to be able to show Screen1.
+
+63
+00:04:45,554 --> 00:04:50,492
+So the three lines of code
+that we're going to write
+
+64
+00:04:50,492 --> 00:04:53,989
+now are in MyApplication.java.
+
+65
+00:04:53,989 --> 00:04:59,606
+So we double-click on it, and
+when you double-click on MyApplication,
+
+66
+00:04:59,606 --> 00:05:03,900
+it shows the content of
+MyApplication on the right here.
+
+67
+00:05:05,130 --> 00:05:08,130
+So it's complicated,
+we understand nothing of this.
+
+68
+00:05:08,130 --> 00:05:11,780
+But we see something that say start there,
+right?
+
+69
+00:05:11,780 --> 00:05:16,107
+And there is a curly brace there and
+
+70
+00:05:16,107 --> 00:05:19,995
+it's closing there, right?
+
+71
+00:05:19,995 --> 00:05:23,807
+So we should delete
+everything we have inside.
+
+72
+00:05:23,807 --> 00:05:27,271
+If you're curious,
+if you look at these lines,
+
+73
+00:05:27,271 --> 00:05:32,020
+these were the lines that
+created your hi world screen.
+
+74
+00:05:32,020 --> 00:05:34,560
+But we want to show our screen now,
+Screen1.
+
+75
+00:05:34,560 --> 00:05:38,618
+So we delete everything
+between the two curly braces.
+
+76
+00:05:38,618 --> 00:05:43,777
+So you see, I just select everything,
+Delete, then I add space,
+
+77
+00:05:43,777 --> 00:05:48,270
+because I'm going to write
+something else there.
+
+78
+00:05:48,270 --> 00:05:53,150
+So here I don't ask you to understand
+what we're going to write,
+
+79
+00:05:53,150 --> 00:05:56,480
+because that's going to be
+explained in module five.
+
+80
+00:05:56,480 --> 00:05:59,650
+So I'm just writing Screen1
+
+81
+00:06:01,580 --> 00:06:07,120
+box and a semicolon to finish the line.
+
+82
+00:06:07,120 --> 00:06:11,256
+Then I go to the second line and
+
+83
+00:06:11,256 --> 00:06:15,391
+I say, box = new Screen1 and
+
+84
+00:06:15,391 --> 00:06:20,851
+there don't forget the two brackets,
+
+85
+00:06:20,851 --> 00:06:25,485
+opening and closing brackets and
+
+86
+00:06:25,485 --> 00:06:30,484
+then semicolon to finish the line.
+
+87
+00:06:30,484 --> 00:06:35,320
+And then final line, box, oops,
+
+88
+00:06:35,320 --> 00:06:38,970
+and then I put a dot and
+I wait a couple of seconds.
+
+89
+00:06:38,970 --> 00:06:45,178
+Because if I wait, I see this menu
+that appears automatically and
+
+90
+00:06:45,178 --> 00:06:50,110
+I scroll, when it takes so
+much time to scroll,
+
+91
+00:06:50,110 --> 00:06:55,310
+I know what I should select,
+I know it should be show.
+
+92
+00:06:55,310 --> 00:07:01,101
+So if I type s,
+it goes immediately to the s in the menu.
+
+93
+00:07:01,101 --> 00:07:06,030
+Well, I could even write show actually.
+
+94
+00:07:06,030 --> 00:07:11,002
+Yeah, you see it immediately
+shows the comment and
+
+95
+00:07:11,002 --> 00:07:15,751
+if I double-click on show,
+it writes it for me.
+
+96
+00:07:15,751 --> 00:07:18,106
+And that's it.
+
+97
+00:07:18,106 --> 00:07:21,630
+So if you are curious to know what
+this three lines of codes mean,
+
+98
+00:07:21,630 --> 00:07:26,360
+we're going to see that in module five,
+but in the PDF of this video,
+
+99
+00:07:27,520 --> 00:07:31,420
+the PDF that goes with this video,
+I explained what it does.
+
+100
+00:07:32,730 --> 00:07:34,012
+So that's it.
+
+101
+00:07:34,012 --> 00:07:36,841
+I saved my file, File > Save.
+
+102
+00:07:36,841 --> 00:07:39,050
+Just do this to be safe.
+
+103
+00:07:40,270 --> 00:07:44,493
+And then if I right-click
+on the name of my app,
+
+104
+00:07:44,493 --> 00:07:47,883
+name of my project, and click on Run.
+
+105
+00:07:53,678 --> 00:07:54,438
+And I wait a bit.
+
+106
+00:08:00,781 --> 00:08:05,382
+Yeah, you see that we don't have
+hello world as we had before when,
+
+107
+00:08:05,382 --> 00:08:10,930
+in the previous lesson, when we
+learned how to create an empty app.
+
+108
+00:08:10,930 --> 00:08:15,219
+Now when we launch our app,
+we have something that's called Screen1.
+
+109
+00:08:16,680 --> 00:08:18,940
+This is the screen we just created.
+
+110
+00:08:18,940 --> 00:08:21,972
+It's empty but it's our screen.
+
+111
+00:08:21,972 --> 00:08:24,250
+We're going to be able to change
+everything we want in it.
+
+112
+00:08:24,250 --> 00:08:29,190
+So that's how you create
+new screens in an app.
+
+113
+00:08:29,190 --> 00:08:29,690
+Thank you.

@@ -1,0 +1,1297 @@
+1
+00:00:03,883 --> 00:00:09,830
+Welcome in this short video where we
+will see how to install NetBeans.
+
+2
+00:00:09,830 --> 00:00:14,900
+NetBeans is the software we are going
+to use to create mobile apps.
+
+3
+00:00:14,900 --> 00:00:17,030
+So it's very simple to install.
+
+4
+00:00:17,030 --> 00:00:18,350
+Let's do that.
+
+5
+00:00:18,350 --> 00:00:24,280
+So simply you open a web browser,
+I use Google Chrome but you could use
+
+6
+00:00:25,850 --> 00:00:31,100
+Safari or Mozilla or these kind of things.
+
+7
+00:00:31,100 --> 00:00:33,660
+I'm just going to use Chrome.
+
+8
+00:00:33,660 --> 00:00:38,090
+So I open it here, I make it bigger.
+
+9
+00:00:39,240 --> 00:00:41,960
+And, what I'm looking for is NetBeans.
+
+10
+00:00:41,960 --> 00:00:48,220
+So you spell it, N-E-T-B-E-A-N-S.
+
+11
+00:00:48,220 --> 00:00:55,290
+And the trick here is that NetBeans
+needs something called Java to work.
+
+12
+00:00:55,290 --> 00:01:01,290
+So let's Let's download them together.
+
+13
+00:01:01,290 --> 00:01:05,940
+So, what I look for in the Google
+search is NetBeans plus Java,
+
+14
+00:01:07,110 --> 00:01:08,440
+and you could do the same.
+
+15
+00:01:09,720 --> 00:01:10,220
+Enter.
+
+16
+00:01:13,920 --> 00:01:20,930
+So what I find is this first result
+NetBeans IDE so that's what we need.
+
+17
+00:01:20,930 --> 00:01:23,260
+And Java I click on it.
+
+18
+00:01:28,550 --> 00:01:32,198
+Oh, so that's an intimidating page,
+
+19
+00:01:32,198 --> 00:01:37,400
+there's a bit of graphics refiltering,
+understand.
+
+20
+00:01:38,590 --> 00:01:40,410
+I'm just here to download midkin.
+
+21
+00:01:40,410 --> 00:01:42,486
+So where is the download?
+
+22
+00:01:42,486 --> 00:01:45,056
+Oh, just there.
+
+23
+00:01:45,056 --> 00:01:48,820
+The bright orange button on the top right.
+
+24
+00:01:48,820 --> 00:01:50,040
+So I click on download.
+
+25
+00:01:58,640 --> 00:01:59,760
+Ok.
+
+26
+00:02:02,310 --> 00:02:10,710
+And there you simply I need the first one.
+
+27
+00:02:10,710 --> 00:02:13,710
+The one that is the called Java SE.
+
+28
+00:02:13,710 --> 00:02:20,340
+You have many versions and we take
+simply this one, the one on the left.
+
+29
+00:02:20,340 --> 00:02:22,040
+So, click on Download.
+
+30
+00:02:26,070 --> 00:02:30,259
+So I should wait a few seconds, yes.
+
+31
+00:02:30,259 --> 00:02:34,770
+And I see this file I should
+save on my disk, so yes.
+
+32
+00:02:34,770 --> 00:02:40,830
+Save.
+So, wow, it downloads it.
+
+33
+00:02:40,830 --> 00:02:45,580
+Incredibly fast on my
+computer it's 100 megabytes,
+
+34
+00:02:45,580 --> 00:02:50,510
+maybe it will take longer for
+you, but it's already there.
+
+35
+00:02:52,860 --> 00:02:56,720
+Okay, so I will just double-click
+on the file to open it.
+
+36
+00:03:00,830 --> 00:03:03,290
+Yes.
+Yes, yes, yes, yes, yes.
+
+37
+00:03:03,290 --> 00:03:04,390
+Ok.
+
+38
+00:03:04,390 --> 00:03:13,340
+So it opens this NetBeans 8.0.2.pkg file,
+package, I suppose.
+
+39
+00:03:13,340 --> 00:03:14,330
+And I double click on it.
+
+40
+00:03:17,420 --> 00:03:22,052
+And this will launch
+the installation of NetBeans.
+
+41
+00:03:22,052 --> 00:03:30,512
+So Yes, continue.
+
+42
+00:03:36,552 --> 00:03:41,458
+Okay, so NetBeans cannot be installed,
+
+43
+00:03:41,458 --> 00:03:47,310
+because Java 7 Update 10 is not on Mac.
+
+44
+00:03:47,310 --> 00:03:48,740
+Interesting.
+
+45
+00:03:48,740 --> 00:03:50,090
+So that's what I said.
+
+46
+00:03:50,090 --> 00:03:51,470
+NetBeans needs Java.
+
+47
+00:03:53,920 --> 00:03:55,630
+And NetBeans can't be installed.
+
+48
+00:03:55,630 --> 00:03:59,050
+So that's fine, we just keep it there.
+
+49
+00:03:59,050 --> 00:04:04,680
+We go back on Google Chrome,
+the web browser.
+
+50
+00:04:04,680 --> 00:04:08,970
+So I just went back there and
+I would just type Java.
+
+51
+00:04:11,720 --> 00:04:14,050
+Download Free Java Software.
+
+52
+00:04:14,050 --> 00:04:16,510
+Yes, that's what I want.
+
+53
+00:04:20,060 --> 00:04:21,610
+Maybe it's just that.
+
+54
+00:04:21,610 --> 00:04:22,608
+Free Java Download.
+
+55
+00:04:22,608 --> 00:04:29,978
+So, yes, agree.
+
+56
+00:04:29,978 --> 00:04:38,598
+[NOISE] Alert is nothing to worry about.
+
+57
+00:04:40,978 --> 00:04:45,222
+And we install Java which is JRE,
+
+58
+00:04:45,222 --> 00:04:49,018
+which means Java something.
+
+59
+00:04:49,018 --> 00:04:50,170
+Okay, Save.
+
+60
+00:04:52,350 --> 00:04:53,270
+Wow.
+
+61
+00:04:53,270 --> 00:04:56,305
+Always, almost 60 megabytes already there.
+
+62
+00:04:56,305 --> 00:04:58,760
+[ZVUK]
+
+63
+00:04:58,760 --> 00:05:00,010
+So I will install it here.
+
+64
+00:05:08,600 --> 00:05:10,880
+Yes, double-click on the icon.
+
+65
+00:05:18,688 --> 00:05:19,510
+This advertisement.
+
+66
+00:05:19,510 --> 00:05:22,800
+Yes that's fine.
+
+67
+00:05:27,050 --> 00:05:30,290
+Then in my password to restore it.
+
+68
+00:05:31,380 --> 00:05:32,400
+This is fine.
+
+69
+00:05:40,050 --> 00:05:46,680
+So there maybe takes a couple of minutes
+depending on how powerful your Mac is.
+
+70
+00:05:46,680 --> 00:05:48,860
+Wow, about four minutes.
+
+71
+00:05:48,860 --> 00:05:52,660
+If it's actually four minutes
+we'll just pause the video there.
+
+72
+00:05:52,660 --> 00:05:53,730
+No, it's quicker than that.
+
+73
+00:05:53,730 --> 00:05:59,955
+So, just three,
+
+74
+00:05:59,955 --> 00:06:07,180
+two about a minute.
+
+75
+00:06:07,180 --> 00:06:09,970
+And come on.
+
+76
+00:06:25,420 --> 00:06:27,470
+Come on.
+
+77
+00:06:27,470 --> 00:06:28,810
+All right maybe I'll pause the video.
+
+78
+00:06:47,380 --> 00:06:51,633
+Well I didn't pause
+the video because that was
+
+79
+00:06:51,633 --> 00:06:55,350
+actually quite short [SOUND] one moment.
+
+80
+00:06:55,350 --> 00:06:58,260
+Yes yes yes yes, okay.
+
+81
+00:07:00,180 --> 00:07:04,950
+Close it.
+
+82
+00:07:04,950 --> 00:07:09,470
+Why is Safari, I don't care about Safari.
+
+83
+00:07:12,800 --> 00:07:14,060
+No no I keep Chrome.
+
+84
+00:07:14,060 --> 00:07:17,510
+I mean that has nothing to do
+with what we are doing now.
+
+85
+00:07:17,510 --> 00:07:21,930
+Okay so we have Java installed,
+it seems properly.
+
+86
+00:07:21,930 --> 00:07:25,100
+So now we can go back to our
+installation of NetBeans.
+
+87
+00:07:26,350 --> 00:07:31,070
+That said it required Java,
+well we have it now.
+
+88
+00:07:33,460 --> 00:07:38,640
+So, yes, you know, the NetBeans file was
+
+89
+00:07:38,640 --> 00:07:42,470
+downloaded in my in French
+it's Téléchargements but
+
+90
+00:07:42,470 --> 00:07:48,070
+in English it's Downloads folder so
+it was there.
+
+91
+00:07:48,070 --> 00:07:51,312
+And now if I double click on it,
+it should install file like we expect.
+
+92
+00:07:56,258 --> 00:08:05,194
+Yes I have to double-click on Continue.
+
+93
+00:08:11,256 --> 00:08:14,704
+Oh,this is Java GDK.
+
+94
+00:08:16,740 --> 00:08:17,460
+Yes.
+
+95
+00:08:17,460 --> 00:08:19,960
+So, while I keep all this, you know, this
+
+96
+00:08:22,330 --> 00:08:28,340
+hesitations on the video as I would expect
+you might get through the same process.
+
+97
+00:08:28,340 --> 00:08:34,280
+It just gives you a refeeding of
+what it is to work with software.
+
+98
+00:08:34,280 --> 00:08:36,800
+Nothing difficult as you see.
+
+99
+00:08:38,230 --> 00:08:41,360
+But well, you have to spend a bit of time.
+
+100
+00:08:41,360 --> 00:08:47,660
+So what it said was,
+Java in a different version,
+
+101
+00:08:47,660 --> 00:08:52,740
+which is the Java Development Kit
+which is jdk.
+
+102
+00:08:56,590 --> 00:09:03,380
+So you just Google again jdk,
+just that, and we find it here.
+
+103
+00:09:03,380 --> 00:09:09,200
+So among the many versions
+you just click here, Java SE.
+
+104
+00:09:09,200 --> 00:09:15,550
+And if you're worried that you won't
+be able to follow along the video,
+
+105
+00:09:15,550 --> 00:09:23,010
+I just remind you that all of the steps
+are described in writing in a document.
+
+106
+00:09:25,550 --> 00:09:29,080
+So I'm on this website
+where I hope I will find
+
+107
+00:09:29,080 --> 00:09:33,630
+the Java that NetBeans needs to install.
+
+108
+00:09:35,070 --> 00:09:40,330
+So, it's not Java SE,
+it's Java, is the JDK I need.
+
+109
+00:09:42,190 --> 00:09:42,780
+Where is that?
+
+110
+00:09:42,780 --> 00:09:46,780
+It's not there.
+
+111
+00:09:46,780 --> 00:09:48,976
+Oh yes, right in front of my eyes.
+
+112
+00:09:48,976 --> 00:09:52,440
+Java JDK just there.
+
+113
+00:09:52,440 --> 00:09:56,050
+Oh and
+I could have probably just started with,
+
+114
+00:09:56,050 --> 00:09:59,450
+could have downloaded NetBeans
+directly with the JDK.
+
+115
+00:09:59,450 --> 00:10:03,480
+Anyway, Java, JDK is there.
+
+116
+00:10:03,480 --> 00:10:07,201
+That's right, download it.
+
+117
+00:10:10,635 --> 00:10:18,080
+Whoa, it comes in many different versions,
+and I need the one for Mac.
+
+118
+00:10:18,080 --> 00:10:19,420
+It's just this line.
+
+119
+00:10:20,570 --> 00:10:28,410
+So I accept first the license agreement,
+and then I can click there.
+
+120
+00:10:30,490 --> 00:10:31,280
+It's a big file.
+
+121
+00:10:32,980 --> 00:10:35,090
+So I save it again in my downloads folder.
+
+122
+00:10:37,480 --> 00:10:39,339
+Wow, 200 megabytes.
+
+123
+00:10:40,590 --> 00:10:45,862
+That should be done in 30 seconds.
+
+124
+00:11:08,290 --> 00:11:10,707
+And yeah, almost there.
+
+125
+00:11:13,723 --> 00:11:14,852
+Yes, finished.
+
+126
+00:11:16,790 --> 00:11:19,540
+Okay, so now we should be fine.
+
+127
+00:11:19,540 --> 00:11:26,607
+I double click on the JDK to install it.
+
+128
+00:11:36,200 --> 00:11:38,709
+Double click to install yes.
+
+129
+00:11:44,698 --> 00:11:47,026
+Yes it's fine.
+
+130
+00:11:47,026 --> 00:11:49,122
+Click continue.
+
+131
+00:11:49,122 --> 00:11:52,465
+Yes.
+
+132
+00:11:52,465 --> 00:11:56,784
+Half a giga of space on your disk.
+
+133
+00:11:56,784 --> 00:11:58,880
+And this one that should
+be absolutely fine.
+
+134
+00:12:00,310 --> 00:12:05,760
+Again my password for installation.
+
+135
+00:12:05,760 --> 00:12:10,852
+That might take more pain than
+the last one, I should definitely
+
+136
+00:12:10,852 --> 00:12:16,620
+cut the video here except if you really
+like or you know borrowing stuff.
+
+137
+00:12:28,056 --> 00:12:35,700
+I have closed the recording
+during the installation.
+
+138
+00:12:35,700 --> 00:12:37,280
+It just finished.
+
+139
+00:12:37,280 --> 00:12:39,540
+So, yeah.
+
+140
+00:12:39,540 --> 00:12:41,766
+So, I close the installation window.
+
+141
+00:12:41,766 --> 00:12:44,814
+Everything went fine.
+
+142
+00:12:44,814 --> 00:12:45,950
+I close that.
+
+143
+00:12:45,950 --> 00:12:49,140
+I can finally go back
+to what we are here for
+
+144
+00:12:49,140 --> 00:12:54,040
+which is installing NetBeans and
+now it shouldn't complain.
+
+145
+00:12:54,040 --> 00:12:55,627
+So, I double click on NetBeans.
+
+146
+00:13:01,757 --> 00:13:06,352
+It will check if everything is
+fine with Java, and it should be.
+
+147
+00:13:11,183 --> 00:13:12,930
+Oh, that's fine.
+
+148
+00:13:12,930 --> 00:13:16,100
+Right, we're here.
+
+149
+00:13:16,100 --> 00:13:18,650
+Yes!
+So, we've moved to the license agreement
+
+150
+00:13:18,650 --> 00:13:22,870
+which means that technically
+thinks we're all right.
+
+151
+00:13:24,490 --> 00:13:25,460
+Yes, I agree.
+
+152
+00:13:28,523 --> 00:13:30,565
+It will take a lot of space.
+
+153
+00:13:30,565 --> 00:13:31,539
+I agree.
+
+154
+00:13:31,539 --> 00:13:34,517
+It asks for my password again.
+
+155
+00:13:42,977 --> 00:13:46,260
+Okay, so I mean I repeat right?
+
+156
+00:13:46,260 --> 00:13:51,890
+It's exceedingly boring
+to install the software,
+
+157
+00:13:51,890 --> 00:13:58,020
+because it needs Java and first we
+install Java in the wrong version.
+
+158
+00:13:58,020 --> 00:14:02,570
+So we, like the GRE instead of the JDK.
+
+159
+00:14:04,610 --> 00:14:07,180
+But we did it in a couple of minutes.
+
+160
+00:14:07,180 --> 00:14:09,220
+And now we are finally starting NetBeans,
+
+161
+00:14:09,220 --> 00:14:12,660
+which takes another five
+minutes apparently.
+
+162
+00:14:13,830 --> 00:14:18,690
+But you just have to do that to actually
+
+163
+00:14:19,700 --> 00:14:26,090
+access the tools to develop software for
+free, and easily.
+
+164
+00:14:26,090 --> 00:14:27,570
+Well, that's fine with me, all right?
+
+165
+00:14:27,570 --> 00:14:30,707
+It's just installing a couple of stuff.
+
+166
+00:14:34,051 --> 00:14:38,792
+Well, maybe I should pause
+the recording again just to save you
+
+167
+00:14:38,792 --> 00:14:40,410
+a couple of minutes.
+
+168
+00:14:42,170 --> 00:14:48,827
+And NetBeans is almost installed now,
+so I just resumed the recording.
+
+169
+00:14:52,683 --> 00:14:54,585
+I say almost.
+
+170
+00:15:02,666 --> 00:15:06,619
+That may be the most boring
+video of this whole course.
+
+171
+00:15:06,619 --> 00:15:07,786
+Come on.
+
+172
+00:15:15,262 --> 00:15:19,260
+All right, pause the video again.
+
+173
+00:15:19,260 --> 00:15:19,850
+Welcome back!
+
+174
+00:15:19,850 --> 00:15:21,540
+Well, in my case,
+
+175
+00:15:21,540 --> 00:15:26,990
+I had to wait a long time before
+the installation got to the end.
+
+176
+00:15:26,990 --> 00:15:32,760
+The installation process got stuck on
+
+177
+00:15:32,760 --> 00:15:41,170
+a screen that was saying verification
+package creates or something like that.
+
+178
+00:15:41,170 --> 00:15:47,220
+It was supposed to last a lot less than a
+minute and it got stuck for five minutes.
+
+179
+00:15:47,220 --> 00:15:53,754
+But I didn't touch anything,
+I was checking on google chrome,
+
+180
+00:15:53,754 --> 00:16:00,288
+on google if it was all right or
+if if anybody else had this issue,
+
+181
+00:16:00,288 --> 00:16:05,491
+but someone said well,
+you just have to wait 10 to
+
+182
+00:16:05,491 --> 00:16:10,860
+15 minutes and
+installation will go through.
+
+183
+00:16:10,860 --> 00:16:12,999
+So in my case I waited just five minutes.
+
+184
+00:16:14,280 --> 00:16:19,250
+Five long minutes and
+installation was okay, so
+
+185
+00:16:19,250 --> 00:16:24,740
+I suggest you to, yeah, let it wait for,
+
+186
+00:16:24,740 --> 00:16:31,240
+yeah, up to maybe 10,
+15 minutes to let it finish.
+
+187
+00:16:31,240 --> 00:16:37,920
+If really, after that,
+the installation doesn't work,
+
+188
+00:16:37,920 --> 00:16:43,670
+please refer to the documents
+next to this video.
+
+189
+00:16:43,670 --> 00:16:49,840
+I explain a different route for
+the installation but that should be fine.
+
+190
+00:16:51,220 --> 00:16:55,190
+Okay, so the installation of NetBeans was
+successful, wow, that took a long time.
+
+191
+00:16:56,470 --> 00:17:04,790
+I close that and now if I go to my
+Applications, I actually find NetBeans.
+
+192
+00:17:06,360 --> 00:17:07,590
+So let's do that.
+
+193
+00:17:10,400 --> 00:17:11,080
+Yes.
+
+194
+00:17:11,080 --> 00:17:11,920
+It's just there.
+
+195
+00:17:13,450 --> 00:17:14,780
+Let's click on it.
+
+196
+00:17:16,530 --> 00:17:19,100
+And in this folder I have NetBeans.
+
+197
+00:17:19,100 --> 00:17:21,323
+So, launch it.
+
+198
+00:17:26,014 --> 00:17:33,670
+So again, NetBeans is a software
+to create apps, software.
+
+199
+00:17:33,670 --> 00:17:37,520
+I mean this is not the kind of
+software that we have ever used.
+
+200
+00:17:37,520 --> 00:17:39,180
+So don't worry.
+
+201
+00:17:39,180 --> 00:17:45,750
+It's gonna be a bit surprising in terms
+of vocabulary and screens and stuff.
+
+202
+00:17:45,750 --> 00:17:48,840
+But just don't worry,
+it's nothing, it's not a big deal,
+
+203
+00:17:48,840 --> 00:17:52,550
+it's just something to create apps.
+
+204
+00:17:52,550 --> 00:18:00,150
+And so that's how it looks like on my Mac,
+I hope it's the same for you.
+
+205
+00:18:01,970 --> 00:18:04,110
+So I'm not a Mac user myself.
+
+206
+00:18:04,110 --> 00:18:07,160
+So I suppose just like you,
+I'm a bit disoriented at the moment.
+
+207
+00:18:08,210 --> 00:18:09,400
+What should I do now?
+
+208
+00:18:09,400 --> 00:18:15,710
+Oh, yeah, so NetBeans is something
+that helps you develop apps.
+
+209
+00:18:15,710 --> 00:18:21,050
+But to do that,
+with the special tool we are going to use,
+
+210
+00:18:21,050 --> 00:18:24,850
+you need to install, and
+I promise that's the last thing.
+
+211
+00:18:24,850 --> 00:18:30,350
+You need to install a plugin into NetBeans
+that is dedicated to creating mobile apps.
+
+212
+00:18:31,560 --> 00:18:33,950
+The good news is that
+it's within NetBeans.
+
+213
+00:18:33,950 --> 00:18:37,050
+No need to search for
+anything on a website.
+
+214
+00:18:37,050 --> 00:18:38,340
+It's just there.
+
+215
+00:18:38,340 --> 00:18:39,650
+So do that with me.
+
+216
+00:18:39,650 --> 00:18:40,760
+You just go on tools.
+
+217
+00:18:42,570 --> 00:18:48,206
+You know in the menu, tools, and the menu
+there is plugins, so we click on plugins.
+
+218
+00:18:52,582 --> 00:18:58,390
+You wait a bit and yes.
+
+219
+00:18:58,390 --> 00:19:03,676
+Here you have a tab called available
+plugins and that's where we want to find.
+
+220
+00:19:03,676 --> 00:19:06,850
+The plug-in we need.
+
+221
+00:19:06,850 --> 00:19:10,710
+So you know, this is a long list of
+plug-in we can install into NetBeans.
+
+222
+00:19:12,320 --> 00:19:17,050
+If I'm gonna pick a name,
+you know, name just there.
+
+223
+00:19:17,050 --> 00:19:19,090
+In order to sort them alphabetically.
+
+224
+00:19:20,250 --> 00:19:23,210
+Oh and I see the one I want right there.
+
+225
+00:19:23,210 --> 00:19:28,832
+I'm looking for
+the code name One Plugin, this one.
+
+226
+00:19:28,832 --> 00:19:32,650
+So I just select it with the tick box.
+
+227
+00:19:34,150 --> 00:19:40,647
+And when I've selected
+it I can come install.
+
+228
+00:19:40,647 --> 00:19:44,030
+Yes, I'm fine with that.
+
+229
+00:19:44,030 --> 00:19:45,480
+I accept the licence.
+
+230
+00:19:48,190 --> 00:19:52,483
+So I repeat that, I mean,
+I've said that in other videos, but
+
+231
+00:19:52,483 --> 00:19:54,266
+all these tools are free.
+
+232
+00:19:54,266 --> 00:19:59,335
+And you can use them to
+develop apps that are free or
+
+233
+00:19:59,335 --> 00:20:06,980
+that you want to sell or that you
+want to use for commercial purposes.
+
+234
+00:20:06,980 --> 00:20:07,910
+It's perfectly all right.
+
+235
+00:20:11,030 --> 00:20:13,560
+So the plugin is being downloaded.
+
+236
+00:20:13,560 --> 00:20:18,444
+I'm gonna pause again because looking
+at the progress bar I think we're gonna
+
+237
+00:20:18,444 --> 00:20:20,008
+have one or two minutes.
+
+238
+00:20:25,753 --> 00:20:29,864
+And I just finished
+downloading the plugin so
+
+239
+00:20:29,864 --> 00:20:36,560
+it tells me that I should be careful
+because the plugin is not signed.
+
+240
+00:20:36,560 --> 00:20:38,550
+No, it's signed but not trusted.
+
+241
+00:20:38,550 --> 00:20:45,680
+Well it comes from codename one, all right
+so that's, I can trust that, continue.
+
+242
+00:20:47,280 --> 00:20:53,050
+It suggests that I should restart
+the IDE which is NetBeans.
+
+243
+00:20:53,050 --> 00:20:54,860
+Now, yes please.
+
+244
+00:20:56,000 --> 00:21:00,560
+So NetBeans should close now.
+
+245
+00:21:00,560 --> 00:21:04,640
+So, by the way,
+why did it say that NetBeans was an IDE?
+
+246
+00:21:04,640 --> 00:21:11,250
+IDE just means integrated
+development environment.
+
+247
+00:21:11,250 --> 00:21:12,330
+Čo to znamená?
+
+248
+00:21:12,330 --> 00:21:18,240
+Development is just another name for
+programming or creation of software.
+
+249
+00:21:18,240 --> 00:21:26,642
+So an integrated development
+environment is a fancy name for
+
+250
+00:21:26,642 --> 00:21:32,746
+software that helps you program software.
+
+251
+00:21:32,746 --> 00:21:37,210
+Nothing really amazing there.
+
+252
+00:21:37,210 --> 00:21:39,120
+So NetBeans, you see NetBeansIDE,
+
+253
+00:21:39,120 --> 00:21:43,360
+well that's the reason why
+you have these three letters.
+
+254
+00:21:44,540 --> 00:21:47,227
+NetBeans is restarting and
+
+255
+00:21:47,227 --> 00:21:52,493
+we should see inside it that
+now we are able to create.
+
+256
+00:21:55,154 --> 00:21:58,720
+Projects for the creation of mobile apps.
+
+257
+00:21:58,720 --> 00:22:05,393
+And so let's wait for
+our NetBeans to install.
+
+258
+00:22:22,318 --> 00:22:25,813
+So things are much quicker after that,
+don't worry.
+
+259
+00:22:30,859 --> 00:22:32,640
+Yeah, finally.
+
+260
+00:22:32,640 --> 00:22:37,539
+Well you might or might not want
+to provide NetBeans with anonymous
+
+261
+00:22:37,539 --> 00:22:40,874
+research data, in that case, no thank you.
+
+262
+00:22:40,874 --> 00:22:42,082
+So, that's NetBeans.
+
+263
+00:22:42,082 --> 00:22:42,782
+Again.
+
+264
+00:22:46,655 --> 00:22:53,343
+And I'm just gonna check whether
+we can create projects for
+
+265
+00:22:53,343 --> 00:22:58,837
+mobile apps, and
+the creation of new projects.
+
+266
+00:22:58,837 --> 00:23:04,330
+This is the second icon from the left,
+it's the green cross.
+
+267
+00:23:04,330 --> 00:23:10,384
+And when you stay on it,
+it says new project.
+
+268
+00:23:10,384 --> 00:23:11,685
+I just clicked on it.
+
+269
+00:23:14,095 --> 00:23:22,260
+And yes, it is possible to create
+projects in Java, in what?
+
+270
+00:23:22,260 --> 00:23:25,430
+Mainly Java X, Effects I mean.
+
+271
+00:23:25,430 --> 00:23:26,310
+Stuff we don't care about.
+
+272
+00:23:26,310 --> 00:23:31,500
+What we care is that we can now
+create Codename One projects.
+
+273
+00:23:31,500 --> 00:23:39,389
+Codename One is this tool which
+specializes in creating mobile apps for
+
+274
+00:23:39,389 --> 00:23:44,265
+Android, iOS, Windows Phone and others.
+
+275
+00:23:44,265 --> 00:23:45,190
+That's exactly what we want.
+
+276
+00:23:46,640 --> 00:23:50,910
+So we create on Codename, sorry,
+
+277
+00:23:50,910 --> 00:23:57,405
+we click on Codename One project,
+we click on next.
+
+278
+00:23:57,405 --> 00:23:58,590
+The name is, well, name.
+
+279
+00:23:58,590 --> 00:24:00,059
+Čo je dobré.
+
+280
+00:24:00,059 --> 00:24:05,910
+The package name I
+
+281
+00:24:05,910 --> 00:24:10,602
+explain that later in this case.
+
+282
+00:24:10,602 --> 00:24:11,831
+Oh, Jean does not care,
+we don't care about all of that, finish.
+
+283
+00:24:17,447 --> 00:24:19,032
+We wait again.
+
+284
+00:24:25,339 --> 00:24:28,550
+And we should see sometime soon.
+
+285
+00:24:31,230 --> 00:24:34,388
+No, what else should we see,
+yeah, it's coming in.
+
+286
+00:24:39,582 --> 00:24:41,594
+So all of that, is quite slow.
+
+287
+00:24:44,766 --> 00:24:48,909
+But what you see is that we have
+created a Codename One project.
+
+288
+00:24:50,820 --> 00:24:56,030
+Here.
+And we are ready to go.
+
+289
+00:24:56,030 --> 00:24:58,300
+So that's it for this video.
+
+290
+00:24:58,300 --> 00:25:00,950
+Sorry for it being so long.
+
+291
+00:25:00,950 --> 00:25:06,310
+It can be summed up in,
+I suppose, just one page where
+
+292
+00:25:07,310 --> 00:25:12,670
+you see the steps of what you need to
+install but that's the long uncut version.
+
+293
+00:25:12,670 --> 00:25:16,290
+And see you on the next video for
+more exciting stuff.
+
+294
+00:25:16,290 --> 00:25:16,790
+Bye.

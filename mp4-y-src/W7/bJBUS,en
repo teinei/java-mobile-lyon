@@ -1,0 +1,2008 @@
+1
+00:00:03,633 --> 00:00:08,753
+Hi, in this video, we we will learn how
+to build the certain part of our app.
+
+2
+00:00:08,753 --> 00:00:13,542
+The part where we, in the app,
+we have a screen where we
+
+3
+00:00:13,542 --> 00:00:19,010
+can see all the roars sent by
+the other users of the app.
+
+4
+00:00:19,010 --> 00:00:20,220
+So to build the screen,
+
+5
+00:00:20,220 --> 00:00:24,750
+we need to collect the roars from
+the Internet where they were stored.
+
+6
+00:00:25,940 --> 00:00:30,640
+In the previous tutorial, we have seen
+how to send roars to the Internet.
+
+7
+00:00:30,640 --> 00:00:36,580
+So in this part, we have to collect to
+retrieve these roars from the Internet,
+
+8
+00:00:36,580 --> 00:00:40,720
+and then we have to put them on screen.
+
+9
+00:00:40,720 --> 00:00:47,204
+So what you see here is a list of
+all the roars that I have sent on
+
+10
+00:00:47,204 --> 00:00:52,300
+the Internet, and
+that's how they look like.
+
+11
+00:00:52,300 --> 00:00:55,252
+So I told you in the previous tutorial,
+
+12
+00:00:55,252 --> 00:00:59,380
+what you see here is one roar,
+that's another, etc.
+
+13
+00:00:59,380 --> 00:01:03,050
+And they are all stored in a bucket.
+
+14
+00:01:03,050 --> 00:01:08,059
+So I think the previous tutorial
+I had used a bucket of roars,
+
+15
+00:01:08,059 --> 00:01:12,590
+and I don't know why I changed
+that list of roars here.
+
+16
+00:01:12,590 --> 00:01:15,908
+So sorry for the change,
+
+17
+00:01:15,908 --> 00:01:20,970
+it's list of roars in this tutorial.
+
+18
+00:01:20,970 --> 00:01:27,800
+So when you click on one roar,
+you see what's inside.
+
+19
+00:01:27,800 --> 00:01:34,420
+So you have the ID of the roar,
+the unique ID.
+
+20
+00:01:34,420 --> 00:01:38,955
+And inside a roar is simply two things,
+an author,
+
+21
+00:01:38,955 --> 00:01:44,880
+which is it's me, and a roar,
+it was test, whatever.
+
+22
+00:01:44,880 --> 00:01:50,322
+So this is stored in the JSON format
+
+23
+00:01:50,322 --> 00:01:55,210
+here in this database online.
+
+24
+00:01:55,210 --> 00:02:00,340
+So you should have watched
+the tutorial on what is JSON, but
+
+25
+00:02:00,340 --> 00:02:05,380
+let me show you how this thing
+here looks like in practice.
+
+26
+00:02:05,380 --> 00:02:09,020
+So this is what we have on the Internet.
+
+27
+00:02:09,020 --> 00:02:16,300
+We have the ID of the first roar,
+the ID of the second roar,
+
+28
+00:02:16,300 --> 00:02:21,220
+and for each ID, we have a JSON object.
+
+29
+00:02:21,220 --> 00:02:24,900
+So what we have is two
+levels of JSON objects.
+
+30
+00:02:24,900 --> 00:02:29,770
+If you remember the tutorial,
+we have the one big JSON object, and
+
+31
+00:02:29,770 --> 00:02:34,880
+inside it, we have one JSON object here,
+see the first roar.
+
+32
+00:02:34,880 --> 00:02:38,450
+And the second JSON object there.
+
+33
+00:02:38,450 --> 00:02:40,820
+So we don't worry about that.
+
+34
+00:02:40,820 --> 00:02:46,266
+We just need to know that
+the roars are are stored
+
+35
+00:02:46,266 --> 00:02:52,140
+as JSON objects inside
+this big JSON object.
+
+36
+00:02:52,140 --> 00:02:55,720
+So that's how we will work.
+
+37
+00:02:55,720 --> 00:02:59,400
+And when we get these roars,
+we want to put them on screen.
+
+38
+00:02:59,400 --> 00:03:04,740
+So here, I just show you
+the roar of the application,
+
+39
+00:03:04,740 --> 00:03:06,970
+and what we want to achieve
+is something like that.
+
+40
+00:03:06,970 --> 00:03:11,110
+We want to, for each roar that we get,
+
+41
+00:03:11,110 --> 00:03:16,150
+we want to display them from top
+to the bottom of the screen.
+
+42
+00:03:17,960 --> 00:03:22,130
+And we want to have the name
+of the person who roars, and
+
+43
+00:03:22,130 --> 00:03:27,290
+then the text, so
+we want them to be from left to right.
+
+44
+00:03:27,290 --> 00:03:30,180
+That's gonna be a flow layout.
+
+45
+00:03:30,180 --> 00:03:32,960
+So we need a container for that.
+
+46
+00:03:32,960 --> 00:03:40,100
+Again, here you should just check again
+the slides on the PDF on layouts.
+
+47
+00:03:40,100 --> 00:03:40,840
+So I create.
+
+48
+00:03:42,120 --> 00:03:44,220
+I'll show you what
+the program is gonna do.
+
+49
+00:03:44,220 --> 00:03:47,990
+Here, I'm just showing
+to you in the designer.
+
+50
+00:03:47,990 --> 00:03:51,010
+But we will write code that
+will do that automatically for
+
+51
+00:03:51,010 --> 00:03:54,020
+each roar we receive from the Internet.
+
+52
+00:03:54,020 --> 00:03:59,760
+What the code is going to do is
+create a container for one roar and
+
+53
+00:03:59,760 --> 00:04:06,330
+it's gonna create a label in it.
+
+54
+00:04:06,330 --> 00:04:11,490
+So you see we have a label inside, so
+that's gonna be the roar by me, Clay.
+
+55
+00:04:13,730 --> 00:04:17,080
+And then, next to the label,
+we'll have the text of the roar.
+
+56
+00:04:17,080 --> 00:04:21,790
+It's gonna be a label as well,
+or it could be a span label.
+
+57
+00:04:21,790 --> 00:04:25,260
+Anyway, for the tutorial,
+I just use a label.
+
+58
+00:04:25,260 --> 00:04:29,920
+And that's gonna display like hey, This,
+
+59
+00:04:32,420 --> 00:04:40,260
+Is a roar sent by another user.
+
+60
+00:04:40,260 --> 00:04:44,918
+So maybe that the user Julie,
+she would use her app, and
+
+61
+00:04:44,918 --> 00:04:47,390
+she would click on Refresh.
+
+62
+00:04:47,390 --> 00:04:51,120
+And then,
+she would see this roar arriving.
+
+63
+00:04:51,120 --> 00:04:56,050
+And then, she would see all
+the other roars, not just one,
+
+64
+00:04:56,050 --> 00:05:00,080
+but actually all the other
+roars in a list.
+
+65
+00:05:00,080 --> 00:05:02,545
+So that's what we want to achieve.
+
+66
+00:05:02,545 --> 00:05:05,545
+But we can't do it in the designer.
+
+67
+00:05:05,545 --> 00:05:06,885
+We need to code that.
+
+68
+00:05:06,885 --> 00:05:08,393
+So just to recap,
+
+69
+00:05:08,393 --> 00:05:14,135
+we need to write some code that will
+get the roars from the Internet.
+
+70
+00:05:14,135 --> 00:05:18,377
+And the roars are returning
+the JSON format, so
+
+71
+00:05:18,377 --> 00:05:24,965
+we can use what we've seen in the tutorial
+about how to read JSON objects.
+
+72
+00:05:24,965 --> 00:05:30,427
+And then for each roar,
+we gonna create a container
+
+73
+00:05:30,427 --> 00:05:37,285
+where we gonna put one label as
+the name of the author of the roar,
+
+74
+00:05:37,285 --> 00:05:43,810
+and a second label in the container
+with the text of the roar.
+
+75
+00:05:43,810 --> 00:05:46,730
+And then, for each roar, a new container.
+
+76
+00:05:46,730 --> 00:05:51,310
+And then we say, put all of that
+in the screen, so it's a form.
+
+77
+00:05:51,310 --> 00:05:54,980
+Put all of that in the form,
+and refresh the screen.
+
+78
+00:05:56,330 --> 00:05:59,530
+So let me show you how all
+
+79
+00:06:01,600 --> 00:06:05,940
+these things are written in code.
+
+80
+00:06:07,610 --> 00:06:10,710
+So basically, what we started doing is,
+
+81
+00:06:10,710 --> 00:06:15,100
+let me go back to the designer,
+is take the button Refresh.
+
+82
+00:06:15,100 --> 00:06:19,710
+I think the designer is a bit buggy.
+
+83
+00:06:19,710 --> 00:06:22,910
+But basically,
+we select the button Refresh.
+
+84
+00:06:22,910 --> 00:06:26,960
+Then we go to Events, and
+we click on Action Event.
+
+85
+00:06:26,960 --> 00:06:27,740
+When you do that,
+
+86
+00:06:28,820 --> 00:06:33,850
+it creates this thing here that we
+don't really need to understand.
+
+87
+00:06:33,850 --> 00:06:38,880
+It just means that anything that will
+happen between this curly brace, oops,
+
+88
+00:06:39,880 --> 00:06:40,580
+and this one.
+
+89
+00:06:41,580 --> 00:06:46,066
+Everything written between these
+curly braces is gonna be executed,
+
+90
+00:06:46,066 --> 00:06:49,900
+it's gonna be done,
+when the button is clicked.
+
+91
+00:06:49,900 --> 00:06:57,070
+So now, I'm just writing
+what I want to be executed.
+
+92
+00:06:57,070 --> 00:07:03,220
+So just neglect to try, because it's
+been automatically added to the code.
+
+93
+00:07:03,220 --> 00:07:04,280
+I didn't write it myself.
+
+94
+00:07:06,430 --> 00:07:13,635
+So I just started by saying
+where should the app connect.
+
+95
+00:07:13,635 --> 00:07:16,565
+Where on the Internet are the roars?
+
+96
+00:07:16,565 --> 00:07:18,625
+And this is the address.
+
+97
+00:07:18,625 --> 00:07:22,080
+So this is the text, and
+I put it in the box, roars.
+
+98
+00:07:23,355 --> 00:07:26,045
+It's a box for text or string.
+
+99
+00:07:26,045 --> 00:07:27,365
+Why this address?
+
+100
+00:07:27,365 --> 00:07:31,939
+Simply because, let me go back here.
+
+101
+00:07:33,500 --> 00:07:37,210
+Because this is exactly
+the address where the roars are.
+
+102
+00:07:37,210 --> 00:07:42,518
+And only difference is
+that you have to add .json
+
+103
+00:07:42,518 --> 00:07:47,940
+just to say this is some
+text in the JSON format.
+
+104
+00:07:47,940 --> 00:07:49,090
+And why do I know that?
+
+105
+00:07:49,090 --> 00:07:56,878
+That's just because I read
+the documentation in firebaseio.com.
+
+106
+00:07:56,878 --> 00:08:01,178
+They have a lot of documentation, and
+you just have to follow it's instructions.
+
+107
+00:08:01,178 --> 00:08:03,727
+That where there are instructions.
+
+108
+00:08:03,727 --> 00:08:08,382
+Then I connect to the internet and
+here CodenameOne provides you
+
+109
+00:08:08,382 --> 00:08:13,600
+which is a very convenient object
+called connection request.
+
+110
+00:08:13,600 --> 00:08:18,332
+And you create a new object,
+you put it in a box called request,
+
+111
+00:08:18,332 --> 00:08:23,349
+which specializes in re saving
+objects like connection request.
+
+112
+00:08:24,930 --> 00:08:30,960
+Once this object is created and put into
+the box, you know you can apply actions.
+
+113
+00:08:30,960 --> 00:08:34,500
+And I read the documentation,
+I have the book here.
+
+114
+00:08:38,850 --> 00:08:43,580
+I was just reading this book, so
+that's if you are a French reader but
+
+115
+00:08:43,580 --> 00:08:46,830
+if you don't speak French or
+you don't read French.
+
+116
+00:08:46,830 --> 00:08:49,530
+You just go to CodenameOne on the website,
+
+117
+00:08:49,530 --> 00:08:54,910
+and there is a manual of how to connect to
+the Internet and I just read the manual.
+
+118
+00:08:54,910 --> 00:08:59,650
+They say when you have created this
+object and you put it in the box,
+
+119
+00:08:59,650 --> 00:09:03,090
+you should apply these actions to
+receive stuff on the Internet, so
+
+120
+00:09:03,090 --> 00:09:05,760
+I just followed the instructions.
+
+121
+00:09:05,760 --> 00:09:12,140
+First you have to write the address
+where we should connect.
+
+122
+00:09:12,140 --> 00:09:15,670
+And the address is in this box,
+and I just put the box.
+
+123
+00:09:15,670 --> 00:09:19,350
+Then you should write this, okay.
+
+124
+00:09:19,350 --> 00:09:23,730
+This action just means that we don't
+want to post things on the Internet,
+
+125
+00:09:23,730 --> 00:09:24,840
+we want to receive it.
+
+126
+00:09:24,840 --> 00:09:30,250
+So we have to save, this does the same.
+
+127
+00:09:30,250 --> 00:09:35,380
+It means that the method we
+want to use is the one to get
+
+128
+00:09:35,380 --> 00:09:40,200
+stuff from the Internet, not to post,
+not to upload, not to download stuff.
+
+129
+00:09:41,330 --> 00:09:42,080
+And finally,
+
+130
+00:09:42,080 --> 00:09:47,770
+this action is just to say that we are
+going to receive text in the JSON format.
+
+131
+00:09:49,030 --> 00:09:54,060
+You have to say it,
+if you don't, the object doesn't
+
+132
+00:09:54,060 --> 00:09:59,030
+know what kind of thing it will receive.
+
+133
+00:09:59,030 --> 00:10:06,450
+And then we have a bit of black magic
+this thing just actions the object.
+
+134
+00:10:06,450 --> 00:10:09,770
+This thing says,
+okay now connect to the Internet.
+
+135
+00:10:09,770 --> 00:10:11,770
+This is what creates the connection.
+
+136
+00:10:14,600 --> 00:10:20,380
+And when we move to this line,
+the connection has been made and
+
+137
+00:10:20,380 --> 00:10:24,350
+the data, so
+the text rows are being received.
+
+138
+00:10:24,350 --> 00:10:26,470
+So this line is a bit complicated, but
+
+139
+00:10:26,470 --> 00:10:29,710
+if you look at it,
+not too much, it's as usual.
+
+140
+00:10:29,710 --> 00:10:33,930
+We have a box here, that we create.
+
+141
+00:10:33,930 --> 00:10:38,608
+And we receive data not as letters,
+we receive it as zeros and
+
+142
+00:10:38,608 --> 00:10:42,850
+ones, the stuff of computers,
+zeros and ones.
+
+143
+00:10:42,850 --> 00:10:47,960
+That's how we receive the data and
+the roars initially.
+
+144
+00:10:47,960 --> 00:10:53,006
+So we have to create a box that
+specializes in receiving bytes,
+
+145
+00:10:53,006 --> 00:10:55,560
+the zeros and ones.
+
+146
+00:10:55,560 --> 00:11:00,305
+And we put an object in it,
+byte array, input stream,
+
+147
+00:11:00,305 --> 00:11:02,595
+it's really like Greek to me.
+
+148
+00:11:02,595 --> 00:11:06,925
+But, it's an object that specializes in
+
+149
+00:11:06,925 --> 00:11:10,035
+receiving zeros and
+ones from the internet.
+
+150
+00:11:11,525 --> 00:11:14,995
+And when you create this object, you
+know sometimes when you create objects,
+
+151
+00:11:14,995 --> 00:11:16,875
+you can put parameters.
+
+152
+00:11:16,875 --> 00:11:21,850
+The parameters for
+this object is the data we just received,
+
+153
+00:11:21,850 --> 00:11:24,590
+because the connection has been made.
+
+154
+00:11:24,590 --> 00:11:29,600
+We get the response data from
+the connection we just did, and
+
+155
+00:11:29,600 --> 00:11:34,380
+we use it to create the subject
+we put into the box.
+
+156
+00:11:34,380 --> 00:11:39,800
+But it's just zeros and ones, so
+that's not gonna be helpful to read.
+
+157
+00:11:39,800 --> 00:11:48,090
+So in the next step, we create a box where
+we put an object, which is gonna be text.
+
+158
+00:11:48,090 --> 00:11:50,390
+Text, it's okay we can read that.
+
+159
+00:11:50,390 --> 00:11:56,130
+And how do we go from zeros and
+ones in the previous box to text?
+
+160
+00:11:56,130 --> 00:11:57,120
+Black magic.
+
+161
+00:11:57,120 --> 00:12:02,158
+We use a method, an action which is a bit
+
+162
+00:12:02,158 --> 00:12:07,199
+complicated but is very easy to write,
+
+163
+00:12:07,199 --> 00:12:11,019
+which transforms the bytes,
+
+164
+00:12:11,019 --> 00:12:15,470
+the zeroes and ones, into a text.
+
+165
+00:12:17,400 --> 00:12:22,950
+And this thing here is knitted to
+say that it's a text written in,
+
+166
+00:12:24,670 --> 00:12:30,980
+well its just says that,
+well it's a bit complicated to explain.
+
+167
+00:12:30,980 --> 00:12:37,550
+But it's just to say that
+the text contains symbols,
+
+168
+00:12:37,550 --> 00:12:41,980
+that are part of this convention
+like Latin letters or
+
+169
+00:12:41,980 --> 00:12:45,380
+Arabic letters or Chinese letters.
+
+170
+00:12:45,380 --> 00:12:50,855
+I mean all of these are codes,
+which belong to this convention.
+
+171
+00:12:50,855 --> 00:12:57,255
+It's a very complicated topic, but we just
+have to write that, that's not a big deal.
+
+172
+00:12:57,255 --> 00:13:03,925
+Now we have finally received
+all our roars as text.
+
+173
+00:13:03,925 --> 00:13:07,675
+So basically, we received
+something like that, it's great.
+
+174
+00:13:07,675 --> 00:13:12,960
+So now, how do we get access to this and
+
+175
+00:13:12,960 --> 00:13:16,700
+this, that's just what we
+need to put that on screen.
+
+176
+00:13:19,150 --> 00:13:24,560
+Well, we use in here you should maybe
+check back to the tutorial on JSON.
+
+177
+00:13:24,560 --> 00:13:30,396
+We use a special object that will
+help us get the information we need,
+
+178
+00:13:30,396 --> 00:13:36,180
+in this awful stuff.
+
+179
+00:13:36,180 --> 00:13:39,620
+So we just take the text
+that we received here and
+
+180
+00:13:39,620 --> 00:13:43,960
+we use it to create JSON object,
+again something a bit mysterious.
+
+181
+00:13:43,960 --> 00:13:46,560
+We don't need to know what it is,
+just very helpful.
+
+182
+00:13:47,720 --> 00:13:49,719
+And this object, we'll put it in this box.
+
+183
+00:13:51,440 --> 00:13:56,013
+And why is it just [INAUDIBLE] because
+this box can now use actions to
+
+184
+00:13:56,013 --> 00:13:57,770
+retrieve information.
+
+185
+00:14:00,130 --> 00:14:04,138
+For the first thing we're going
+to do is take all the names
+
+186
+00:14:04,138 --> 00:14:09,080
+inside the JSON,
+
+187
+00:14:09,080 --> 00:14:14,410
+so what it means is that
+we have first name here.
+
+188
+00:14:14,410 --> 00:14:19,550
+So name is actually not a group of
+words it should be called an attribute,
+
+189
+00:14:21,500 --> 00:14:23,524
+but who cares, all right?
+
+190
+00:14:23,524 --> 00:14:27,630
+So we just gonna take our list,
+or as they call it an array so
+
+191
+00:14:27,630 --> 00:14:32,920
+it's kind of a list,
+of all the names in our JSON object.
+
+192
+00:14:32,920 --> 00:14:39,780
+So this is our JSON object and
+inside it, we have all these names.
+
+193
+00:14:41,240 --> 00:14:45,860
+And we're gonna take all these names and
+say for each of these names,
+
+194
+00:14:48,080 --> 00:14:51,410
+please take the JSON object
+that corresponds to them.
+
+195
+00:14:53,330 --> 00:14:54,930
+It's a bit complicated, I know, but
+
+196
+00:14:54,930 --> 00:15:00,980
+it's just to repeat we would take
+a list of all these names one,
+
+197
+00:15:00,980 --> 00:15:06,230
+two, in order to say for
+each of these names this one and
+
+198
+00:15:06,230 --> 00:15:10,851
+this one,
+retrieve the corresponding JSON object and
+
+199
+00:15:10,851 --> 00:15:14,710
+then when we have the JSON object,
+here we say
+
+200
+00:15:16,110 --> 00:15:21,640
+take the other and create a label for it.
+
+201
+00:15:21,640 --> 00:15:25,960
+Take the roar and
+create a label for it and
+
+202
+00:15:25,960 --> 00:15:29,920
+then move on to the next attribute or
+name.
+
+203
+00:15:31,035 --> 00:15:35,115
+Tag the JSON that corresponds,
+the JSON object that corresponds to it.
+
+204
+00:15:35,115 --> 00:15:40,355
+And in this JSON object,
+tag the author name, which is seinecle.
+
+205
+00:15:40,355 --> 00:15:45,382
+Tag the roar, which is,
+this is a test, so it's a bit of,
+
+206
+00:15:45,382 --> 00:15:49,090
+it's long, it's boring, but it works.
+
+207
+00:15:49,090 --> 00:15:52,360
+So that's what we do here,
+
+208
+00:15:52,360 --> 00:15:58,476
+we take the list of the names
+in our big JSON object,
+
+209
+00:15:58,476 --> 00:16:02,758
+and we put it in the list or an array.
+
+210
+00:16:02,758 --> 00:16:04,511
+We just make a list of them.
+
+211
+00:16:04,511 --> 00:16:07,270
+Now, we are ready to put
+things on the screen, almost.
+
+212
+00:16:07,270 --> 00:16:11,700
+So we should actually take this screen and
+
+213
+00:16:11,700 --> 00:16:14,236
+put it in a box, so
+that we can have actions on it.
+
+214
+00:16:14,236 --> 00:16:17,901
+So C here?
+
+215
+00:16:17,901 --> 00:16:20,003
+Where does it come from?
+
+216
+00:16:20,003 --> 00:16:22,280
+C, that's what you see here.
+
+217
+00:16:22,280 --> 00:16:23,200
+Component C.
+
+218
+00:16:24,400 --> 00:16:25,560
+It represents the button.
+
+219
+00:16:26,740 --> 00:16:27,410
+Why?
+
+220
+00:16:27,410 --> 00:16:31,938
+Because anything which is executed
+in these categories [BLANK
+
+221
+00:16:31,938 --> 00:16:36,490
+AUDIO] is executed when
+we click on the button.
+
+222
+00:16:36,490 --> 00:16:45,050
+So very helpfully, this code gives us a
+box where the button is already contained.
+
+223
+00:16:45,050 --> 00:16:46,350
+And the button is component.
+
+224
+00:16:48,560 --> 00:16:52,270
+So if you want to have
+a box with a screen in it,
+
+225
+00:16:53,380 --> 00:16:58,520
+we take the button and
+one action of the button is to say,
+
+226
+00:16:58,520 --> 00:17:05,210
+please take the screen where
+the button is, that's what it means.
+
+227
+00:17:05,210 --> 00:17:08,830
+Get component form is an action that says
+
+228
+00:17:08,830 --> 00:17:13,850
+take the screen where
+the components are Is and
+
+229
+00:17:13,850 --> 00:17:18,545
+put it in the box recording.
+
+230
+00:17:18,545 --> 00:17:25,170
+So we have our screen in a box here.
+
+231
+00:17:25,170 --> 00:17:32,265
+We create a container for all the roles.
+
+232
+00:17:32,265 --> 00:17:37,205
+So we create a container and
+we put it in a box we call MyContainer.
+
+233
+00:17:38,975 --> 00:17:43,206
+We're gonna give this container a layout.
+
+234
+00:17:43,206 --> 00:17:50,890
+Which is a y-axis layout,
+vertically aligned.
+
+235
+00:17:50,890 --> 00:17:54,700
+So we create a box layout.
+
+236
+00:17:54,700 --> 00:17:56,590
+You see that the parameter
+is a bit strange.
+
+237
+00:17:56,590 --> 00:18:01,290
+We have not seen this kind
+of way to write good.
+
+238
+00:18:01,290 --> 00:18:06,903
+But just copy paste that
+from the documentation.
+
+239
+00:18:06,903 --> 00:18:12,460
+We create a box layout.
+
+240
+00:18:12,460 --> 00:18:14,880
+And we put it in a box my layout.
+
+241
+00:18:16,120 --> 00:18:21,190
+And then, we say this container we just
+created and that we put in this box,
+
+242
+00:18:21,190 --> 00:18:25,640
+one action is that we can decide
+which layout we want for it, and
+
+243
+00:18:25,640 --> 00:18:30,710
+we want to put a box layout for it,
+so that's what this action does.
+
+244
+00:18:32,320 --> 00:18:35,738
+So now, we have created a container for
+all our tweets.
+
+245
+00:18:35,738 --> 00:18:36,990
+Good.
+
+246
+00:18:36,990 --> 00:18:42,913
+[BLANK AUDIO] What we
+do now is we're gonna,
+
+247
+00:18:42,913 --> 00:18:48,548
+so it's a bit hard to follow but
+step by step.
+
+248
+00:18:48,548 --> 00:18:55,770
+[BLANK AUDIO] Let me check what we do.
+
+249
+00:18:55,770 --> 00:18:56,940
+Yes.
+Oh, that's complicated.
+
+250
+00:18:58,170 --> 00:19:02,492
+And that's very simple, but
+that's a bit convoluted.
+
+251
+00:19:09,540 --> 00:19:16,760
+This is a loop which starts here and
+finishes here between the curly braces.
+
+252
+00:19:16,760 --> 00:19:23,030
+If you don't know what it is, you should
+check the tutorial on curly braces.
+
+253
+00:19:23,030 --> 00:19:27,730
+It means that everything between these
+curly braces, all this code here,
+
+254
+00:19:28,920 --> 00:19:33,870
+is gonna be executed many
+times as long as whatever is
+
+255
+00:19:35,420 --> 00:19:38,180
+written in these brackets is true.
+
+256
+00:19:40,570 --> 00:19:41,670
+Why do we do that?
+
+257
+00:19:41,670 --> 00:19:46,315
+It's just to say that we want to
+
+258
+00:19:46,315 --> 00:19:50,960
+create as many labels as we have
+
+259
+00:19:50,960 --> 00:19:55,616
+roles in the data we received.
+
+260
+00:19:55,616 --> 00:20:01,181
+We want to create one label,
+and the author,
+
+261
+00:20:01,181 --> 00:20:06,030
+and the row, for each role we receive.
+
+262
+00:20:06,030 --> 00:20:09,756
+So we start with zero roles,
+
+263
+00:20:09,756 --> 00:20:14,259
+I create a box where I put zero, and
+
+264
+00:20:14,259 --> 00:20:19,537
+then I say as long as
+this counter is lower
+
+265
+00:20:19,537 --> 00:20:24,370
+than the number of roles we receive.
+
+266
+00:20:24,370 --> 00:20:27,145
+So you should go back here,
+
+267
+00:20:27,145 --> 00:20:32,938
+I hope you understand that
+the lengths of this object is,
+
+268
+00:20:32,938 --> 00:20:38,126
+let me go back here, one,
+two if we have two rolls,
+
+269
+00:20:38,126 --> 00:20:45,390
+as long as the counter of rolls is
+lower than the number of rolls we have.
+
+270
+00:20:46,580 --> 00:20:47,300
+Do the following.
+
+271
+00:20:48,780 --> 00:20:56,510
+First, retrieve the ID corresponding
+to the first role, so number zero.
+
+272
+00:20:58,580 --> 00:21:03,059
+So number zero, number one.
+
+273
+00:21:03,059 --> 00:21:06,682
+So we retrieve this ID, number zero.
+
+274
+00:21:06,682 --> 00:21:10,640
+And again, that's very hard to get.
+
+275
+00:21:10,640 --> 00:21:15,270
+But yeah, I must animate it very hard.
+
+276
+00:21:17,980 --> 00:21:24,980
+It's just means that in
+the list of role IDs,
+
+277
+00:21:24,980 --> 00:21:28,880
+we want to get the one
+that is number zero.
+
+278
+00:21:30,470 --> 00:21:32,639
+So this one.
+
+279
+00:21:32,639 --> 00:21:34,560
+And we put it in this box.
+
+280
+00:21:36,120 --> 00:21:39,500
+So we have the name of
+the first ID in this box.
+
+281
+00:21:41,250 --> 00:21:44,840
+And then, what we can say is say,
+
+282
+00:21:44,840 --> 00:21:50,501
+retrieve the JSON object
+corresponding to this ID.
+
+283
+00:21:50,501 --> 00:21:57,860
+So retrieve this JSON object, because
+this is the one corresponding to this ID.
+
+284
+00:21:59,300 --> 00:22:03,070
+That's what this line does.
+
+285
+00:22:03,070 --> 00:22:08,096
+In this JSON object, retrieve the one
+
+286
+00:22:08,096 --> 00:22:15,322
+corresponding to the first ID,
+and put it in this box,
+
+287
+00:22:15,322 --> 00:22:21,624
+which specializes in
+receiving JSON objects.
+
+288
+00:22:21,624 --> 00:22:24,490
+And the reason why we have
+to do that is mysterious.
+
+289
+00:22:24,490 --> 00:22:27,750
+Why would we have to put JSON
+object in parenthesis before?
+
+290
+00:22:27,750 --> 00:22:29,242
+That's really strange.
+
+291
+00:22:29,242 --> 00:22:31,680
+But, just ignore that.
+
+292
+00:22:31,680 --> 00:22:32,810
+It's a bit complicated.
+
+293
+00:22:35,520 --> 00:22:41,950
+So now, we have this JSON object
+
+294
+00:22:41,950 --> 00:22:47,010
+in this box, and
+this is much more simple from now.
+
+295
+00:22:49,320 --> 00:22:52,260
+We create the container,
+that's what we do here.
+
+296
+00:22:53,590 --> 00:22:56,620
+And from the adjacent object,
+
+297
+00:22:56,620 --> 00:23:03,150
+we say get the value of author,
+and put it in the box.
+
+298
+00:23:03,150 --> 00:23:06,290
+Get the value of the role,
+and put it in a box.
+
+299
+00:23:06,290 --> 00:23:11,250
+So basically, it means that we're
+gonna take this value of author,
+
+300
+00:23:11,250 --> 00:23:13,790
+and seinecle, and put it in a box.
+
+301
+00:23:13,790 --> 00:23:18,300
+Take the value of roar, this is
+an example of roar, and put it in a box.
+
+302
+00:23:20,200 --> 00:23:21,670
+That's what we do here.
+
+303
+00:23:21,670 --> 00:23:29,820
+And create our label for,
+where the name of the user would be,
+
+304
+00:23:29,820 --> 00:23:33,630
+the content of this box, and
+where the content of this role will be.
+
+305
+00:23:33,630 --> 00:23:40,762
+So two labels, and
+you add these labels to the container.
+
+306
+00:23:40,762 --> 00:23:43,814
+So adding labels to container
+should be familiar with you,
+
+307
+00:23:43,814 --> 00:23:46,180
+because we did that in the designer a lot.
+
+308
+00:23:46,180 --> 00:23:48,680
+We just do the same but by cutting.
+
+309
+00:23:53,070 --> 00:23:59,366
+And then, big container of all roles,
+we add one role.
+
+310
+00:23:59,366 --> 00:24:01,561
+So let me change that.
+
+311
+00:24:01,561 --> 00:24:04,405
+My container is not very clear.
+
+312
+00:24:04,405 --> 00:24:07,042
+I'm gonna change its name.
+
+313
+00:24:07,042 --> 00:24:11,047
+My container for all rows.
+
+314
+00:24:11,047 --> 00:24:14,830
+That's more clear.
+
+315
+00:24:14,830 --> 00:24:22,320
+So in the big container for all rows, add
+the container for the row I just created.
+
+316
+00:24:24,290 --> 00:24:27,220
+And then move on to the next row.
+
+317
+00:24:27,220 --> 00:24:30,200
+Everything we did so far was for this one.
+
+318
+00:24:30,200 --> 00:24:33,560
+Then we just say move
+on to the second one.
+
+319
+00:24:33,560 --> 00:24:34,370
+How do we do that?
+
+320
+00:24:34,370 --> 00:24:40,039
+We just say well increase
+the counter of one.
+
+321
+00:24:40,039 --> 00:24:42,160
+So we're going to.
+
+322
+00:24:43,310 --> 00:24:46,100
+Again, this loop executes
+as long as this is true.
+
+323
+00:24:47,150 --> 00:24:50,450
+So we were at counter equals
+zero at the beginning, but
+
+324
+00:24:50,450 --> 00:24:54,540
+here we say counter is now equal
+to zero plus one equals one.
+
+325
+00:24:56,370 --> 00:24:59,760
+So the counter is equal to one.
+
+326
+00:24:59,760 --> 00:25:06,950
+It's still lower than the number of rows,
+which is two.
+
+327
+00:25:06,950 --> 00:25:11,019
+So, everything we execute again, but
+
+328
+00:25:11,019 --> 00:25:16,197
+it will get the second row,
+because now when we say
+
+329
+00:25:16,197 --> 00:25:22,510
+get the name get the ID of the second
+row and a counter of rows.
+
+330
+00:25:22,510 --> 00:25:25,710
+A counter of row is now equal to 1,
+not equal to 0.
+
+331
+00:25:25,710 --> 00:25:29,350
+So it's not gonna take this row anymore.
+
+332
+00:25:30,810 --> 00:25:31,870
+That's counter 0.
+
+333
+00:25:31,870 --> 00:25:34,020
+That's counter 1.
+
+334
+00:25:34,020 --> 00:25:36,570
+Right?
+
+335
+00:25:36,570 --> 00:25:39,506
+And for this row.
+
+336
+00:25:39,506 --> 00:25:44,840
+It will take the new author,
+you know the author of this new row.
+
+337
+00:25:44,840 --> 00:25:49,880
+The row of the text of this new row
+is gonna create the new lay row.
+
+338
+00:25:49,880 --> 00:25:50,730
+A second new lay row.
+
+339
+00:25:50,730 --> 00:25:53,689
+I'm gonna put them in a new container and
+
+340
+00:25:53,689 --> 00:25:58,836
+it will add it to the container for
+all rows so that we have two rows now.
+
+341
+00:26:00,868 --> 00:26:07,230
+And then we finished because we
+add one to the counter of rows.
+
+342
+00:26:07,230 --> 00:26:09,438
+So the counter is now equal to two.
+
+343
+00:26:12,354 --> 00:26:15,670
+And two is not lower than two.
+
+344
+00:26:18,210 --> 00:26:20,190
+Two is equal to two.
+
+345
+00:26:20,190 --> 00:26:26,030
+So, since it's wrong, two is not lower
+than two, it will not execute that.
+
+346
+00:26:26,030 --> 00:26:29,540
+It will move on to the rest,
+and what is the rest?
+
+347
+00:26:29,540 --> 00:26:32,059
+Just two lines, and we're finished.
+
+348
+00:26:33,360 --> 00:26:35,515
+It says take this screen and
+
+349
+00:26:35,515 --> 00:26:42,260
+add the container where we
+have all the rows stored.
+
+350
+00:26:44,150 --> 00:26:45,060
+And what does it mean?
+
+351
+00:26:46,300 --> 00:26:51,132
+Adds it at the bottom of the list,
+
+352
+00:26:51,132 --> 00:26:57,870
+at the bottom of what is
+already in the screen.
+
+353
+00:26:58,930 --> 00:27:04,240
+So if we have three buttons on the screen,
+so actually, how many do we have?
+
+354
+00:27:04,240 --> 00:27:08,180
+One, two, we have two buttons here.
+
+355
+00:27:09,670 --> 00:27:17,733
+So we're gonna add the container
+with all rows after two.
+
+356
+00:27:17,733 --> 00:27:21,560
+Like in the third position.
+
+357
+00:27:21,560 --> 00:27:27,710
+So our rows are added to the screen but
+we won't see them.
+
+358
+00:27:27,710 --> 00:27:32,970
+To see them you need to refresh the screen
+and in Code Name One we don't say refresh
+
+359
+00:27:32,970 --> 00:27:39,070
+we say we have an action that
+says revalidate, and that's it.
+
+360
+00:27:39,070 --> 00:27:45,170
+So now you might wonder what
+this stuff and this stuff here.
+
+361
+00:27:46,420 --> 00:27:47,740
+So I didn't write that.
+
+362
+00:27:47,740 --> 00:27:53,710
+It's just that when you write everything
+we have written, Net Bean says hey,
+
+363
+00:27:53,710 --> 00:27:56,430
+hey, hey, the language we use.
+
+364
+00:27:57,666 --> 00:28:01,320
+Makes sure that if there's
+any error in your code,
+
+365
+00:28:02,470 --> 00:28:04,780
+you are able to trace to the error.
+
+366
+00:28:06,220 --> 00:28:09,210
+And the way it works is that for example,
+
+367
+00:28:09,210 --> 00:28:11,410
+if you're trying to
+connect to the Internet.
+
+368
+00:28:11,410 --> 00:28:12,060
+That's what we do.
+
+369
+00:28:13,270 --> 00:28:14,330
+Here.
+
+370
+00:28:14,330 --> 00:28:18,790
+But if the connection does not work,
+you should be able to know about that.
+
+371
+00:28:20,170 --> 00:28:24,270
+So, you should be able to catch the error.
+
+372
+00:28:24,270 --> 00:28:26,390
+And that's what these things do.
+
+373
+00:28:26,390 --> 00:28:29,850
+If there is an error in
+connecting to the Internet,
+
+374
+00:28:31,130 --> 00:28:33,150
+execute everything in the curly braces.
+
+375
+00:28:34,700 --> 00:28:38,523
+Execute, so let me write that, like that.
+
+376
+00:28:38,523 --> 00:28:44,770
+Catch this error like an error in
+the connection, and then do that.
+
+377
+00:28:45,780 --> 00:28:48,651
+And this just means say error but
+
+378
+00:28:48,651 --> 00:28:53,340
+you could do anything you want or
+you can do nothing.
+
+379
+00:28:53,340 --> 00:28:58,134
+There is an error,
+just the app would crash.
+
+380
+00:28:58,134 --> 00:28:59,376
+That's it.
+
+381
+00:28:59,376 --> 00:29:03,160
+So these bits of things, of text,
+
+382
+00:29:03,160 --> 00:29:07,990
+are a bit intimidating but it's just that.
+
+383
+00:29:07,990 --> 00:29:11,671
+If you don't have them let me delete them.
+
+384
+00:29:11,671 --> 00:29:12,171
+Let me delete all of that.
+
+385
+00:29:14,850 --> 00:29:16,400
+Right?
+I have written the code.
+
+386
+00:29:18,190 --> 00:29:18,848
+You see that.
+
+387
+00:29:20,729 --> 00:29:24,569
+I have red alerts here and it's because.
+
+388
+00:29:26,350 --> 00:29:33,120
+So you click on them, and this is
+where Net Beans tells you you should
+
+389
+00:29:33,120 --> 00:29:39,090
+add the catch error thing around
+what you have just written.
+
+390
+00:29:39,090 --> 00:29:41,670
+Because when there is
+an error it will be caught.
+
+391
+00:29:43,250 --> 00:29:48,330
+So, I just click on surround block, you
+know the block of code I've written with
+
+392
+00:29:48,330 --> 00:29:53,580
+the catch error thing.
+
+393
+00:29:53,580 --> 00:29:54,710
+I just click here.
+
+394
+00:29:56,560 --> 00:29:58,300
+And you see it has been added here.
+
+395
+00:29:59,580 --> 00:30:00,200
+Oh by the way,
+
+396
+00:30:01,380 --> 00:30:04,770
+when you see that you should delete
+that because it's not going to work.
+
+397
+00:30:07,250 --> 00:30:09,110
+Yeah, you should delete this line.
+
+398
+00:30:09,110 --> 00:30:10,930
+Cuz logger doesn't work actually.
+
+399
+00:30:12,340 --> 00:30:13,436
+So you should delete that.
+
+400
+00:30:15,551 --> 00:30:20,670
+And then there's another thing like
+that which you should catch this error.
+
+401
+00:30:20,670 --> 00:30:23,210
+So yeah, I catch it as well.
+
+402
+00:30:23,210 --> 00:30:24,232
+Add catch clause.
+
+403
+00:30:26,739 --> 00:30:32,538
+And if there is an error
+in reading the JSON.
+
+404
+00:30:32,538 --> 00:30:37,084
+So same, you delete this line.
+
+405
+00:30:37,084 --> 00:30:42,280
+It's important because actually Code
+Name One does not understand this line.
+
+406
+00:30:42,280 --> 00:30:43,110
+So you delete it.
+
+407
+00:30:44,930 --> 00:30:45,975
+But it's not enough.
+
+408
+00:30:45,975 --> 00:30:51,710
+You should delete it here.
+
+409
+00:30:51,710 --> 00:30:56,560
+So here at the top,
+you see these import things,
+
+410
+00:30:56,560 --> 00:30:58,650
+it means it's a list of
+all the objects we use.
+
+411
+00:30:59,700 --> 00:31:01,190
+And we don't need these objects, and
+
+412
+00:31:01,190 --> 00:31:03,280
+actually Code Name One
+does not recognize them.
+
+413
+00:31:03,280 --> 00:31:08,410
+So you should click here and
+say remove all objects we didn't use.
+
+414
+00:31:08,410 --> 00:31:10,950
+So, you click here and we should be good.
+
+415
+00:31:13,680 --> 00:31:18,527
+In here big mistake like
+that it means we have
+
+416
+00:31:18,527 --> 00:31:22,465
+one curly braces which is too much.
+
+417
+00:31:22,465 --> 00:31:25,971
+Yeah, we do.
+
+418
+00:31:25,971 --> 00:31:27,446
+Why is it complaining here?
+
+419
+00:31:31,371 --> 00:31:32,360
+Yeah.
+
+420
+00:31:32,360 --> 00:31:33,284
+The object is missing.
+
+421
+00:31:37,150 --> 00:31:37,750
+Okay.
+
+422
+00:31:37,750 --> 00:31:40,770
+So, the very hard part was, really,
+
+423
+00:31:40,770 --> 00:31:47,140
+to explain the JSON object thingy, here.
+
+424
+00:31:49,550 --> 00:31:55,170
+So it's just because we have a JSON
+object, nested inside a big JSON object.
+
+425
+00:31:55,170 --> 00:32:01,160
+And it's just a big headache,
+to understand that.
+
+426
+00:32:03,540 --> 00:32:07,990
+But, again, take your time,
+
+427
+00:32:07,990 --> 00:32:12,130
+there's no math here,
+there's no, nothing hard.
+
+428
+00:32:12,130 --> 00:32:17,380
+It's just you need a bit of
+patience to reread the slides,
+
+429
+00:32:19,050 --> 00:32:22,520
+fiddle around and get the logic.
+
+430
+00:32:22,520 --> 00:32:28,070
+If you get the logic,
+you will be able to use the same logic to
+
+431
+00:32:28,070 --> 00:32:32,570
+develop your own apps where you
+won't send rows and receive rows.
+
+432
+00:32:32,570 --> 00:32:37,435
+You're gonna send any text which
+is relevant to the app you build.
+
+433
+00:32:40,050 --> 00:32:45,370
+But that's actually as you see,
+it's boring and a bit complex.
+
+434
+00:32:45,370 --> 00:32:47,940
+But nothing amazing.
+
+435
+00:32:49,860 --> 00:32:52,650
+So thank you for following and
+
+436
+00:32:52,650 --> 00:32:57,440
+I think it may be the toughest
+tutorial of the entire course.
+
+437
+00:32:58,540 --> 00:32:59,580
+I'm sure you feel it.
+
+438
+00:33:03,760 --> 00:33:08,250
+Please take some extra time
+to really get this lesson.
+
+439
+00:33:08,250 --> 00:33:12,380
+Post as many questions as
+you want on the forum.
+
+440
+00:33:12,380 --> 00:33:18,846
+I'm gonna take all the time I
+have to answer your questions.
+
+441
+00:33:18,846 --> 00:33:24,090
+Thank you.

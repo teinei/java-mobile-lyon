@@ -1,0 +1,989 @@
+1
+00:00:04,249 --> 00:00:11,310
+Hi, this is the first of the three
+videos where we learn how to code.
+
+2
+00:00:11,310 --> 00:00:13,150
+So, let's get started.
+
+3
+00:00:13,150 --> 00:00:20,150
+To create an application you need to
+organize all the objects that we'll
+
+4
+00:00:21,510 --> 00:00:25,850
+use interpretation,
+we need to store these objects into boxes.
+
+5
+00:00:25,850 --> 00:00:27,720
+That's the way we get organized.
+
+6
+00:00:30,250 --> 00:00:35,280
+So, coding's a lot about creating
+boxes and putting stuff in them.
+
+7
+00:00:37,000 --> 00:00:39,282
+How do you create boxes?
+
+8
+00:00:39,282 --> 00:00:45,686
+You simply create a box by,
+giving it a name.
+
+9
+00:00:45,686 --> 00:00:50,450
+So here, you'll see that,
+I think I'm gonna use a box for
+
+10
+00:00:50,450 --> 00:00:55,396
+my app where the name
+of the user is gonna be
+
+11
+00:00:55,396 --> 00:01:01,995
+store that I will have users and maybe I
+want to show their names or something.
+
+12
+00:01:01,995 --> 00:01:04,315
+So, their names should
+be stored somewhere.
+
+13
+00:01:04,315 --> 00:01:07,298
+I created box for that and
+I give it a name.
+
+14
+00:01:07,298 --> 00:01:11,349
+The name should have no space in it and
+
+15
+00:01:11,349 --> 00:01:17,326
+as you see there should
+be no uppercase letter.
+
+16
+00:01:17,326 --> 00:01:22,850
+At the beginning here,
+it's the n here should be lowercase, and
+
+17
+00:01:22,850 --> 00:01:28,740
+you can see there's a kind of habit
+that you put since everything,
+
+18
+00:01:28,740 --> 00:01:32,170
+since there is no space,
+you put a capital O and
+
+19
+00:01:32,170 --> 00:01:36,640
+T and U to show that you have new words.
+
+20
+00:01:39,230 --> 00:01:43,235
+So you create a box this way and
+as always,
+
+21
+00:01:43,235 --> 00:01:49,544
+when you finish a line on your code,
+you finish with a semicolon.
+
+22
+00:01:49,544 --> 00:01:51,224
+That's good, we have a box.
+
+23
+00:01:51,224 --> 00:01:55,144
+Boxes are specialized in the sense that,
+
+24
+00:01:55,144 --> 00:02:01,660
+when you create the box,
+it can only be for one type of thing.
+
+25
+00:02:01,660 --> 00:02:05,350
+So here we want to have
+the name of the user,
+
+26
+00:02:05,350 --> 00:02:11,180
+is gonna be layers, words,
+so it's gonna be text.
+
+27
+00:02:11,180 --> 00:02:16,130
+So the box we create should be only for
+text, and when you create the box,
+
+28
+00:02:16,130 --> 00:02:17,420
+you should say so.
+
+29
+00:02:17,420 --> 00:02:23,310
+The thing is you should put it in
+front like before the name of the box.
+
+30
+00:02:23,310 --> 00:02:30,263
+That's what you see here when I
+create the box I give it the name.
+
+31
+00:02:30,263 --> 00:02:35,570
+Before you have to put
+the string that tells you
+
+32
+00:02:35,570 --> 00:02:38,860
+what should go in the box,
+what the box is can contain.
+
+33
+00:02:40,550 --> 00:02:42,947
+So, it's not text.
+
+34
+00:02:42,947 --> 00:02:45,043
+It's string.
+
+35
+00:02:45,043 --> 00:02:51,041
+It's a technical word to say letters.
+
+36
+00:02:51,041 --> 00:02:55,610
+Or a chain of letters
+according to a string.
+
+37
+00:02:55,610 --> 00:03:00,310
+And so when you create the box you should
+always put something in front of the name.
+
+38
+00:03:00,310 --> 00:03:06,230
+We should put the name of the object
+that can go inside the box.
+
+39
+00:03:06,230 --> 00:03:10,880
+So what you see here is between
+[INAUDIBLE] right you should do
+
+40
+00:03:10,880 --> 00:03:15,820
+this name and before that the type
+of object that can go into the box.
+
+41
+00:03:17,060 --> 00:03:22,240
+You see that the type of object should
+have an uppercase letter at the beginning.
+
+42
+00:03:23,880 --> 00:03:28,720
+If you write String without the uppercase,
+it won't work.
+
+43
+00:03:28,720 --> 00:03:31,250
+So be careful about lowercase and
+properties.
+
+44
+00:03:33,120 --> 00:03:36,670
+So this is a box where we
+would usually store some text.
+
+45
+00:03:38,640 --> 00:03:45,383
+But let me show you that you can create
+boxes for other types of objects.
+
+46
+00:03:45,383 --> 00:03:50,448
+If I want to create the box for
+where I would put the age of the user,
+
+47
+00:03:50,448 --> 00:03:54,100
+it's gonna be for a number, right?
+
+48
+00:03:54,100 --> 00:04:01,020
+And you have in coding we make
+a difference between a round number,
+
+49
+00:04:01,020 --> 00:04:08,380
+numbers that don't have a comma or
+decimal, so you call them integers.
+
+50
+00:04:08,380 --> 00:04:10,180
+That's a box just for integers.
+
+51
+00:04:11,530 --> 00:04:17,686
+And let's say I want to have a box where I
+will store the average rating of my app,
+
+52
+00:04:17,686 --> 00:04:22,890
+so maybe 4.3, 3.2, so it's a decimal.
+
+53
+00:04:24,160 --> 00:04:30,081
+It's the box where you store a decimal,
+
+54
+00:04:30,081 --> 00:04:33,748
+and you call that Float.
+
+55
+00:04:33,748 --> 00:04:40,197
+Again, please notice that we have
+a capital F, capital E or capital I sorry,
+
+56
+00:04:40,197 --> 00:04:46,371
+and notice that all the names of our
+boxes don't start with an uppercase.
+
+57
+00:04:46,371 --> 00:04:47,260
+It's always lowercase.
+
+58
+00:04:49,970 --> 00:04:51,360
+Okay, so that's how we create boxes.
+
+59
+00:04:52,700 --> 00:04:56,330
+I have a last one I want to show you.
+
+60
+00:04:56,330 --> 00:04:59,360
+The box, I call it individual register and
+
+61
+00:04:59,360 --> 00:05:04,740
+in it you want to pull
+this on the wrong section.
+
+62
+00:05:04,740 --> 00:05:06,300
+True or false?
+
+63
+00:05:08,180 --> 00:05:12,719
+And this kind of yes-no, true-false,
+
+64
+00:05:12,719 --> 00:05:16,830
+right, objects you contain Boolean.
+
+65
+00:05:18,280 --> 00:05:20,020
+So here is the box.
+
+66
+00:05:20,020 --> 00:05:24,146
+And in it we have something
+which is true or false.
+
+67
+00:05:24,146 --> 00:05:28,690
+Not letters, not numbers.
+
+68
+00:05:28,690 --> 00:05:34,020
+Okay, that's how we do boxes.
+
+69
+00:05:34,020 --> 00:05:36,570
+Now how do you put stuff into boxes?
+
+70
+00:05:36,570 --> 00:05:43,240
+It really is just write the name of your
+box, so first let me come back here.
+
+71
+00:05:43,240 --> 00:05:44,490
+First you create your boxes.
+
+72
+00:05:46,990 --> 00:05:52,175
+And then you put stuff in it, and
+you use the equals sign to do that.
+
+73
+00:05:52,175 --> 00:05:58,710
+So right in front of here, I show you
+how I want to put 36 as an ageOfTheUser.
+
+74
+00:05:58,710 --> 00:06:04,082
+Right in the box,
+you can write equals, and 36.
+
+75
+00:06:05,340 --> 00:06:08,220
+And semicolon to finish the line.
+
+76
+00:06:09,450 --> 00:06:15,680
+When you have written that,
+this box contains.
+
+77
+00:06:15,680 --> 00:06:18,960
+For the boxes that are especially for
+text, you don't just
+
+78
+00:06:20,390 --> 00:06:25,370
+write Clement Levallois,
+put that into the box, it wouldn't work.
+
+79
+00:06:25,370 --> 00:06:29,320
+You have to put Clement Levallois
+between double quotes,
+
+80
+00:06:29,320 --> 00:06:31,900
+that's how it's called, okay?
+
+81
+00:06:31,900 --> 00:06:32,400
+Just for text.
+
+82
+00:06:34,090 --> 00:06:37,870
+When you have numbers, you won't need
+to put 36 between double quotes,
+
+83
+00:06:37,870 --> 00:06:40,800
+it's just for text.
+
+84
+00:06:40,800 --> 00:06:43,150
+And you finish with a semicolon.
+
+85
+00:06:43,150 --> 00:06:46,476
+When you do that,
+Clement Levallois is stored in the box.
+
+86
+00:06:49,260 --> 00:06:55,220
+So what happens if you think you're
+doing the box ageOfTheUser and
+
+87
+00:06:55,220 --> 00:06:58,660
+it keeps on seeing answers like 37?
+
+88
+00:06:58,660 --> 00:07:04,970
+37 we replace what you have written,
+what you have put in the box, before.
+
+89
+00:07:06,800 --> 00:07:10,465
+So in the box you can only
+have one object at a time.
+
+90
+00:07:10,465 --> 00:07:15,750
+[SOUND] When you put
+a new object in the box,
+
+91
+00:07:15,750 --> 00:07:19,229
+it deletes the one before.
+
+92
+00:07:19,229 --> 00:07:21,900
+Okay, that's great, very simple.
+
+93
+00:07:25,980 --> 00:07:30,547
+Okay so we are almost finished
+before I want to leave this
+
+94
+00:07:30,547 --> 00:07:35,970
+tutorial I want to add that
+the objects can have actions.
+
+95
+00:07:35,970 --> 00:07:40,130
+It's really weird because,
+what I've written here, and here.
+
+96
+00:07:40,130 --> 00:07:44,820
+I mean, I say that we have boxes for text.
+
+97
+00:07:44,820 --> 00:07:47,350
+I don't see how the text can have actions.
+
+98
+00:07:47,350 --> 00:07:48,320
+It seems a bit weird.
+
+99
+00:07:49,330 --> 00:07:54,350
+But actually, yes, Strings has text.
+
+100
+00:07:54,350 --> 00:07:59,360
+It can have many actions, like you might
+want to return the text in uppercase.
+
+101
+00:07:59,360 --> 00:08:02,740
+You might want to replace
+a letter by another, or
+
+102
+00:08:02,740 --> 00:08:07,562
+you want to find what
+are the text contents.
+
+103
+00:08:07,562 --> 00:08:12,497
+Some letters that you want to check.
+
+104
+00:08:12,497 --> 00:08:18,010
+So, many actions can be performed on text,
+or even on numbers.
+
+105
+00:08:18,010 --> 00:08:18,870
+Many things like that.
+
+106
+00:08:20,850 --> 00:08:24,517
+How do you work with that?
+
+107
+00:08:24,517 --> 00:08:26,410
+The next slide.
+
+108
+00:08:26,410 --> 00:08:27,456
+And for, yeah.
+
+109
+00:08:27,456 --> 00:08:34,476
+The thing is we're going to use this doc.
+
+110
+00:08:34,476 --> 00:08:37,452
+So this here, [INAUDIBLE].
+
+111
+00:08:37,452 --> 00:08:38,930
+I create the box that
+I call nameOfTheUser.
+
+112
+00:08:41,365 --> 00:08:45,080
+And, I have to say which kind
+of object it can store, or
+
+113
+00:08:45,080 --> 00:08:46,540
+if it's String its going to be uppercase.
+
+114
+00:08:47,610 --> 00:08:49,948
+And I finish with the semicolon.
+
+115
+00:08:49,948 --> 00:08:53,983
+And then, on the second line,
+I put some stuff in this quotes.
+
+116
+00:08:53,983 --> 00:08:58,837
+So if it's Clement Levallois,
+end that in quote, and
+
+117
+00:08:58,837 --> 00:09:03,594
+I put that in this box and
+I finish with the semicolon.
+
+118
+00:09:03,594 --> 00:09:09,080
+Now that I have put something in the box
+
+119
+00:09:09,080 --> 00:09:14,061
+I can do actions on this text here.
+
+120
+00:09:14,061 --> 00:09:15,100
+And how do I do that?
+
+121
+00:09:15,100 --> 00:09:20,590
+I take the name of the box where
+the text is stored and I write a dot.
+
+122
+00:09:21,710 --> 00:09:27,060
+When I do that, a menu opens,
+so nothing happens,
+
+123
+00:09:27,060 --> 00:09:33,381
+right, but in NetBeans you're gonna
+see that it's really the case.
+
+124
+00:09:33,381 --> 00:09:37,165
+You write the name of your box,
+you write the dot,
+
+125
+00:09:37,165 --> 00:09:41,943
+you might wait a long second and
+you see a menu opening Is a list of
+
+126
+00:09:41,943 --> 00:09:46,280
+actions that you can just scroll and
+setup.
+
+127
+00:09:46,280 --> 00:09:47,600
+So here, I just or
+
+128
+00:09:47,600 --> 00:09:51,600
+you can type it by yourself,
+that's what I did here in the PowerPoint.
+
+129
+00:09:51,600 --> 00:09:54,050
+I just typed two upper case.
+
+130
+00:09:54,050 --> 00:09:57,400
+What it's gonna do is it's gonna
+
+131
+00:09:57,400 --> 00:10:01,050
+transform whatever is in
+the box into capital letters.
+
+132
+00:10:02,740 --> 00:10:04,848
+Well, we should have Clement after that.
+
+133
+00:10:04,848 --> 00:10:10,050
+We should have Clement Levallois
+in capital letters, envelopes.
+
+134
+00:10:11,410 --> 00:10:14,920
+So, I have added
+a developed of indications.
+
+135
+00:10:14,920 --> 00:10:17,150
+This is the name of the box of course.
+
+136
+00:10:17,150 --> 00:10:22,070
+This is the dot of user's name and
+here this is the name of the option.
+
+137
+00:10:23,540 --> 00:10:26,920
+What are these brackets for?
+
+138
+00:10:26,920 --> 00:10:28,850
+That's just in a moment.
+
+139
+00:10:28,850 --> 00:10:35,421
+And of course,
+we always close the line with a semicolon.
+
+140
+00:10:35,421 --> 00:10:39,900
+It doesn't mean that you should
+know all these actions by heart.
+
+141
+00:10:39,900 --> 00:10:43,137
+As I said when you are in and
+
+142
+00:10:43,137 --> 00:10:48,263
+you write the name of your box,
+and then you write the dot.
+
+143
+00:10:48,263 --> 00:10:49,562
+It opens a new view,
+
+144
+00:10:49,562 --> 00:10:54,540
+and you'll see everything which is
+possible to do on the contents of the box.
+
+145
+00:10:54,540 --> 00:10:55,892
+You don't have to memorize that.
+
+146
+00:10:55,892 --> 00:10:56,780
+It's really easy.
+
+147
+00:10:59,752 --> 00:11:01,656
+So, why the parenthesis?
+
+148
+00:11:01,656 --> 00:11:02,876
+Why the brackets here?
+
+149
+00:11:02,876 --> 00:11:11,140
+Because some actions need an input,
+you know, they need some.
+
+150
+00:11:11,140 --> 00:11:12,070
+So I keep another one.
+
+151
+00:11:12,070 --> 00:11:15,448
+I do the same one, nameOfTheUser.
+
+152
+00:11:15,448 --> 00:11:18,210
+I write the dot.
+
+153
+00:11:18,210 --> 00:11:22,290
+And then instead of toUpperCase,
+I select concat.
+
+154
+00:11:22,290 --> 00:11:26,727
+Concat is the the action for
+concatenating,
+
+155
+00:11:26,727 --> 00:11:30,588
+means to collate two things together.
+
+156
+00:11:30,588 --> 00:11:34,926
+So this action here,
+
+157
+00:11:34,926 --> 00:11:41,195
+needs a piece of text.
+
+158
+00:11:41,195 --> 00:11:43,431
+It needs a piece of text to work, and
+
+159
+00:11:43,431 --> 00:11:48,520
+when it needs something you need
+something to put between the brackets.
+
+160
+00:11:49,840 --> 00:11:54,820
+That's where I put it, and
+maybe you guess what's going to happen.
+
+161
+00:11:54,820 --> 00:12:01,648
+Anything that was in the box Name of
+the user is going to be collecting,
+
+162
+00:12:01,648 --> 00:12:06,765
+is going to concatenated
+with "you are welcome".
+
+163
+00:12:06,765 --> 00:12:07,880
+So that's what I write here.
+
+164
+00:12:07,880 --> 00:12:13,150
+If we had Julie in the box
+after this action here,
+
+165
+00:12:13,150 --> 00:12:18,850
+we will have in the box,
+Julie plus you are welcome.
+
+166
+00:12:20,910 --> 00:12:22,746
+So this is why we have these brackets.
+
+167
+00:12:22,746 --> 00:12:26,670
+Sometimes, in here,
+we don't need anything to put
+
+168
+00:12:27,850 --> 00:12:33,140
+the contents of the box in uppercase but
+you still put the brackets even
+
+169
+00:12:34,720 --> 00:12:41,720
+you should put the brackets even if they
+are empty, even if there is nothing.
+
+170
+00:12:41,720 --> 00:12:47,960
+So how do you know when an action
+should have something in it?
+
+171
+00:12:47,960 --> 00:12:51,590
+And some times you have many things in
+the bracket, not just one piece of text.
+
+172
+00:12:51,590 --> 00:12:57,586
+You have one piece of text, and the comma,
+and then something else, and then a comma.
+
+173
+00:12:57,586 --> 00:13:01,075
+And you can have a long list
+of things in your bracket.
+
+174
+00:13:01,075 --> 00:13:02,985
+How do you know that?
+
+175
+00:13:02,985 --> 00:13:07,549
+Again, when you write on the dot,
+and then you select,
+
+176
+00:13:07,549 --> 00:13:10,380
+the menu you select contact line.
+
+177
+00:13:12,750 --> 00:13:16,070
+There is a bit of explanation
+that appears, and
+
+178
+00:13:16,070 --> 00:13:19,600
+it tells you what can
+be put in the brackets.
+
+179
+00:13:19,600 --> 00:13:22,296
+Basically, you don't
+have to memorize this.
+
+180
+00:13:22,296 --> 00:13:27,240
+It's written, the menu
+
+181
+00:13:27,240 --> 00:13:31,990
+that will help you, appears when
+you write that, so it's very easy.
+
+182
+00:13:34,070 --> 00:13:36,240
+So that's it for this tutorial.
+
+183
+00:13:36,240 --> 00:13:41,480
+This is just a recap of what
+we've seen with a little example.
+
+184
+00:13:41,480 --> 00:13:46,690
+This is how we would create
+two different boxes.
+
+185
+00:13:46,690 --> 00:13:49,673
+One where we would put
+something like greetings and
+
+186
+00:13:49,673 --> 00:13:53,780
+create another box where we
+would have the name of the user.
+
+187
+00:13:53,780 --> 00:13:57,317
+This box is officialized
+context with constant numbers.
+
+188
+00:13:57,317 --> 00:14:05,026
+Then we put something in
+the box name of the user.
+
+189
+00:14:05,026 --> 00:14:08,995
+The name of whatever you want and then,
+
+190
+00:14:08,995 --> 00:14:14,784
+that's the thing what I want
+you to to explain a bit.
+
+191
+00:14:14,784 --> 00:14:20,782
+And then we apply an action to the box,
+as we've seen before.
+
+192
+00:14:20,782 --> 00:14:25,571
+Name of the user, dot, and
+we put everything in upper case.
+
+193
+00:14:25,571 --> 00:14:29,100
+But we have to inject that again.
+
+194
+00:14:29,100 --> 00:14:31,660
+In the box, because it's a string, right?
+
+195
+00:14:31,660 --> 00:14:33,850
+But we have to put that again in the box,
+
+196
+00:14:33,850 --> 00:14:36,870
+if we want the contents
+of the box to be updated.
+
+197
+00:14:38,160 --> 00:14:44,320
+And I have a little asterisk here,
+a little note.
+
+198
+00:14:44,320 --> 00:14:50,130
+I think it's quite unclear but
+that's how it works.
+
+199
+00:14:50,130 --> 00:14:52,210
+Here you change the content of the box.
+
+200
+00:14:52,210 --> 00:14:56,180
+You put it in uppercase and
+you put it back in the box.
+
+201
+00:14:56,180 --> 00:14:57,394
+You update.
+
+202
+00:14:57,394 --> 00:15:03,850
+[INAUDIBLE] We should have Clement,
+written in uppercase now.
+
+203
+00:15:06,715 --> 00:15:12,990
+And then, in the box greetings, the box
+greetings is a string what do we put?
+
+204
+00:15:12,990 --> 00:15:18,790
+We put the content of nameOfTheUser,
+so it was Clement,
+
+205
+00:15:18,790 --> 00:15:24,240
+uppercase, and
+we add to it this piece of text.
+
+206
+00:15:24,240 --> 00:15:29,230
+So it's a big complicated, but
+what should we have at the end?
+
+207
+00:15:29,230 --> 00:15:33,310
+If you follow step by step,
+you should have in greetings,
+
+208
+00:15:33,310 --> 00:15:38,020
+we should have something that says
+CLEMENT in uppercase, CLEMENT, hello.
+
+209
+00:15:39,280 --> 00:15:42,699
+So whether it's fast and
+on this last minute,
+
+210
+00:15:42,699 --> 00:15:45,855
+I am going to conclude
+this tutorial now and
+
+211
+00:15:45,855 --> 00:15:51,215
+I invite you to read this slide again
+slowly, and understand the logic.
+
+212
+00:15:51,215 --> 00:15:56,311
+Again, if you understand that
+you can really understand a very
+
+213
+00:15:56,311 --> 00:16:03,343
+fundamental type of code and [INAUDIBLE]
+which was, I think, just five lines.
+
+214
+00:16:03,343 --> 00:16:08,645
+We're gonna have five lines
+in the next really short.
+
+215
+00:16:08,645 --> 00:16:15,220
+Okay so, and I'll meet you in the next

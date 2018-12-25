@@ -1,0 +1,389 @@
+1
+00:00:03,493 --> 00:00:08,897
+Hi, in this tutorial, we learn how to
+put our app on the Windows Store for
+
+2
+00:00:08,897 --> 00:00:11,710
+Windows Phones like Nokia.
+
+3
+00:00:11,710 --> 00:00:20,040
+So, it's very easy because Windows does
+not require any certificate for our app.
+
+4
+00:00:20,040 --> 00:00:23,910
+And if you have looked at the Apple iOS
+
+5
+00:00:23,910 --> 00:00:28,310
+tutorial you know that certificates
+can be quite boring to create.
+
+6
+00:00:28,310 --> 00:00:30,130
+Here, no certificate.
+
+7
+00:00:30,130 --> 00:00:31,230
+We're lucky.
+
+8
+00:00:31,230 --> 00:00:37,410
+So we just, it gets really simple, we just
+right click on the name of our project and
+
+9
+00:00:37,410 --> 00:00:41,680
+then we go to codename one and
+we just say send Windows Phone build.
+
+10
+00:00:43,400 --> 00:00:50,120
+So that is actually the same as when
+we installed our app on a phone.
+
+11
+00:00:50,120 --> 00:00:52,230
+That is the same process.
+
+12
+00:00:52,230 --> 00:00:54,170
+We create a Windows build.
+
+13
+00:00:57,369 --> 00:01:04,710
+So we know at the end of this line that,
+we know the green build successful.
+
+14
+00:01:04,710 --> 00:01:11,630
+That our app from NetBeans has been sent
+to the Codename One computers and there.
+
+15
+00:01:11,630 --> 00:01:17,520
+These computers they are transforming
+our app into a Windows app,
+
+16
+00:01:17,520 --> 00:01:19,220
+so let's go to Codename One.
+
+17
+00:01:26,110 --> 00:01:28,860
+And there we, I am logged in already, so
+
+18
+00:01:28,860 --> 00:01:36,730
+I go to the And I see my app being built.
+
+19
+00:01:36,730 --> 00:01:40,286
+I know by experience that the build,
+
+20
+00:01:40,286 --> 00:01:46,263
+the time it takes to create the app
+is longer than for unrated.
+
+21
+00:01:46,263 --> 00:01:48,360
+It takes a couple of minutes.
+
+22
+00:01:48,360 --> 00:01:52,210
+So I'm gonna pause this video and
+come back here when it's finished.
+
+23
+00:01:54,290 --> 00:01:54,930
+Okay.
+
+24
+00:01:54,930 --> 00:01:56,190
+I'm back.
+
+25
+00:01:56,190 --> 00:01:59,820
+The builder is finished and it's green.
+
+26
+00:01:59,820 --> 00:02:03,170
+Means we have no issue.
+
+27
+00:02:03,170 --> 00:02:06,160
+So when I click on it, I see that I can.
+
+28
+00:02:08,690 --> 00:02:13,840
+Oops, yeah I can download the file here.
+
+29
+00:02:13,840 --> 00:02:16,140
+So I'm gonna download
+the file on my computer.
+
+30
+00:02:18,530 --> 00:02:24,938
+I'm gonna put it here on the desktop.
+
+31
+00:02:24,938 --> 00:02:28,260
+So, that's a very long name,
+but that's okay.
+
+32
+00:02:29,550 --> 00:02:31,530
+Okay, the file has been downloaded, so
+
+33
+00:02:31,530 --> 00:02:38,148
+now we just need to take our Windows
+Developer account, you should have one.
+
+34
+00:02:38,148 --> 00:02:41,880
+It costs $20 to create one.
+
+35
+00:02:43,050 --> 00:02:50,491
+If you're a student, if you're lucky
+to be a student in a university or
+
+36
+00:02:50,491 --> 00:02:56,567
+in a school there is something
+that I've been told about,
+
+37
+00:02:56,567 --> 00:03:03,900
+which is called dreamspark.com,
+which is a Microsoft initiative.
+
+38
+00:03:03,900 --> 00:03:11,476
+Dreamspark.com, where as a student,
+it says you can apply for
+
+39
+00:03:11,476 --> 00:03:17,098
+a free Windows Phone Developer Center
+access.
+
+40
+00:03:17,098 --> 00:03:22,620
+So you should be able to
+create a free account.
+
+41
+00:03:23,942 --> 00:03:32,710
+If you have an email address
+registered with a university.
+
+42
+00:03:32,710 --> 00:03:37,820
+I'm not sure this gives you the right to
+distribute your app on the Windows Store.
+
+43
+00:03:40,390 --> 00:03:42,500
+But at least you could
+test it on your phone.
+
+44
+00:03:42,500 --> 00:03:46,530
+Anyway, you should have
+a Windows Developer account.
+
+45
+00:03:46,530 --> 00:03:51,770
+When you have one, you just log in
+to the Windows Developer Center,
+
+46
+00:03:51,770 --> 00:03:53,230
+and then you go to the Dashboard.
+
+47
+00:03:54,540 --> 00:03:56,270
+This is where I am, I am on the Dashboard.
+
+48
+00:03:59,050 --> 00:04:03,245
+You have a list of the Apps
+that you created and
+
+49
+00:04:03,245 --> 00:04:06,695
+you can now create the new app
+you would like to distribute.
+
+50
+00:04:06,695 --> 00:04:08,315
+So you click on Create a new app.
+
+51
+00:04:09,835 --> 00:04:13,275
+And this is something very important here.
+
+52
+00:04:13,275 --> 00:04:16,895
+You can't put any name here.
+
+53
+00:04:16,895 --> 00:04:22,700
+You should go back to NetBeans,
+right-click on the project name.
+
+54
+00:04:22,700 --> 00:04:27,740
+Go to Properties and
+check the Title of your app here.
+
+55
+00:04:29,570 --> 00:04:32,030
+You are obliged to take for
+
+56
+00:04:32,030 --> 00:04:37,290
+the name of your app on the Windows Store,
+you should take the Title here.
+
+57
+00:04:37,290 --> 00:04:45,380
+If there is any difference, the process of
+distributing the app will would not work.
+
+58
+00:04:50,810 --> 00:04:52,918
+So you click on Reserve app name.
+
+59
+00:04:52,918 --> 00:05:00,830
+You wait, and
+you can start the submission.
+
+60
+00:05:00,830 --> 00:05:02,780
+So here, nothing fancy.
+
+61
+00:05:02,780 --> 00:05:10,144
+You click on Start submission, And
+
+62
+00:05:10,144 --> 00:05:14,070
+what you are gonna have to do is
+fill in each of these categories,
+
+63
+00:05:14,070 --> 00:05:17,723
+each of these categories have
+many information to fill in.
+
+64
+00:05:17,723 --> 00:05:22,233
+And when you have finished,
+when you have completed a category,
+
+65
+00:05:22,233 --> 00:05:26,415
+you have a green tick mark here
+saying that it's completed.
+
+66
+00:05:26,415 --> 00:05:32,950
+And when every tick mark has been done,
+you can Submit to the Store.
+
+67
+00:05:32,950 --> 00:05:38,090
+So where would you upload your app that
+we have just created with Codename One.
+
+68
+00:05:38,090 --> 00:05:41,080
+This is in Packages if I'm not mistaken.
+
+69
+00:05:42,830 --> 00:05:47,480
+Yes, exactly so you just browse.
+
+70
+00:05:47,480 --> 00:05:51,510
+So it was here on my desktop,
+and you upload it.
+
+71
+00:05:52,540 --> 00:05:56,280
+So here I think it's uploading.
+
+72
+00:05:56,280 --> 00:06:00,610
+Begins the process of uploading, yeah.
+
+73
+00:06:00,610 --> 00:06:04,680
+Here if you have any difference
+between the name of the app
+
+74
+00:06:04,680 --> 00:06:08,945
+that you have put on
+the Windows Development Center.
+
+75
+00:06:08,945 --> 00:06:14,540
+A difference between that and
+the title of your app in NetBeans,
+
+76
+00:06:14,540 --> 00:06:18,940
+it will complain, and it will tell you
+that the title should be the same.
+
+77
+00:06:18,940 --> 00:06:23,960
+If this happens, you just delete
+the app that you are being creating and
+
+78
+00:06:23,960 --> 00:06:29,048
+create a new one that matches
+the name of your app in the NetBeans.
+
+79
+00:06:29,048 --> 00:06:36,525
+So we good, you Save And
+
+80
+00:06:36,525 --> 00:06:41,472
+the Packages category is validated so
+now you just go through
+
+81
+00:06:41,472 --> 00:06:45,840
+all the rest which is nothing complicated,
+really.
+
+82
+00:06:45,840 --> 00:06:50,660
+It's just about saying, do you want
+your app to be free, or for a price?
+
+83
+00:06:51,900 --> 00:06:55,680
+It's a trap, and then you would
+be able to submit to the store.
+
+84
+00:06:55,680 --> 00:07:00,751
+So, putting an app on the Windows Store
+is one of the easiest things to do.
+
+85
+00:07:00,751 --> 00:07:02,398
+Thank you.

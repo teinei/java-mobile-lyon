@@ -1,0 +1,1065 @@
+1
+00:00:03,834 --> 00:00:06,847
+Hi, and welcome to this video,
+
+2
+00:00:06,847 --> 00:00:12,091
+where we will learn how to put
+your app that you see here,
+
+3
+00:00:12,091 --> 00:00:17,559
+onto your iPhone to visualize it,
+to visualize your app,
+
+4
+00:00:17,559 --> 00:00:21,830
+to test it and
+to see if you're happy with it.
+
+5
+00:00:21,830 --> 00:00:26,878
+This tutorial will have a couple of steps,
+actually many of them.
+
+6
+00:00:26,878 --> 00:00:33,520
+Each of the steps are quite simple and
+we should be good to go in 20 minutes.
+
+7
+00:00:33,520 --> 00:00:37,680
+If this video seems a bit long to you,
+
+8
+00:00:37,680 --> 00:00:42,799
+you should remember that all
+the steps are summarized
+
+9
+00:00:42,799 --> 00:00:47,945
+in a PDF document where you can and
+go at your own pace.
+
+10
+00:00:47,945 --> 00:00:51,005
+And maybe quicker than on this video.
+
+11
+00:00:51,005 --> 00:00:54,695
+But here is how I will do.
+
+12
+00:00:54,695 --> 00:01:01,825
+So the first ingredient that you need
+in order to install your app on your
+
+13
+00:01:01,825 --> 00:01:08,125
+iPhone is to have a QR
+code reader on your phone.
+
+14
+00:01:08,125 --> 00:01:13,855
+This is an app that you can find for
+free on the App Store.
+
+15
+00:01:13,855 --> 00:01:17,012
+So you see it here.
+
+16
+00:01:17,012 --> 00:01:21,112
+Oops, just there.
+
+17
+00:01:21,112 --> 00:01:27,270
+It's an app that enables
+your phone to scan QR codes.
+
+18
+00:01:29,670 --> 00:01:30,170
+Anywhere.
+
+19
+00:01:31,260 --> 00:01:34,730
+So you need that on your phone.
+
+20
+00:01:34,730 --> 00:01:38,210
+The second thing thing that you need
+is that your phone should be connected
+
+21
+00:01:38,210 --> 00:01:43,040
+somehow to Internet because we will
+download the app to your phone.
+
+22
+00:01:44,160 --> 00:01:50,560
+Okay, what you need next is
+an account with Codename One.
+
+23
+00:01:50,560 --> 00:01:55,880
+And let me go back to
+Codename One is actually
+
+24
+00:01:55,880 --> 00:02:01,300
+a plug-in that we have
+used to create this app.
+
+25
+00:02:01,300 --> 00:02:02,980
+You see the name origin here.
+
+26
+00:02:04,100 --> 00:02:08,910
+So Codename One is the company
+that develops this thing and
+
+27
+00:02:08,910 --> 00:02:12,860
+we need to have an account with them,
+a free account,
+
+28
+00:02:12,860 --> 00:02:17,650
+because we will send our
+app to their website.
+
+29
+00:02:17,650 --> 00:02:20,267
+So I just type Codename One in Google.
+
+30
+00:02:25,360 --> 00:02:28,230
+And their website is the first result.
+
+31
+00:02:28,230 --> 00:02:30,050
+So I just click there.
+
+32
+00:02:32,240 --> 00:02:38,270
+This is a website, and you need to
+sign up to have an account with them.
+
+33
+00:02:38,270 --> 00:02:40,500
+If you all ready have one,
+of course don't do that again.
+
+34
+00:02:41,940 --> 00:02:44,130
+So you just put your email, your password.
+
+35
+00:02:45,500 --> 00:02:47,010
+You choose the free subscription.
+
+36
+00:02:48,360 --> 00:02:50,436
+And you join the mailing list on that.
+
+37
+00:02:50,436 --> 00:02:55,100
+So please fill in this form and
+write down or don't forget your email and
+
+38
+00:02:55,100 --> 00:02:59,370
+password because we need,
+we need them right now.
+
+39
+00:03:01,400 --> 00:03:03,180
+So then we go back to NetBeans.
+
+40
+00:03:04,190 --> 00:03:07,601
+This is your app project,
+
+41
+00:03:07,601 --> 00:03:13,965
+you do a control click on it and
+go to Properties.
+
+42
+00:03:16,438 --> 00:03:19,650
+There you click on Login.
+
+43
+00:03:20,720 --> 00:03:22,540
+So we are in the Codename One menu.
+
+44
+00:03:22,540 --> 00:03:26,260
+You click on Login and
+you put the email and
+
+45
+00:03:26,260 --> 00:03:31,010
+password that you used on the website,
+so please do that.
+
+46
+00:03:31,010 --> 00:03:33,635
+Let me do that again.
+
+47
+00:03:33,635 --> 00:03:38,677
+[SOUND]
+And then
+
+48
+00:03:38,677 --> 00:03:43,719
+don't forget
+
+49
+00:03:43,719 --> 00:03:48,340
+to click on OK
+
+50
+00:03:48,340 --> 00:03:52,968
+to confirm.
+
+51
+00:03:52,968 --> 00:03:54,730
+Okay, that's good.
+
+52
+00:03:54,730 --> 00:03:57,840
+Now what we need is another ingredient.
+
+53
+00:03:59,560 --> 00:04:03,947
+We need you to actually get your Apple ID.
+
+54
+00:04:03,947 --> 00:04:06,730
+So if you are on a Mac computer and
+
+55
+00:04:06,730 --> 00:04:11,695
+if you have an iPhone I mean,
+you have to have an Apple ID.
+
+56
+00:04:11,695 --> 00:04:15,390
+That's part of the Apple system.
+
+57
+00:04:16,470 --> 00:04:18,460
+So I assume you have one.
+
+58
+00:04:18,460 --> 00:04:21,160
+If you don't, just create one.
+
+59
+00:04:21,160 --> 00:04:25,880
+It's just, you just Google create
+Apple ID, and you will get one.
+
+60
+00:04:27,490 --> 00:04:33,070
+With your Apple ID, you will enroll
+in the Apple Developer Program.
+
+61
+00:04:33,070 --> 00:04:37,470
+So that's what I just Googled,
+Apple Developer Program, and
+
+62
+00:04:37,470 --> 00:04:41,230
+that's the first result
+that you get in Google.
+
+63
+00:04:41,230 --> 00:04:48,760
+So you click there, Apple Developer
+Program, and then you will need to enroll.
+
+64
+00:04:48,760 --> 00:04:56,868
+You can't put an app on your phone if you
+don't belong to the app developer program.
+
+65
+00:04:56,868 --> 00:04:58,772
+It will cost you $99.
+
+66
+00:04:58,772 --> 00:05:00,049
+That's the bad news.
+
+67
+00:05:00,049 --> 00:05:02,871
+But that's the same for everybody.
+
+68
+00:05:02,871 --> 00:05:06,986
+It's $99 per year and with this fee,
+
+69
+00:05:06,986 --> 00:05:12,580
+you can create as many apps
+as you want for Apple.
+
+70
+00:05:12,580 --> 00:05:14,640
+So, you click on enroll as I just did.
+
+71
+00:05:16,230 --> 00:05:17,590
+Then start your enrollment.
+
+72
+00:05:19,475 --> 00:05:22,885
+And this is where you
+will need your Apple ID.
+
+73
+00:05:22,885 --> 00:05:28,315
+So I'll let you complete this step,
+get your credit card ready,
+
+74
+00:05:28,315 --> 00:05:29,955
+and enroll as an individual.
+
+75
+00:05:31,965 --> 00:05:36,275
+Except if you're a company but
+I would assume, maybe you're a company.
+
+76
+00:05:36,275 --> 00:05:40,705
+But if you're an individual please
+choose the individual enrollment.
+
+77
+00:05:44,250 --> 00:05:45,280
+That should be it.
+
+78
+00:05:45,280 --> 00:05:51,830
+Okay, so you are,
+you have an Apple Developer account.
+
+79
+00:05:51,830 --> 00:05:53,620
+That's good.
+
+80
+00:05:53,620 --> 00:05:55,280
+What else do you need?
+
+81
+00:05:55,280 --> 00:06:02,530
+Oh yeah, then you need to
+connect your phone to iTunes.
+
+82
+00:06:02,530 --> 00:06:07,080
+So I assume you have iTunes
+installed on you Mac.
+
+83
+00:06:07,080 --> 00:06:09,910
+If it's not the case, please install it.
+
+84
+00:06:09,910 --> 00:06:15,370
+So I had iTunes already open here, so
+
+85
+00:06:15,370 --> 00:06:18,900
+this is iTunes, and as you see, my phone
+
+86
+00:06:20,370 --> 00:06:26,650
+is recognized there because I plugged
+my phone with the cable to the Mac.
+
+87
+00:06:26,650 --> 00:06:31,840
+So if you click on your phone,
+you have a lot of information.
+
+88
+00:06:34,220 --> 00:06:36,980
+What you will need is to
+click on the cellular number
+
+89
+00:06:38,240 --> 00:06:42,470
+cuz when you click on
+it the UD ID appears.
+
+90
+00:06:42,470 --> 00:06:46,840
+So that's what we will need
+in a couple of seconds.
+
+91
+00:06:46,840 --> 00:06:49,280
+If you made a mistake and clicked twice or
+
+92
+00:06:49,280 --> 00:06:54,140
+you see that, just click again and again
+and again and it returns to the UD ID.
+
+93
+00:06:55,310 --> 00:06:56,758
+So stay there.
+
+94
+00:06:56,758 --> 00:06:57,815
+Okay.
+
+95
+00:06:57,815 --> 00:07:06,917
+How do I I want to make you here.
+
+96
+00:07:06,917 --> 00:07:12,317
+So we have all of that and
+
+97
+00:07:12,317 --> 00:07:17,270
+if I'm not wrong.
+
+98
+00:07:17,270 --> 00:07:18,220
+Yes, we're good to go.
+
+99
+00:07:19,910 --> 00:07:22,310
+So now we will actually create the App.
+
+100
+00:07:24,060 --> 00:07:26,010
+So we get back to NetBeans.
+
+101
+00:07:26,010 --> 00:07:33,730
+We do a control click on the title of
+the project and we go to Properties.
+
+102
+00:07:37,050 --> 00:07:42,216
+There we click on IOS,
+just on the left here.
+
+103
+00:07:42,216 --> 00:07:51,510
+And here we will create the certificate
+from Apple for our app.
+
+104
+00:07:51,510 --> 00:07:56,707
+Usually this is a very heavy and
+difficult and painful process but
+
+105
+00:07:56,707 --> 00:08:02,470
+we are very lucky to have something
+which will guide is through.
+
+106
+00:08:02,470 --> 00:08:03,430
+Just click on Generate.
+
+107
+00:08:05,850 --> 00:08:12,391
+This is where you will put
+your Apple Developer ID.
+
+108
+00:08:12,391 --> 00:08:19,250
+So that should be, I assume it
+to be the same as your Apple ID.
+
+109
+00:08:19,250 --> 00:08:25,530
+In case of that, that's the log in you
+used for your Apple Developer program.
+
+110
+00:08:25,530 --> 00:08:29,930
+When you enroll and
+
+111
+00:08:29,930 --> 00:08:34,910
+you pay this $99.
+
+112
+00:08:34,910 --> 00:08:38,887
+[SOUND]
+And
+
+113
+00:08:38,887 --> 00:08:43,861
+you log in.
+
+114
+00:08:49,511 --> 00:08:51,450
+So I agreed.
+
+115
+00:08:52,523 --> 00:08:53,790
+ITunes connect.
+
+116
+00:08:53,790 --> 00:08:57,080
+Not Apple Developer Program log in.
+
+117
+00:08:57,080 --> 00:08:59,780
+But I think these two
+things are synonymous.
+
+118
+00:08:59,780 --> 00:09:04,523
+If you see that, as I just have here,
+I think it's a bug, and
+
+119
+00:09:04,523 --> 00:09:07,873
+you just have to repeat
+exactly as you did.
+
+120
+00:09:10,393 --> 00:09:16,257
+Maybe you retype your password to make
+sure you didn't make any mistake and
+
+121
+00:09:16,257 --> 00:09:18,781
+it should work the second time.
+
+122
+00:09:18,781 --> 00:09:23,996
+Maybe this bug will be corrected
+by the time you see this tutorial.
+
+123
+00:09:31,694 --> 00:09:33,848
+Yes, so that was indeed just a bug.
+
+124
+00:09:33,848 --> 00:09:41,650
+So now Apple asks us
+to register our phone.
+
+125
+00:09:45,060 --> 00:09:50,385
+Because they want, other wants to know
+which phone you are going to use.
+
+126
+00:09:50,385 --> 00:09:57,879
+So we click on Add A Device, Add A Phone,
+give it whatever name you want.
+
+127
+00:09:57,879 --> 00:10:00,790
+I call it My iPhone 4.
+
+128
+00:10:00,790 --> 00:10:03,280
+And they want a UDID.
+
+129
+00:10:03,280 --> 00:10:06,140
+That's exactly what you have in iTunes.
+
+130
+00:10:08,170 --> 00:10:11,610
+Switch to the iTunes window and here, and
+
+131
+00:10:11,610 --> 00:10:15,510
+if you click on it,
+that's just going to hide it.
+
+132
+00:10:15,510 --> 00:10:23,770
+So go back to your UDID and if I'm not
+mistaken, you do a control click on it.
+
+133
+00:10:23,770 --> 00:10:24,590
+Yes.
+
+134
+00:10:24,590 --> 00:10:28,960
+So you type on,
+you keep the control pressed.
+
+135
+00:10:28,960 --> 00:10:32,720
+And you click, and
+then you see copy, so click on copy.
+
+136
+00:10:34,220 --> 00:10:39,213
+You can go back to NetBeans,
+and there you click on
+
+137
+00:10:39,213 --> 00:10:43,270
+Ctrl+V or Cmd+Ctrl+V.
+
+138
+00:10:43,270 --> 00:10:44,190
+Did it work?
+
+139
+00:10:44,190 --> 00:10:49,578
+No.
+Cmd+V, and the UDID gets pasted
+
+140
+00:10:49,578 --> 00:10:54,793
+under window and you click on Add.
+
+141
+00:11:00,052 --> 00:11:02,280
+Yes, your phone is now registered.
+
+142
+00:11:02,280 --> 00:11:04,530
+It means now you can install apps on it.
+
+143
+00:11:06,240 --> 00:11:09,420
+So you select your phone and
+you click on Next.
+
+144
+00:11:17,476 --> 00:11:23,233
+Because I did the steps already it tells
+me that I already have some certificate,
+
+145
+00:11:23,233 --> 00:11:26,660
+but in your case,
+that should be your first.
+
+146
+00:11:26,660 --> 00:11:28,450
+So you should not have this warning.
+
+147
+00:11:29,500 --> 00:11:32,840
+In any case just click
+on Yes if you have that.
+
+148
+00:11:32,840 --> 00:11:39,710
+And we'll have the same, we'll have
+the same warning for something else.
+
+149
+00:11:39,710 --> 00:11:43,220
+We, frankly don't care about that,
+but that, just click on yes.
+
+150
+00:11:47,220 --> 00:11:48,309
+We're nearly there.
+
+151
+00:11:53,364 --> 00:11:58,823
+Yes, so, Nedbeans and
+Codename One very nicely created these
+
+152
+00:11:58,823 --> 00:12:04,179
+two certificates that we need to
+put our app onto our iPhone and
+
+153
+00:12:04,179 --> 00:12:11,700
+even this certificate that you see here,
+to distribute our app on the app store.
+
+154
+00:12:11,700 --> 00:12:14,260
+I want to insist that's
+usually a huge pain and
+
+155
+00:12:14,260 --> 00:12:17,560
+you have a lot of long
+tutorials to do all that.
+
+156
+00:12:17,560 --> 00:12:22,380
+And you obtain that in less than 12
+minutes if you're still there, so
+
+157
+00:12:22,380 --> 00:12:25,190
+it's really very nice reserved.
+
+158
+00:12:25,190 --> 00:12:28,280
+We just have to click on Next, there.
+
+159
+00:12:29,780 --> 00:12:31,660
+And it will ask us to
+
+160
+00:12:34,530 --> 00:12:39,620
+download these two certificates,
+I think, or maybe not even.
+
+161
+00:12:42,950 --> 00:12:43,450
+Oh yes.
+
+162
+00:12:45,510 --> 00:12:49,550
+It asks us to install or
+just to save these two files,
+
+163
+00:12:49,550 --> 00:12:53,780
+these two certificates onto your Mac,
+so just click there.
+
+164
+00:12:53,780 --> 00:12:58,330
+And they ask us where
+should I save these things?
+
+165
+00:12:58,330 --> 00:13:06,580
+I would recommend you to save these
+two files in the folder of your app.
+
+166
+00:13:06,580 --> 00:13:11,680
+So this folder is in NetBeansProjects,
+double-click on it.
+
+167
+00:13:11,680 --> 00:13:13,590
+And this is my app here.
+
+168
+00:13:13,590 --> 00:13:16,241
+So we'll just double-click there.
+
+169
+00:13:16,241 --> 00:13:23,691
+And just double-clicking
+just save this to there.
+
+170
+00:13:23,691 --> 00:13:24,922
+So I can close.
+
+171
+00:13:26,943 --> 00:13:32,591
+And as you see from all these lines that
+were empty a couple of minutes ago and
+
+172
+00:13:32,591 --> 00:13:36,740
+the software just added these things for
+us.
+
+173
+00:13:36,740 --> 00:13:40,180
+So we just have to click on OK now and
+
+174
+00:13:40,180 --> 00:13:45,330
+ready to put an app on our iPhone,
+there is no issue now.
+
+175
+00:13:48,540 --> 00:13:49,460
+So, let's do that.
+
+176
+00:13:50,520 --> 00:13:54,310
+We are almost finished.
+
+177
+00:13:54,310 --> 00:13:59,240
+You again do a control click
+on the title of the project.
+
+178
+00:14:00,990 --> 00:14:03,910
+And this time you don't go to the bottom,
+you go to cut then one.
+
+179
+00:14:05,500 --> 00:14:10,290
+And you click on Send IOS Debug Build.
+
+180
+00:14:10,290 --> 00:14:12,580
+So why not App Store?
+
+181
+00:14:12,580 --> 00:14:18,360
+Because you don't want to send the App
+to the App Store, you want to install it
+
+182
+00:14:18,360 --> 00:14:24,180
+on your phone, so just click there.
+
+183
+00:14:27,160 --> 00:14:31,200
+And we will see a lot of activities there,
+
+184
+00:14:31,200 --> 00:14:37,230
+it means that NetBeans
+that we're using here
+
+185
+00:14:37,230 --> 00:14:41,960
+is creating an iPhone
+version of our app and
+
+186
+00:14:41,960 --> 00:14:46,380
+it's sending it to Codename One,
+the web site where we were before.
+
+187
+00:14:47,760 --> 00:14:53,750
+So we just have to go to the Codename One
+web site now, which is there.
+
+188
+00:14:53,750 --> 00:14:55,640
+You have to log in.
+
+189
+00:14:58,000 --> 00:15:01,459
+Maybe just like me your username and
+password was saved.
+
+190
+00:15:02,740 --> 00:15:08,400
+So, right click on log in.
+
+191
+00:15:08,400 --> 00:15:09,390
+And here you click on dashboard.
+
+192
+00:15:09,390 --> 00:15:18,350
+There's an announcement but we don't care.
+
+193
+00:15:18,350 --> 00:15:22,790
+And you see that indeed something with,
+I mean,
+
+194
+00:15:22,790 --> 00:15:27,180
+the app we had in has arrived
+on the website here and
+
+195
+00:15:27,180 --> 00:15:31,920
+they're saying we should wait cuz
+the build is still in progress.
+
+196
+00:15:31,920 --> 00:15:34,470
+So we'll wait.
+
+197
+00:15:35,630 --> 00:15:39,456
+While the build finishes,
+
+198
+00:15:39,456 --> 00:15:44,454
+I think my Mac, my iPhone, sorry.
+
+199
+00:15:44,454 --> 00:15:48,755
+I should connect it with the Wi-Fi,
+because I don't have a data plan.
+
+200
+00:15:48,755 --> 00:15:56,002
+I don't have a data plan, so
+I should connect the wi-fi now.
+
+201
+00:15:56,002 --> 00:16:02,492
+So, Is the Wi-Fi the enabled?
+
+202
+00:16:02,492 --> 00:16:04,330
+Yes it seems so.
+
+203
+00:16:10,260 --> 00:16:15,260
+Sorry.
+I was just making sure the Wi-Fi is
+
+204
+00:16:15,260 --> 00:16:22,590
+enabled on my phone because we were
+netted in a second with the QR code app.
+
+205
+00:16:24,440 --> 00:16:28,910
+So yes, from blue return to green,
+which means it's finished,
+
+206
+00:16:28,910 --> 00:16:32,220
+you can click on it, and
+there is this QR code, here.
+
+207
+00:16:34,190 --> 00:16:39,340
+With the app that I mentioned at the very
+beginning of this tutorial, you see this
+
+208
+00:16:39,340 --> 00:16:45,320
+oops, oops, this app here in the focus.
+
+209
+00:16:45,320 --> 00:16:46,456
+It doesn't focus.
+
+210
+00:16:46,456 --> 00:16:52,770
+[INAUDIBLE]
+No, not quite.
+
+211
+00:16:52,770 --> 00:16:56,580
+Anyway, with this app I will
+just launch it, open it.
+
+212
+00:16:58,700 --> 00:17:03,141
+So it looks like that.
+
+213
+00:17:03,141 --> 00:17:09,026
+And I will and, I will just scan the bar
+code that you see on the screen.
+
+214
+00:17:09,026 --> 00:17:14,007
+That's all, that's what I do now [SOUND].
+
+215
+00:17:14,007 --> 00:17:18,960
+And the sound that you heard.
+
+216
+00:17:18,960 --> 00:17:21,192
+Means that the bar code was scanned.
+
+217
+00:17:21,192 --> 00:17:28,680
+And I'm invited to install the app,
+so I click on it.
+
+218
+00:17:28,680 --> 00:17:34,497
+You see a warning of some sort,
+
+219
+00:17:34,497 --> 00:17:38,224
+so 'yes' install.
+
+220
+00:17:38,224 --> 00:17:40,800
+And we see the app arriving here.
+
+221
+00:17:43,130 --> 00:17:43,888
+It says waiting.
+
+222
+00:17:50,309 --> 00:17:51,850
+I wish the focus was better.
+
+223
+00:17:51,850 --> 00:17:53,582
+It means loading.
+
+224
+00:17:53,582 --> 00:17:54,125
+It's loading.
+
+225
+00:18:09,403 --> 00:18:12,240
+And the app is now installed.
+
+226
+00:18:12,240 --> 00:18:15,970
+You see that the logo is
+the default logo by Codename One.
+
+227
+00:18:15,970 --> 00:18:20,900
+If you wish to have another one
+we'll see in another tutorial how to
+
+228
+00:18:20,900 --> 00:18:23,830
+use your own picture for a logo.
+
+229
+00:18:25,190 --> 00:18:31,500
+And let me open the app so that you see
+that it's actually the app we had in here.
+
+230
+00:18:31,500 --> 00:18:32,850
+And let me switch on screen.
+
+231
+00:18:34,560 --> 00:18:37,270
+So you see here that's
+the app that we had.
+
+232
+00:18:38,530 --> 00:18:40,690
+And that's the app we have here.
+
+233
+00:18:40,690 --> 00:18:45,843
+So it's an empty,
+not very exciting app, but
+
+234
+00:18:45,843 --> 00:18:51,933
+we do have our first app on an iPhone and
+that's great.
+
+235
+00:18:51,933 --> 00:18:56,519
+Thank you for this tutorial and
+see you in the next two bit great apps.
+
+236
+00:18:56,519 --> 00:18:58,120
+Bye.
